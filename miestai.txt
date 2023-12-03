@@ -1,0 +1,15 @@
+pashol tu nx
+1 2 4 3 5
+5
+cbb loxas 
+1 2 3 4 5
+1
+eina naxui
+1 2 3 4 5
+2
+nu naxui
+1 2 3 4 5
+3
+pisau as nx
+1 2 3 4 5
+5
