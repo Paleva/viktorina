@@ -2,22 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
-//#include "read.c"
+#include "questions.h"
+#include "questions.c"
 #define MAX_LEN 256
 
-
-
-struct Question{
-
-    char *klausimas;
-    char *atsakymai;
-    int teisingas;
-    struct Question *next;
-
-};
-
-void insertEnd(struct Question **head, char buffer[]);
-struct Question *allocNode(char buffer[]);
 
 int main(){
 
@@ -30,6 +18,7 @@ int main(){
     };
     int i;
     int pasirinkimas;
+    int ats;
 
     char buffer[MAX_LEN];
 
@@ -40,26 +29,23 @@ int main(){
     printf("Pasirinkite tema ivede skaiciu: ");
     scanf("%d", &pasirinkimas);
 
-    char *path = "\\Questions\\";
-
-    struct Question *Head_klausimas = NULL;
+    struct A *Head_klausimas = NULL;
     srand(time(NULL));
 
     //printf("%s", pasirinkimas);
 
     FILE *file;
 
-    strcat(path, temos[pasirinkimas-1]);
-
-    file = fopen(path, "r");
+    file = fopen(temos[pasirinkimas-1], "r");
 
     if(file == NULL){
         exit(1);
     }
 
-    char *token;
+    i = 0;
+    while(i < 20){
 
-    while(fgets(buffer, MAX_LEN, file)){
+        fgets(buffer, MAX_LEN, file);
 
         int randon = rand()%10;
 
@@ -69,61 +55,48 @@ int main(){
 
 
         insertEnd(&Head_klausimas, buffer);
+        //printf("\n");
+
+        i++;
     }
+    int j;
+    struct A *current = Head_klausimas;
+    for(i=0; i < 20; i++){
+        printf("\033[1;34m");
+        printf("\033[1m");
+        printf("              +");
+
+        for(j=0; j < strlen(current->klausimas); j++){
+            printf("-");
+
+        }
+        printf("+\n");
+        printf("              |\033[36m%s\033[34m| \n",current->klausimas);
+        printf("              +");
+        for(j=0; j < strlen(current->klausimas); j++){
+            printf("-");
+
+        }
+        printf("+\n");
+
+        j = 0;
+        printf("              ");
+        while(j < 4){
+            printf("\033[36m %s", current->atsakymai[j]);
+            j++;
+        }
+        printf("\n");
+
+        printf("Iveskite atsakyma: ");
+        scanf("%d", &ats);
+
+
+        current=current->next;
+        printf("\033[2J\033[H");
+    }
+
 
 
     return 0;
-}
-
-struct Question *allocNode(char buffer[]){
-
-    char *token;
-    struct Question *newnode = (struct Question*)malloc(sizeof(struct Question));
-
-    if(newnode == NULL){
-        exit(2);
-    }
-
-    token = strtok(buffer, ";");
-    newnode->klausimas = (char*)malloc(strlen(token)+1);
-    if(newnode->klausimas == NULL){
-        exit(2);
-    }
-    strcpy(newnode->klausimas, token);
-    printf("%s \n", newnode->klausimas);
-
-    token = strtok(NULL, ";");
-    newnode->atsakymai = (char*)malloc(strlen(token)+1);
-    if(newnode->atsakymai == NULL){
-        exit(2);
-    }
-    strcpy(newnode->atsakymai, token);
-    printf("%s \n", newnode->atsakymai);
-
-    token = strtok(NULL, ";");
-    newnode->teisingas = atoi(token);
-    printf("%d \n", newnode->teisingas);
-
-    newnode->next = NULL;
-    return newnode;
-};
-
-void insertEnd(struct Question **head, char buffer[]){
-
-    struct Question *newnode = allocNode(buffer);
-
-    if(*head == NULL){
-        *head = newnode;
-        return;
-    }
-
-    struct Question *current = *head;
-
-    while(current->next != NULL){
-        current = current->next;
-    }
-
-    current->next = newnode;
-
 }
 

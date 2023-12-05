@@ -1,15 +1,60 @@
-pashol tu nx
-1 2 4 3 5
-5
-cbb loxas 
-1 2 3 4 5
-1
-eina naxui
-1 2 3 4 5
-2
-nu naxui
-1 2 3 4 5
-3
-pisau as nx
-1 2 3 4 5
-5
+What is the rarest M&M color?;a b c d; 3
+What is the common name for dried plums?;a b c d; 4
+Which country consumes the most chocolate per capita?;a b c d; 1
+What is the name given to Indian food cooked over charcoal in a clay oven?;a b c d; 1
+What was the first soft drink in space?;a b c d; 3
+What is the most consumed manufactured drink in the world?;a b c d; 2 
+Which is the only edible food that never goes bad?;a b c d; 1
+Which country invented ice cream?;a b c d; 4
+"Hendrick’s," "Larios," and "Seagram’s" are some of the best-selling brands of which spirit?;a b c d; 4
+From which country does Gouda cheese originate?;a b c d; 3
+What was the first toy to be advertised on television?;a b c d; 2
+What was the first feature-length animated movie ever released? (Hint: It was a Disney Movie);a b c d; 1
+What TV series showed the first interracial kiss on American network television?;a b c d; 3
+What were the four main characters' names in the TV series "Golden Girls" that ran from 1985-1992?;a b c d; 2
+Which Disney Princess talks to the most animals?;a b c d; 1
+What awards has an EGOT winner won?;a b c d; 3
+What is the main ingredient in guacamole?;a b c d; 2
+Who painted the Mona Lisa?;a b c d; 2
+How many colors are there in a rainbow?;a b c d; 4
+What is the boiling point of water?;a b c d; 3
+Which city is known as the 'City of Love'?;a b c d; 3
+What is the capital city of Japan?;a b c d; 3
+Which city is famous for its Carnival and Christ the Redeemer statue?;a b c d; 3
+Which city is known as the 'Big Apple'?;a b c d; 3
+What is the capital city of Australia?;a b c d; 3
+Which city is famous for the Colosseum and Vatican City?;a b c d; 3
+In which city can you visit the Burj Khalifa?;a b c d; 3
+Which city is known for the historical site of the Acropolis?;a b c d; 3
+Which city is famous for the Golden Gate Bridge?;a b c d; 3
+What is the capital city of Canada?;a b c d; 3
+Which city is known for the Tower Bridge and Buckingham Palace?;a b c d; 3
+In which city can you find the Hermitage Museum?;a b c d; 3
+Which city is famous for the Sydney Opera House?;a b c d; 3
+What is the capital city of India?;a b c d; 3
+Which city is known for the historic site of Machu Picchu nearby?;a b c d; 3
+In which city is the Petronas Twin Towers located?;a b c d; 3
+Which city is famous for its historic windmills and canals?;a b c d; 3
+What is the capital city of South Africa?;a b c d; 3
+Which city is known for the iconic statue of 'The Little Mermaid'?;a b c d; 3
+In which city can you visit the ancient ruins of the Parthenon?;a b c d; 3
+Which city is known as the 'Eternal City'?;a b c d; 3
+What is the capital city of Egypt?;a b c d; 3
+In which city is the famous 'Temple Bar' area located?;a b c d; 3
+Which city is famous for the CN Tower?;a b c d; 3
+What is the capital city of Germany?;a b c d; 3
+In which city can you find the historic Alhambra?;a b c d; 3
+Which city is known for hosting the 2008 Summer Olympics?;a b c d; 3
+What is the capital city of Russia?;a b c d; 3
+Which city is famous for the art museums 'The Louvre' and 'Musée d'Orsay'?;a b c d; 3
+In which city is the iconic 'Christ the Redeemer' statue located?;a b c d; 3
+Which city is known for the 'Statue of Liberty'?;a b c d; 3
+What is the capital city of Brazil?;a b c d; 3
+In which city can you visit the famous 'Table Mountain'?;a b c d; 3
+Which city is famous for the 'Sagrada Família' church?;a b c d; 3
+What is the capital city of Italy?;a b c d; 3
+In which city is the historic site 'Angkor Wat' located?;a b c d; 3
+Which city is known for the 'Red Square' and 'Kremlin'?;a b c d; 3
+What is the capital city of Spain?;a b c d; 3
+In which city can you visit the 'Van Gogh Museum'?;a b c d; 3
+Which city is famous for the 'Hollywood' sign?;a b c d; 3
