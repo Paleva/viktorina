@@ -61,6 +61,7 @@ int main(){
     }
     int j;
     struct A *current = Head_klausimas;
+    printf("\033[2J\033[H");
     for(i=0; i < 20; i++){
         printf("\033[1;34m");
         printf("\033[1m");
@@ -80,9 +81,9 @@ int main(){
         printf("+\n");
 
         j = 0;
-        printf("              ");
         while(j < 4){
-            printf("\033[36m %s", current->atsakymai[j]);
+            printf("              ");
+            printf("\033[1;34m%d. \033[36m %s \n", j+1, current->atsakymai[j]);
             j++;
         }
         printf("\n");
