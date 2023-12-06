@@ -1,5 +1,5 @@
-#ifndef READ_H_INCLUDED
-#define READ_H_INCLUDED
+#ifndef QUESTIONS_H
+#define QUESTIONS_H
 
 struct A{
 
@@ -16,4 +16,4 @@ struct A *allocNode(char []);
 
 
 
-#endif // READ_H_INCLUDED
+#endif // QUESTIONS_H_INCLUDED

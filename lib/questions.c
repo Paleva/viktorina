@@ -1,4 +1,5 @@
-
+#include <stdlib.h>
+#include "questions.h"
 
 struct A *allocNode(char buffer[]){
 
