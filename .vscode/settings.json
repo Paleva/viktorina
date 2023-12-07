@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "questions.h": "c"
+        "questions.h": "c",
+        "gamelogic.h": "c"
     }
 }

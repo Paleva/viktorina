@@ -5,9 +5,13 @@
 #include <unistd.h>
 #include "lib/questions.h"
 #include "lib/questions.c"
+#include "lib/gamelogic.h"
+#include "lib/gamelogic.c"
+#include "lib/console.h"
+#include "lib/console.c"
 #define MAX_LEN 256
 
-
+void freelist(struct A *head);
 
 int main(){
 
@@ -18,14 +22,13 @@ int main(){
     "temos/menas.txt",
     "temos/zmones.txt"
     };
-    int i;
-    int pasirinkimas;
-    int ats;
+    int i = 0;
+    int pasirinkimas = 0;
 
     char buffer[MAX_LEN];
-
+    
     for(i=0; i < sizeof(temos)/sizeof(char*); i++){
-        printf("%d.%s \n",i+1, temos[i]);
+        printf("%d. %s \n",i+1, temos[i]);
     }
 
     printf("Pasirinkite tema ivede skaiciu: ");
@@ -54,64 +57,46 @@ int main(){
         if(randon%2==0){
             continue;
         }
-
-
         insertEnd(&Head_klausimas, buffer);
-        //printf("\n");
 
         i++;
     }
-    int j;
+    fclose(file);
     struct A *current = Head_klausimas;
-    char *eilute; 
-    char *ch = malloc(1);
-    ch = "-";
+    
+    
 
     printf("\033[2J\033[H");
     for(i=0; i < 20; i++){
-        printf("\033[1;34m");
-        printf("\033[1m");
-        printf("              +");
-
-        eilute = (char*)malloc(strlen(current->klausimas));
-
-        for(j=0; j < strlen(current->klausimas); j++){
-            printf("%c", *ch);
-            strcat(eilute, ch);
-        }
         
-        printf("+\n");
-        printf("              |\033[36m%s\033[34m| \n",current->klausimas);
-        printf("              +");
-        // for(j=0; j < strlen(current->klausimas); j++){
-        //     printf("-");
-
-        // }
-        printf("%s", eilute);
-        printf("+\n");
-
-        j = 0;
-        while(j < 4){
-            printf("              ");
-            printf("\033[1;34m%d. \033[36m %s \n", j+1, current->atsakymai[j]);
-            j++;
-        }
-        printf("\n");
-
-        printf("Iveskite atsakyma: ");
-        scanf("%d", &ats);
-        // char c = getchar();
-        // sleep(1);
-        // putchar(c);
-
+        print(current);
+        //reik padaryt cia ivedima atskirtai nuo print 
+        //ir patikrinima arba labai jobnutai daryt 
+        //kad printas returnina ka iveda zmogus i kita funkcija 
+        //kuri patikrina ar teisingas ats nors cia labai bad design man rodos butu nes funkcija "du darbus daro" 
         current=current->next;
-        char *nx = "";
-        strcpy(eilute, nx);
+    
         printf("\033[2J\033[H");
     }
-
-
-
+    
+    freelist(Head_klausimas);
     return 0;
 }
 
+void freelist(struct A *head){
+
+    struct A *temp = NULL;
+    
+    while(head != NULL){
+        temp = head;
+        head = head->next;
+        free(temp->klausimas);
+        free(temp->atsakymai[0]);
+        free(temp->atsakymai[1]);
+        free(temp->atsakymai[2]);
+        free(temp->atsakymai[3]);
+        
+        free(temp);
+    }
+
+}

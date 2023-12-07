@@ -4,14 +4,18 @@
 struct A *allocNode(char buffer[]){
 
     char *token;
-    char *answers;
+    char *delim = ";";
+    char *delim_2 = " ";
+    char *answers = NULL;
+    int i = 0;
     struct A *newnode = (struct A*)malloc(sizeof(struct A));
 
+    
     if(newnode == NULL){
         exit(2);
     }
-
-    token = strtok(buffer, ";");
+    
+    token = strtok(buffer, delim);
     newnode->klausimas = (char*)malloc(strlen(token)+1);
     if(newnode->klausimas == NULL){
         exit(2);
@@ -20,20 +24,21 @@ struct A *allocNode(char buffer[]){
     //printf("%s \n", newnode->klausimas);
 
 
-    token = strtok(NULL, ";");
+    token = strtok(NULL, delim);
+    answers = (char*)malloc(strlen(token)+1); //fix naxui segmentation
     strcpy(answers, token);
 
 
 
-    token = strtok(NULL, ";");
+    token = strtok(NULL, delim);
     newnode->teisingas = atoi(token);
     //printf("%d \n", newnode->teisingas);
 
-    token = strtok(answers, " ");
-    for(int i=0; i < 4; i++){
+    token = strtok(answers, delim_2);
+    for(i=0; i < 4; i++){
 
             if(token == NULL){
-                newnode->atsakymai[i] = NULL;
+                // newnode->atsakymai[i] = NULL;
                 break;
             }
 
@@ -44,13 +49,16 @@ struct A *allocNode(char buffer[]){
             }
 
             strcpy(newnode->atsakymai[i], token);
+            token = strtok(NULL, delim_2);
 
             //printf("%s ", newnode->atsakymai[i]);
 
-            token = strtok(NULL, " ");
 
     }
+    
     newnode->next = NULL;
+    free(answers);
+    free(token);
     return newnode;
 };
 

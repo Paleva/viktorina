@@ -1,5 +1,6 @@
 
 #include "questions.h"
+#include "gamelogic.h"
 
 void is_right(int ats, struct A *current){
 
