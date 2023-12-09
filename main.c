@@ -4,11 +4,13 @@
 #include <time.h>
 #include <unistd.h>
 #include "lib/questions.h"
-#include "lib/questions.c"
+// #include "lib/questions.c"
 #include "lib/gamelogic.h"
-#include "lib/gamelogic.c"
+// #include "lib/gamelogic.c"
 #include "lib/console.h"
-#include "lib/console.c"
+// #include "lib/console.c"
+#include "lib/leader.h"
+// #include "lib/leader.c"
 #define MAX_LEN 256
 
 void freelist(struct A *head);
@@ -24,8 +26,9 @@ int main(){
     };
     int i = 0;
     int pasirinkimas = 0;
-
+    srand(time(NULL));
     char buffer[MAX_LEN];
+
     
     for(i=0; i < sizeof(temos)/sizeof(char*); i++){
         printf("%d. %s \n",i+1, temos[i]);
@@ -35,10 +38,6 @@ int main(){
     scanf("%d", &pasirinkimas);
 
     struct A *Head_klausimas = NULL;
-    srand(time(NULL));
-
-    //printf("%s", pasirinkimas);
-
     FILE *file;
 
     file = fopen(temos[pasirinkimas-1], "r");
@@ -48,6 +47,7 @@ int main(){
     }
 
     i = 0;
+    
     while(i < 20){
 
         fgets(buffer, MAX_LEN, file);
@@ -66,10 +66,11 @@ int main(){
     
     
 
+    
     printf("\033[2J\033[H");
     for(i=0; i < 20; i++){
         
-        print(current);
+        PrintQuestion(current);
         //reik padaryt cia ivedima atskirtai nuo print 
         //ir patikrinima arba labai jobnutai daryt 
         //kad printas returnina ka iveda zmogus i kita funkcija 
@@ -78,7 +79,6 @@ int main(){
     
         printf("\033[2J\033[H");
     }
-    
     freelist(Head_klausimas);
     return 0;
 }

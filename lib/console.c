@@ -1,16 +1,18 @@
-#include "console.h"
 #include "questions.h"
+#include "console.h"
+#include <stdio.h>
+#include <string.h>
 
-void print(struct A *current){
+void PrintQuestion(struct A *current){
    
     int j=0;
-    
+    int ats = 0;
     
     printf("\033[1;34m");
     printf("              +");
 
     for(j=0; j < strlen(current->klausimas); j++){
-        printf("%c", *ch);
+        printf("%s", "-");
     }
         
     printf("+\n");
@@ -18,7 +20,7 @@ void print(struct A *current){
     printf("              +");
 
     for(j=0; j < strlen(current->klausimas); j++){
-        printf("%c", *ch);
+        printf("%s", "-");
     }
     printf("+\n");
 
@@ -38,3 +40,7 @@ void print(struct A *current){
 
     
 }
+
+
+//void Print_Winners();
+//void Starting_Screen
