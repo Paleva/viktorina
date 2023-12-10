@@ -9,6 +9,6 @@ struct Lenta{
 
 void SortLeader(struct Lenta Board[], int eilutes);
 int Read_Current_Leaderboard(struct Lenta *ptr);
-void Export_New_Leaderboard(struct Lenta Board[]);
+void Export_New_Leaderboard(struct Lenta Board[], int eilutes);
 
 #endif

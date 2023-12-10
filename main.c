@@ -15,6 +15,7 @@
 #define MAX_LEN 256
 
 void freelist(struct A *head);
+void freeboard(struct Lenta Board[], int eilutes);
 
 int main(){
 
@@ -33,46 +34,18 @@ int main(){
     int points = 0;
     struct timeval start, end;
     double seconds = 0.0;
-
-    char *NewName; // "Vladislavas";
-
-    //ce krc perkelt i console.h
-    printf("\033[2J\033[H");
-    printf("\033[0;36m");
-    printf("████████╗██████╗░██╗██╗░░░██╗██╗░█████╗░    ░██████╗░██╗░░░██╗██╗███████╗\n");
-    printf("╚══██╔══╝██╔══██╗██║██║░░░██║██║██╔══██╗    ██╔═══██╗██║░░░██║██║╚════██║\n");
-    printf("░░░██║░░░██████╔╝██║╚██╗░██╔╝██║███████║    ██║██╗██║██║░░░██║██║░░███╔═╝\n");
-    printf("░░░██║░░░██╔══██╗██║░╚████╔╝░██║██╔══██║    ╚██████╔╝██║░░░██║██║██╔══╝░░\n");
-    printf("░░░██║░░░██║░░██║██║░░╚██╔╝░░██║██║░░██║    ░╚═██╔═╝░╚██████╔╝██║███████╗\n");
-    printf("░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░░╚═╝░░░╚═╝╚═╝░░╚═╝    ░░░╚═╝░░░░╚═════╝░╚═╝╚══════╝\n");
-    printf("\033[0m"); // Reset colors
-//    for(i = 0; i < sizeof(temos)/sizeof(char*); i++){
-    printf("\033[0;34m");
-    printf("Subject list:\n");
-    printf("\033[1;37m"); // Set text color to white (bright)
-    printf("%d - Cities\n",1);
-    printf("%d - Cinema\n",2);
-    printf("%d - Music\n",3);
-    printf("%d - Art\n",4);
-    printf("%d - People\n",5);
-    
-    printf("\033[0;34m");
-    printf("Select a subject by entering a number: ");
-    printf("\033[0;36m");
-    scanf("%d", &pasirinkimas);
-// cia pabaiga
-
+    char *NewName = NULL; // "Vladislavas";
     struct A *Head_klausimas = NULL;
     FILE *file;
+
+    
+    pasirinkimas = Starting_Screen(pasirinkimas);
 
     file = fopen(temos[pasirinkimas-1], "r");
 
     if(file == NULL){
         exit(1);
     }
-
-    i = 0;
-    
     while(i < 20){
 
         fgets(buffer, MAX_LEN, file);
@@ -87,10 +60,8 @@ int main(){
         i++;
     }
     fclose(file);
+
     struct A *current = Head_klausimas;
-    
-    
-    int tsk;
     
     printf("\033[2J\033[H");
     for(i=0; i < 20; i++){
@@ -107,28 +78,33 @@ int main(){
     }
     freelist(Head_klausimas);
     
-
-    struct Lenta Board[11];
-
+    struct Lenta Board[10];
     struct Lenta *ptrBoard = &Board[0];
-    int eilutes = 1;
-    eilutes = Read_Current_Leaderboard(ptrBoard);
 
-    ptrBoard = &Board[0];
-    Board[eilutes].time = seconds;
-    NewName = "Agurkelis";
-    Board[eilutes].vardas = (char*)malloc(strlen(NewName)+1);
-    strcpy(Board[eilutes].vardas, NewName);
-    ptrBoard = &Board[0];
-    SortLeader(Board, eilutes);
-    Export_New_Leaderboard(Board);
+    char vardas[50];
+    printf("Iveskite savo slapivardi: ");
+    scanf("%s", vardas);
+    NewName = (char*)malloc(strlen(vardas)+1);
+    strcpy(NewName, vardas);
+
+    int eil = 0;
+    eil = Read_Current_Leaderboard(ptrBoard);
+    Board[eil].time = seconds;
+    Board[eil].vardas = (char*)malloc(strlen(NewName)+1);
+    strcpy(Board[eil].vardas, NewName);
+    free(NewName);
+    
+
+    SortLeader(Board, eil);
+
+    Export_New_Leaderboard(Board, eil);
+
+    freeboard(Board, eil);
 
     printf("%.2f\n", seconds);
 
     return 0;
 }
-
-
 
 
 void freelist(struct A *head){
@@ -146,5 +122,17 @@ void freelist(struct A *head){
         
         free(temp);
     }
+
+}
+
+void freeboard(struct Lenta Board[], int eilutes){
+
+    int i=0;
+
+    for(i=0; i < eilutes+1; i++){
+        free(Board[i].vardas);
+    }
+
+
 
 }

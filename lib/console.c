@@ -32,15 +32,34 @@ void PrintQuestion(struct A *current, int i){
     }
     printf("\n");
 
-    printf("Enter the answer: ");
-    // scanf("%d", &ats); // sita perkelti kitur
-    // is_right(ats, current);
-    // sleep(1);
-        
-
-    
+    printf("Enter the answer: "); 
 }
 
 
 //void Print_Winners();
-//void Starting_Screen
+int Starting_Screen(int pasirinkimas){
+    //ce krc perkelt i console.h
+    printf("\033[2J\033[H");
+    printf("\033[0;36m");
+    printf("████████╗██████╗░██╗██╗░░░██╗██╗░█████╗░    ░██████╗░██╗░░░██╗██╗███████╗\n");
+    printf("╚══██╔══╝██╔══██╗██║██║░░░██║██║██╔══██╗    ██╔═══██╗██║░░░██║██║╚════██║\n");
+    printf("░░░██║░░░██████╔╝██║╚██╗░██╔╝██║███████║    ██║██╗██║██║░░░██║██║░░███╔═╝\n");
+    printf("░░░██║░░░██╔══██╗██║░╚████╔╝░██║██╔══██║    ╚██████╔╝██║░░░██║██║██╔══╝░░\n");
+    printf("░░░██║░░░██║░░██║██║░░╚██╔╝░░██║██║░░██║    ░╚═██╔═╝░╚██████╔╝██║███████╗\n");
+    printf("░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░░╚═╝░░░╚═╝╚═╝░░╚═╝    ░░░╚═╝░░░░╚═════╝░╚═╝╚══════╝\n");
+    printf("\033[0m"); // Reset colors
+    printf("\033[0;34m");
+    printf("Subject list:\n");
+    printf("\033[1;37m"); // Set text color to white (bright)
+    printf("%d - Cities\n",1);
+    printf("%d - Cinema\n",2);
+    printf("%d - Music\n",3);
+    printf("%d - Art\n",4);
+    printf("%d - People\n",5);
+    
+    printf("\033[0;34m");
+    printf("Select a subject by entering a number: ");
+    printf("\033[0;36m");
+    scanf("%d", &pasirinkimas);
+    return pasirinkimas;
+}
