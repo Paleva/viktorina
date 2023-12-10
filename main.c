@@ -4,13 +4,14 @@
 #include <time.h>
 #include <unistd.h>
 #include "lib/questions.h"
-// #include "lib/questions.c"
+#include "lib/questions.c"
 #include "lib/gamelogic.h"
-// #include "lib/gamelogic.c"
+#include "lib/gamelogic.c"
 #include "lib/console.h"
-// #include "lib/console.c"
+#include "lib/console.c"
 #include "lib/leader.h"
-// #include "lib/leader.c"
+#include "lib/leader.c"
+#include <sys/time.h>
 #define MAX_LEN 256
 
 void freelist(struct A *head);
@@ -28,9 +29,13 @@ int main(){
     int pasirinkimas = 0;
     srand(time(NULL));
     char buffer[MAX_LEN];
+    int ats = 0;
+    int points = 0;
+    struct timeval start, end;
+    double seconds = 0.0;
 
     
-    for(i=0; i < sizeof(temos)/sizeof(char*); i++){
+    for(i = 0; i < sizeof(temos)/sizeof(char*); i++){
         printf("%d. %s \n",i+1, temos[i]);
     }
 
@@ -64,24 +69,27 @@ int main(){
     fclose(file);
     struct A *current = Head_klausimas;
     
-    
-
-    
     printf("\033[2J\033[H");
-    for(i=0; i < 20; i++){
-        
+    for(i = 0; i < 20; i++){
+
         PrintQuestion(current);
-        //reik padaryt cia ivedima atskirtai nuo print 
-        //ir patikrinima arba labai jobnutai daryt 
-        //kad printas returnina ka iveda zmogus i kita funkcija 
-        //kuri patikrina ar teisingas ats nors cia labai bad design man rodos butu nes funkcija "du darbus daro" 
-        current=current->next;
-    
+        gettimeofday(&start, NULL);
+        scanf("%d", &ats);
+        seconds += isRight(ats, current);
+        seconds += timeCounter(start);
+        
+        current = current->next;
+
         printf("\033[2J\033[H");
     }
     freelist(Head_klausimas);
+    printf("%.2f\n", seconds);
+
     return 0;
 }
+
+
+
 
 void freelist(struct A *head){
 

@@ -33,12 +33,6 @@ void PrintQuestion(struct A *current){
     printf("\n");
 
     printf("Iveskite atsakyma: ");
-    scanf("%d", &ats); // sita perkelti kitur
-    // is_right(ats, current);
-    // sleep(1);
-        
-
-    
 }
 
 

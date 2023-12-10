@@ -2,7 +2,8 @@
 #define GAMELOGIC_H
 
 
-void is_right(int, struct A*);
+double isRight(int, struct A*);
+double timeCounter(struct timeval end);
 
 
 #endif // GAMELOGIC_H_INCLUDED
