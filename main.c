@@ -10,7 +10,8 @@
 #include "lib/console.h"
 #include "lib/console.c"
 #include "lib/leader.h"
-// #include "lib/leader.c"
+#include "lib/leader.c"
+#include <sys/time.h>
 #define MAX_LEN 256
 
 void freelist(struct A *head);
@@ -95,11 +96,12 @@ int main(){
     for(i=0; i < 20; i++){
         
         PrintQuestion(current, i);
-        //reik padaryt cia ivedima atskirtai nuo print 
-        //ir patikrinima arba labai jobnutai daryt 
-        //kad printas returnina ka iveda zmogus i kita funkcija 
-        //kuri patikrina ar teisingas ats nors cia labai bad design man rodos butu nes funkcija "du darbus daro" 
-        current=current->next;
+        gettimeofday(&start, NULL);
+        scanf("%d", &ats);
+        seconds += isRight(ats, current);
+        seconds += timeCounter(start);
+
+        current = current->next;
     
         printf("\033[2J\033[H");
     }
@@ -109,12 +111,12 @@ int main(){
     struct Lenta Board[11];
 
     struct Lenta *ptrBoard = &Board[0];
-    int eilutes = 0;
+    int eilutes = 1;
     eilutes = Read_Current_Leaderboard(ptrBoard);
 
     ptrBoard = &Board[0];
-    Board[eilutes].time = 0.8882;
-    NewName = "Vladikelis";
+    Board[eilutes].time = seconds;
+    NewName = "Agurkelis";
     Board[eilutes].vardas = (char*)malloc(strlen(NewName)+1);
     strcpy(Board[eilutes].vardas, NewName);
     ptrBoard = &Board[0];

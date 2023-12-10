@@ -33,7 +33,7 @@ void PrintQuestion(struct A *current, int i){
     printf("\n");
 
     printf("Enter the answer: ");
-    scanf("%d", &ats); // sita perkelti kitur
+    // scanf("%d", &ats); // sita perkelti kitur
     // is_right(ats, current);
     // sleep(1);
         
