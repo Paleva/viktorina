@@ -32,9 +32,6 @@ void PrintQuestion(struct A *current, int i){
     }
     printf("\n");
 
-<<<<<<< HEAD
-    printf("Iveskite atsakyma: ");
-=======
     printf("Enter the answer: ");
     scanf("%d", &ats); // sita perkelti kitur
     // is_right(ats, current);
@@ -42,7 +39,6 @@ void PrintQuestion(struct A *current, int i){
         
 
     
->>>>>>> e44b3be13d1cef11eff5e72ec38e88c1262219f5
 }
 
 
