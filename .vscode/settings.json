@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "questions.h": "c",
-        "gamelogic.h": "c"
-    }
+        "gamelogic.h": "c",
+        "linkedlist.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }
