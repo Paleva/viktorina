@@ -8,7 +8,7 @@ struct A *allocNode(char buffer[]){
 
     char *token;
     char *delim = ";";
-    char *delim_2 = " ";
+    char *delim_2 = ",";
     char *answers = NULL;
     int i = 0;
     struct A *newnode = (struct A*)malloc(sizeof(struct A));
@@ -30,6 +30,7 @@ struct A *allocNode(char buffer[]){
     token = strtok(NULL, delim);
     answers = (char*)malloc(strlen(token)+1); //fix naxui segmentation
     strcpy(answers, token);
+    printf("%s \n", answers);
 
 
 

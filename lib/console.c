@@ -3,8 +3,8 @@
 #include <stdio.h>
 #include <string.h>
 
-void PrintQuestion(struct A *current){
-   
+void PrintQuestion(struct A *current, int i){
+    
     int j=0;
     int ats = 0;
     
@@ -16,7 +16,7 @@ void PrintQuestion(struct A *current){
     }
         
     printf("+\n");
-    printf("              |\033[36m%s\033[34m| \n",current->klausimas);
+    printf(" Question %d:  |\033[36m%s\033[34m| \n",i+1,current->klausimas);
     printf("              +");
 
     for(j=0; j < strlen(current->klausimas); j++){
@@ -32,7 +32,7 @@ void PrintQuestion(struct A *current){
     }
     printf("\n");
 
-    printf("Iveskite atsakyma: ");
+    printf("Enter the answer: ");
     scanf("%d", &ats); // sita perkelti kitur
     // is_right(ats, current);
     // sleep(1);

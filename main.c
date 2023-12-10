@@ -4,13 +4,13 @@
 #include <time.h>
 #include <unistd.h>
 #include "lib/questions.h"
-// #include "lib/questions.c"
-#include "lib/gamelogic.h"
-// #include "lib/gamelogic.c"
+#include "lib/questions.c"
+#include "lib/gamelogic.h" 
+#include "lib/gamelogic.c"
 #include "lib/console.h"
-// #include "lib/console.c"
+#include "lib/console.c"
 #include "lib/leader.h"
-// #include "lib/leader.c"
+#include "lib/leader.c"
 #define MAX_LEN 256
 
 void freelist(struct A *head);
@@ -29,13 +29,31 @@ int main(){
     srand(time(NULL));
     char buffer[MAX_LEN];
 
+    //ce krc perkelt i console.h
+    printf("\033[2J\033[H");
+    printf("\033[0;36m");
+    printf("████████╗██████╗░██╗██╗░░░██╗██╗░█████╗░    ░██████╗░██╗░░░██╗██╗███████╗\n");
+    printf("╚══██╔══╝██╔══██╗██║██║░░░██║██║██╔══██╗    ██╔═══██╗██║░░░██║██║╚════██║\n");
+    printf("░░░██║░░░██████╔╝██║╚██╗░██╔╝██║███████║    ██║██╗██║██║░░░██║██║░░███╔═╝\n");
+    printf("░░░██║░░░██╔══██╗██║░╚████╔╝░██║██╔══██║    ╚██████╔╝██║░░░██║██║██╔══╝░░\n");
+    printf("░░░██║░░░██║░░██║██║░░╚██╔╝░░██║██║░░██║    ░╚═██╔═╝░╚██████╔╝██║███████╗\n");
+    printf("░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░░╚═╝░░░╚═╝╚═╝░░╚═╝    ░░░╚═╝░░░░╚═════╝░╚═╝╚══════╝\n");
+    printf("\033[0m"); // Reset colors
+//    for(i=0; i < sizeof(temos)/sizeof(char*); i++){
+    printf("\033[0;34m");
+    printf("Subject list:\n");
+    printf("\033[1;37m"); // Set text color to white (bright)
+    printf("%d - Cities\n",1);
+    printf("%d - Cinema\n",2);
+    printf("%d - Music\n",3);
+    printf("%d - Art\n",4);
+    printf("%d - People\n",5);
     
-    for(i=0; i < sizeof(temos)/sizeof(char*); i++){
-        printf("%d. %s \n",i+1, temos[i]);
-    }
-
-    printf("Pasirinkite tema ivede skaiciu: ");
+    printf("\033[0;34m");
+    printf("Select a subject by entering a number: ");
+    printf("\033[0;36m");
     scanf("%d", &pasirinkimas);
+// cia pabaiga
 
     struct A *Head_klausimas = NULL;
     FILE *file;
@@ -70,7 +88,7 @@ int main(){
     printf("\033[2J\033[H");
     for(i=0; i < 20; i++){
         
-        PrintQuestion(current);
+        PrintQuestion(current,i);
         //reik padaryt cia ivedima atskirtai nuo print 
         //ir patikrinima arba labai jobnutai daryt 
         //kad printas returnina ka iveda zmogus i kita funkcija 
