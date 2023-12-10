@@ -28,6 +28,8 @@ int main(){
     int pasirinkimas = 0;
     srand(time(NULL));
     char buffer[MAX_LEN];
+    float laikas = 0;
+    char *NewName; // "Vladislavas";
 
     
     for(i=0; i < sizeof(temos)/sizeof(char*); i++){
@@ -65,12 +67,12 @@ int main(){
     struct A *current = Head_klausimas;
     
     
-
+    int tsk;
     
     printf("\033[2J\033[H");
     for(i=0; i < 20; i++){
         
-        PrintQuestion(current);
+        // PrintQuestion(current);
         //reik padaryt cia ivedima atskirtai nuo print 
         //ir patikrinima arba labai jobnutai daryt 
         //kad printas returnina ka iveda zmogus i kita funkcija 
@@ -80,6 +82,25 @@ int main(){
         printf("\033[2J\033[H");
     }
     freelist(Head_klausimas);
+    
+
+    struct Lenta Board[11];
+
+    struct Lenta *ptrBoard = &Board[0];
+    int eilutes = 0;
+    eilutes = Read_Current_Leaderboard(ptrBoard);
+
+    ptrBoard = &Board[0];
+    Board[eilutes].time = 0.12;
+    NewName = "Vladikas";
+    Board[eilutes].vardas = (char*)malloc(strlen(NewName)+1);
+    strcpy(Board[eilutes].vardas, NewName);
+    ptrBoard = &Board[0];
+    SortLeader(Board, eilutes);
+    Export_New_Leaderboard(Board);
+    // Insert_Where_Needed(tsk,Head);
+    // bubbleSort(&Head);
+    // PrintLeader(Lenta);
     return 0;
 }
 
