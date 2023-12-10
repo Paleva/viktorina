@@ -94,7 +94,7 @@ int main(){
     printf("\033[2J\033[H");
     for(i=0; i < 20; i++){
         
-        PrintQuestion(current);
+        PrintQuestion(current, i);
         //reik padaryt cia ivedima atskirtai nuo print 
         //ir patikrinima arba labai jobnutai daryt 
         //kad printas returnina ka iveda zmogus i kita funkcija 
@@ -113,16 +113,14 @@ int main(){
     eilutes = Read_Current_Leaderboard(ptrBoard);
 
     ptrBoard = &Board[0];
-    Board[eilutes].time = 0.12;
-    NewName = "Vladikas";
+    Board[eilutes].time = 0.8882;
+    NewName = "Vladikelis";
     Board[eilutes].vardas = (char*)malloc(strlen(NewName)+1);
     strcpy(Board[eilutes].vardas, NewName);
     ptrBoard = &Board[0];
     SortLeader(Board, eilutes);
     Export_New_Leaderboard(Board);
-    // Insert_Where_Needed(tsk,Head);
-    // bubbleSort(&Head);
-    // PrintLeader(Lenta);
+
     printf("%.2f\n", seconds);
 
     return 0;
