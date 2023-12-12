@@ -65,10 +65,10 @@ int Starting_Screen(int ats){
     printf("%d - Art\n",4);
     printf("%d - People\n",5);
     printf("\033[0;34m");
-    printf("Select a subject by entering a number: ");
+    printf("Select a subject by entering a number:\033[1;37m ");
     scanf(" %c", &input);
     while(isdigit(input)==0){
-        printf("\033[0;36mPick a topic from the list by entering the number besides it: ");
+        printf("\033[0;36mPick a topic from the list by entering the number besides it:\033[1;37m ");
         scanf(" %c", &input);
     }
     ats = input - '0';
@@ -78,10 +78,18 @@ int Starting_Screen(int ats){
 }
 
 
-void Print_Leader(struct Lenta *ptrs[], int eilutes,char vardas[]){
+void Print_Leader(struct Lenta *ptrs[], int eilutes, char vardas[], int pasirinkimas){
+    char *filename[5] = {
+    "Cities",
+    "Cinema",
+    "Music",
+    "Art",
+    "People"
+    };
     printf("\033[2J\033[H");
     printf("┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n");
-    printf("┃                LEADERBOARD            ┃\n");
+    printf("┃               %7s                 ┃\n", filename[pasirinkimas-1]);
+    printf("┃               LEADERBOARD             ┃\n");
     printf("┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n");
     for(int i = 0; i < eilutes; i++)
     {

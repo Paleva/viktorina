@@ -95,9 +95,6 @@ int main(){
         scanf("%s", vardas);
     }
     
-    
-    
-
     for(i = 0; i < 10; i++){
         ptrs[i] = &Board[i];
     }
@@ -107,23 +104,19 @@ int main(){
     strcpy(ptrs[0]->vardas, vardas);
 
 
-    int eilutes = Read_Current_Leaderboard(ptrs);
-    
-    
-    
-
+    int eilutes = Read_Current_Leaderboard(ptrs, pasirinkimas);
 
     SortLeader(ptrs, eilutes);
     
-    Export_New_Leaderboard(ptrs, eilutes);
+    Export_New_Leaderboard(ptrs, eilutes, pasirinkimas);
     
-    Print_Leader(ptrs, eilutes, vardas);
+    Print_Leader(ptrs, eilutes, vardas, pasirinkimas);
 
     struct Lenta *BoardPtr = &Board[1];
     BoardPtr = &Board[0];
     freeboard(BoardPtr, eilutes);
 
-    printf("%.2f\n", seconds);
+    printf("Your score: %.2f\n", seconds);
 
     return 0;
 }

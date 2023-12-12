@@ -3,11 +3,17 @@
 #include <stdio.h>
 #include <string.h>
 
-int Read_Current_Leaderboard(struct Lenta *ptr[]){
+int Read_Current_Leaderboard(struct Lenta *ptr[], int pasirinkimas){
     int eilutes = 1;
     FILE *leaderboard;
-    char *filename = "leaderboard.txt";
-    leaderboard = fopen(filename, "r");
+    char *filename[5] = {
+    "leaderboards/miestaiLeader.txt",
+    "leaderboards/filmaiLeader.txt",
+    "leaderboards/muzikaLeader.txt",
+    "leaderboards/menasLeader.txt",
+    "leaderboards/zmonesLeader.txt"
+    };
+    leaderboard = fopen(filename[pasirinkimas-1], "r");
     
     char buffer[255];
     int i = 0;
@@ -51,10 +57,16 @@ void SortLeader(struct Lenta *ptrs[], int eilutes){
     }
 }
 
-void Export_New_Leaderboard(struct Lenta *ptrs[], int eilutes){
+void Export_New_Leaderboard(struct Lenta *ptrs[], int eilutes, int pasirinkimas){
 
-    char *filename = "leaderboard.txt";
-    FILE *leaderboard = fopen(filename, "w");
+    char *filename[5] = {
+    "leaderboards/miestaiLeader.txt",
+    "leaderboards/filmaiLeader.txt",
+    "leaderboards/muzikaLeader.txt",
+    "leaderboards/menasLeader.txt",
+    "leaderboards/zmonesLeader.txt"
+    };
+    FILE *leaderboard = fopen(filename[pasirinkimas-1], "w");
     
     if(leaderboard == NULL){
         exit(3);
