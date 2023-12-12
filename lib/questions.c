@@ -28,7 +28,7 @@ struct A *allocNode(char buffer[]){
 
 
     token = strtok(NULL, delim);
-    answers = (char*)malloc(strlen(token)+1); //fix naxui segmentation
+    answers = (char*)malloc(strlen(token)+2); //fix naxui segmentation
     strcpy(answers, token);
     // printf("%s \n", answers);
 
@@ -64,7 +64,7 @@ struct A *allocNode(char buffer[]){
     free(answers);
     free(token);
     return newnode;
-};
+}
 
 void insertEnd(struct A **head, char buffer[]){
 

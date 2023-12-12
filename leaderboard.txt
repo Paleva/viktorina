@@ -1,10 +1,5 @@
-Vladislavas;0.12 
-Vladikas;0.12 
-Vladik;0.50 
-DASH;0.52 
-Vladik;0.84 
-Vladikelis;0.89 
-Vladikelis;0.89 
-JAJAJAJA;2.22 
-Bybydejau;5.75 
-Agurkelis;42.53 
+voitke;46.12 
+Voitke;65.43 
+Palevinski;73.71 
+aaaaaa;84.88 
+aaa;107.09 

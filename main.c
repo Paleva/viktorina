@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
+#include <ctype.h>
 #include <unistd.h>
 #include "lib/questions.h"
 #include "lib/questions.c"
@@ -15,7 +16,7 @@
 #define MAX_LEN 256
 
 void freelist(struct A *head);
-void freeboard(struct Lenta Board[], int eilutes);
+void freeboard(struct Lenta *Board, int eilutes);
 
 int main(){
 
@@ -30,11 +31,9 @@ int main(){
     int pasirinkimas = 0;
     srand(time(NULL));
     char buffer[MAX_LEN];
-    float laikas = 0;    int ats = 0;
-    int points = 0;
+    int ats = 0;
     struct timeval start, end;
     double seconds = 0.0;
-    char *NewName = NULL; // "Vladislavas";
     struct A *Head_klausimas = NULL;
     FILE *file;
 
@@ -62,13 +61,18 @@ int main(){
     fclose(file);
 
     struct A *current = Head_klausimas;
-    
+    char atsak;
     printf("\033[2J\033[H");
     for(i=0; i < 20; i++){
         
         PrintQuestion(current, i);
         gettimeofday(&start, NULL);
-        scanf("%d", &ats);
+        scanf(" %c", &atsak);
+        while(isdigit(atsak) == 0){
+            printf("Wrong input!\n");
+            scanf(" %c", &atsak);
+        }
+        ats = atsak - '0';
         seconds += isRight(ats, current);
         seconds += timeCounter(start);
 
@@ -79,27 +83,44 @@ int main(){
     freelist(Head_klausimas);
     
     struct Lenta Board[10];
-    struct Lenta *ptrBoard = &Board[0];
+    struct Lenta *ptrs[10];
 
-    char vardas[50];
-    printf("Iveskite savo slapivardi: ");
+    char vardas[15];
+    
+    printf("Enter your nickname: ");
     scanf("%s", vardas);
-    NewName = (char*)malloc(strlen(vardas)+1);
-    strcpy(NewName, vardas);
-
-    int eil = 0;
-    eil = Read_Current_Leaderboard(ptrBoard);
-    Board[eil].time = seconds;
-    Board[eil].vardas = (char*)malloc(strlen(NewName)+1);
-    strcpy(Board[eil].vardas, NewName);
-    free(NewName);
+        
+    while (strlen(vardas)>15){
+        printf("Your choice of nickname is too long (over 15 character)\n Enter your nickname: ");
+        scanf("%s", vardas);
+    }
+    
+    
     
 
-    SortLeader(Board, eil);
+    for(i = 0; i < 10; i++){
+        ptrs[i] = &Board[i];
+    }
 
-    Export_New_Leaderboard(Board, eil);
+    ptrs[0]->time = seconds;
+    ptrs[0]->vardas = (char*)malloc(strlen(vardas)+1);
+    strcpy(ptrs[0]->vardas, vardas);
 
-    freeboard(Board, eil);
+
+    int eilutes = Read_Current_Leaderboard(ptrs);
+    
+    
+    
+
+
+    SortLeader(ptrs, eilutes);
+    
+    Export_New_Leaderboard(ptrs, eilutes);
+    
+    Print_Leader(ptrs, eilutes);
+    struct Lenta *BoardPtr = &Board[1];
+    BoardPtr = &Board[0];
+    freeboard(BoardPtr, eilutes);
 
     printf("%.2f\n", seconds);
 
@@ -125,12 +146,14 @@ void freelist(struct A *head){
 
 }
 
-void freeboard(struct Lenta Board[], int eilutes){
+void freeboard(struct Lenta *Board, int eilutes){
 
     int i=0;
 
-    for(i=0; i < eilutes+1; i++){
-        free(Board[i].vardas);
+    for(i=0; i < eilutes; i++){
+        
+        free(Board->vardas);
+        Board++;
     }
 
 

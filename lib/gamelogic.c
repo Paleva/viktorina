@@ -9,12 +9,12 @@
 double isRight(int ats, struct A *current){
 
     if(ats == current->teisingas){
-        printf("%d\n", current->teisingas);
+        // printf("%d\n", current->teisingas);
         return 0;
     }
     else{
-        printf("%d\n", current->teisingas);
-        return 2.0;
+        // printf("%d\n", current->teisingas);
+        return 5.0;
     }
 }
 double timeCounter(struct timeval start){
