@@ -39,7 +39,7 @@ void PrintQuestion(struct A *current, int i){
 
 //void Print_Winners();
 int Starting_Screen(int ats){
-    
+    char input;
     printf("\033[2J\033[H");
     printf("\033[0;36m");
     printf("████████╗██████╗░██╗██╗░░░██╗██╗░█████╗░    ░██████╗░██╗░░░██╗██╗███████╗\n");
@@ -66,7 +66,12 @@ int Starting_Screen(int ats){
     printf("%d - People\n",5);
     printf("\033[0;34m");
     printf("Select a subject by entering a number: ");
-    scanf("%d", &ats);
+    scanf(" %c", &input);
+    while(isdigit(input)==0){
+        printf("\033[0;36mPick a topic from the list by entering the number besides it: ");
+        scanf(" %c", &input);
+    }
+    ats = input - '0';
     printf("\033[0;36m");
     return ats;
 
@@ -80,7 +85,7 @@ void Print_Leader(struct Lenta *ptrs[], int eilutes,char vardas[]){
     printf("┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n");
     for(int i = 0; i < eilutes; i++)
     {
-        if(strcmp(vardas, ptrs[i]->vardas) == 0){
+        if(strcmp(vardas, ptrs[i]->vardas) == 0 ){
             printf("┃->%2d.  %15s    \033[34mScore:\033[36m %6.2f┃\n",i+1, ptrs[i]->vardas, ptrs[i]->time);
         }   
         else {
