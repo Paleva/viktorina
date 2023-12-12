@@ -117,7 +117,8 @@ int main(){
     
     Export_New_Leaderboard(ptrs, eilutes);
     
-    Print_Leader(ptrs, eilutes);
+    Print_Leader(ptrs, eilutes, vardas);
+
     struct Lenta *BoardPtr = &Board[1];
     BoardPtr = &Board[0];
     freeboard(BoardPtr, eilutes);
