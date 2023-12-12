@@ -13,7 +13,4 @@ struct A{
 void insertEnd(struct A **, char []);
 struct A *allocNode(char []);
 
-// #include "questions.c"
-
-
 #endif // QUESTIONS_H_INCLUDED
