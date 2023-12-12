@@ -62,7 +62,7 @@ struct A *allocNode(char buffer[]){
     
     newnode->next = NULL;
     free(answers);
-    free(token);
+    
     return newnode;
 }
 
