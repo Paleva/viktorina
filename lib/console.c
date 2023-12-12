@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void PrintQuestion(struct A *current, int i){
+void printQuestion(struct A *current, int i){
     
     int j=0;
     int ats = 0;
@@ -12,7 +12,7 @@ void PrintQuestion(struct A *current, int i){
     printf("\033[1;34m");
     printf("               +");
 
-    for(j=0; j < strlen(current->klausimas); j++){
+    for(j = 0; j < strlen(current->klausimas); j++){
         printf("%s", "-");
     }
         
@@ -20,7 +20,7 @@ void PrintQuestion(struct A *current, int i){
     printf(" Question %2d:  |\033[36m%s\033[34m| \n",i+1,current->klausimas);
     printf("               +");
 
-    for(j=0; j < strlen(current->klausimas); j++){
+    for(j = 0; j < strlen(current->klausimas); j++){
         printf("%s", "-");
     }
     printf("+\n");
@@ -38,7 +38,7 @@ void PrintQuestion(struct A *current, int i){
 
 
 //void Print_Winners();
-int Starting_Screen(int ats){
+int startingScreen(int ats){
     char input;
     printf("\033[2J\033[H");
     printf("\033[0;36m");
@@ -67,7 +67,7 @@ int Starting_Screen(int ats){
     printf("\033[0;34m");
     printf("Select a subject by entering a number:\033[1;37m ");
     scanf(" %c", &input);
-    while(isdigit(input)==0){
+    while(isdigit(input) == 0){
         printf("\033[0;36mPick a topic from the list by entering the number besides it:\033[1;37m ");
         scanf(" %c", &input);
     }
@@ -78,7 +78,7 @@ int Starting_Screen(int ats){
 }
 
 
-void Print_Leader(struct Lenta *ptrs[], int eilutes, char vardas[], int pasirinkimas){
+void printLeader(struct Lenta *ptrs[], int eilutes, char vardas[], int pasirinkimas){
     char *filename[5] = {
     "Cities",
     "Cinema",

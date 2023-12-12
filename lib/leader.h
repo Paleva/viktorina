@@ -7,8 +7,8 @@ struct Lenta{
     // struct Lenta *next;
 };
 
-void SortLeader(struct Lenta *[], int );
-int Read_Current_Leaderboard(struct Lenta *[], int);
-void Export_New_Leaderboard(struct Lenta *[], int, int);
+void sortLeader(struct Lenta *[], int );
+int readCurrentLeaderboard(struct Lenta *[], int);
+void exportNewLeaderboard(struct Lenta *[], int, int);
 
 #endif

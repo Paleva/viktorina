@@ -15,8 +15,8 @@
 #include <sys/time.h>
 #define MAX_LEN 256
 
-void freelist(struct A *head);
-void freeboard(struct Lenta *Board, int eilutes);
+void freeList(struct A *head);
+void freeBoard(struct Lenta *Board, int eilutes);
 
 int main(){
 
@@ -34,12 +34,10 @@ int main(){
     int ats = 0;
     struct timeval start, end;
     double seconds = 0.0;
-    struct A *Head_klausimas = NULL;
+    struct A *headQuestion = NULL;
     FILE *file;
 
-    
-    pasirinkimas = Starting_Screen(pasirinkimas);
-
+    pasirinkimas = startingScreen(pasirinkimas);
     file = fopen(temos[pasirinkimas-1], "r");
 
     if(file == NULL){
@@ -48,24 +46,22 @@ int main(){
     while(i < 20){
 
         fgets(buffer, MAX_LEN, file);
-
         int randon = rand()%10;
 
         if(randon%2==0){
             continue;
         }
-        insertEnd(&Head_klausimas, buffer);
-
+        insertEnd(&headQuestion, buffer);
         i++;
     }
     fclose(file);
 
-    struct A *current = Head_klausimas;
+    struct A *current = headQuestion;
     char atsak;
     printf("\033[2J\033[H");
     for(i=0; i < 20; i++){
         
-        PrintQuestion(current, i);
+        printQuestion(current, i);
         gettimeofday(&start, NULL);
         scanf(" %c", &atsak);
         while(isdigit(atsak) == 0){
@@ -80,7 +76,7 @@ int main(){
     
         printf("\033[2J\033[H");
     }
-    freelist(Head_klausimas);
+    freeList(headQuestion);
     
     struct Lenta Board[10];
     struct Lenta *ptrs[10];
@@ -90,7 +86,7 @@ int main(){
     printf("Enter your nickname: ");
     scanf("%s", vardas);
         
-    while (strlen(vardas)>15){
+    while(strlen(vardas) > 15){
         printf("Your choice of nickname is too long (over 15 character)\n Enter your nickname: ");
         scanf("%s", vardas);
     }
@@ -104,17 +100,15 @@ int main(){
     strcpy(ptrs[0]->vardas, vardas);
 
 
-    int eilutes = Read_Current_Leaderboard(ptrs, pasirinkimas);
+    int eilutes = readCurrentLeaderboard(ptrs, pasirinkimas);
 
-    SortLeader(ptrs, eilutes);
-    
-    Export_New_Leaderboard(ptrs, eilutes, pasirinkimas);
-    
-    Print_Leader(ptrs, eilutes, vardas, pasirinkimas);
+    sortLeader(ptrs, eilutes);   
+    exportNewLeaderboard(ptrs, eilutes, pasirinkimas); 
+    printLeader(ptrs, eilutes, vardas, pasirinkimas);
 
     struct Lenta *BoardPtr = &Board[1];
     BoardPtr = &Board[0];
-    freeboard(BoardPtr, eilutes);
+    freeBoard(BoardPtr, eilutes);
 
     printf("Your score: %.2f\n", seconds);
 
@@ -122,7 +116,7 @@ int main(){
 }
 
 
-void freelist(struct A *head){
+void freeList(struct A *head){
 
     struct A *temp = NULL;
     
@@ -140,16 +134,11 @@ void freelist(struct A *head){
 
 }
 
-void freeboard(struct Lenta *Board, int eilutes){
+void freeBoard(struct Lenta *Board, int eilutes){
 
-    int i=0;
-
-    for(i=0; i < eilutes; i++){
+    for(int i=0; i < eilutes; i++){
         
         free(Board->vardas);
         Board++;
     }
-
-
-
 }

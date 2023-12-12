@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int Read_Current_Leaderboard(struct Lenta *ptr[], int pasirinkimas){
+int readCurrentLeaderboard(struct Lenta *ptr[], int pasirinkimas){
     int eilutes = 1;
     FILE *leaderboard;
     char *filename[5] = {
@@ -22,7 +22,7 @@ int Read_Current_Leaderboard(struct Lenta *ptr[], int pasirinkimas){
     }
 
     char *token;
-    for(i=1; i < 10; i++){
+    for(i = 1; i < 10; i++){
         if(fgets(buffer, 255, leaderboard) == NULL){
             break;
         }
@@ -41,13 +41,13 @@ int Read_Current_Leaderboard(struct Lenta *ptr[], int pasirinkimas){
     
 }   
 
-void SortLeader(struct Lenta *ptrs[], int eilutes){
+void sortLeader(struct Lenta *ptrs[], int eilutes){
     if(eilutes == 1){
         return;
     }
     int i, j;
-    for(i=0; i < eilutes - 1; i++){
-        for(j=0; j < eilutes-i-1; j++){
+    for(i = 0; i < eilutes - 1; i++){
+        for(j = 0; j < eilutes-i-1; j++){
             if(ptrs[j]->time > ptrs[j+1]->time){    
                 struct Lenta *temp = ptrs[j];
                 ptrs[j] = ptrs[j+1];
@@ -57,7 +57,7 @@ void SortLeader(struct Lenta *ptrs[], int eilutes){
     }
 }
 
-void Export_New_Leaderboard(struct Lenta *ptrs[], int eilutes, int pasirinkimas){
+void exportNewLeaderboard(struct Lenta *ptrs[], int eilutes, int pasirinkimas){
 
     char *filename[5] = {
     "leaderboards/miestaiLeader.txt",
@@ -72,7 +72,7 @@ void Export_New_Leaderboard(struct Lenta *ptrs[], int eilutes, int pasirinkimas)
         exit(3);
     }
 
-    for(int i=0; i < eilutes; i++){
+    for(int i = 0; i < eilutes; i++){
         
         fprintf(leaderboard,"%s;%.2f \n",ptrs[i]->vardas, ptrs[i]->time);
         
