@@ -1,50 +1,80 @@
-Who directed "Jurassic Park"?;Steven Spielberg,Christopher Nolan,James Cameron,Ridley Scott; 1
-Which actor played Jack Dawson in "Titanic";Leonardo DiCaprio,Tom Hanks,Brad Pitt,Johnny Depp; 1
-In the movie "The Dark Knight," who played the Joker?;Heath Ledger,Joaquin Phoenix,Jack Nicholson,Jared Leto; 1
-What is the title of the first James Bond film?;Goldfinger,Dr. No,Skyfall,Casino Royale; 2
-Who won the Best Director Oscar for "La La Land" (2016)?;Christopher Nolan,Damien Chazelle,Quentin Tarantino,Martin Scorsese; 2
-Which film features a character named Maximus?;Braveheart,300,Gladiator,Troy; 3
-In the "Lord of the Rings" trilogy, what is Gollum's original name?;Frodo,Samwise,Sauron,Sméagol; 4
-Who directed "The Godfather" trilogy?;Steven Spielberg,Francis Ford Coppola,Quentin Tarantino,Alfred Hitchcock; 2
-Which actress played Hermione Granger in the Harry Potter film series?;Emma Roberts,Emma Watson,Emma Stone,Emma Thompson; 2
-In "The Matrix," what is Neo's real name?;Thomas Anderson,John Smith,Michael Johnson,David Taylor; 1
-Who starred as Katniss Everdeen in "The Hunger Games" series?;Jennifer Aniston,Jennifer Lawrence,Jennifer Lopez,Jennifer Garner; 2
-What is the title of the first "Star Wars" film released in 1977?;The Empire Strikes Back,A New Hope,Return of the Jedi,The Phantom Menace; 2
-Which film features a character named Ethan Hunt?;Mission: Impossible,Die Another Day,The Bourne Identity,The Italian Job; 1
-Who directed the film "Schindler's List"?;Steven Spielberg,Martin Scorsese,Steven Soderbergh,Quentin Tarantino; 1
-In "The Lion King," what is Simba's father's name?;Scar,Mufasa,Timon,Pumbaa; 2
-Who played the lead role in "The Silence of the Lambs"?;Anthony Hopkins,Jodie Foster,Julianne Moore,Hannibal Lecter; 1
-Which animated film features a character named Nemo?;Finding Nemo,The Little Mermaid,Toy Story,Shrek; 1
-In "Casablanca," what is the name of Rick's cafe?;Rick's Place,Rick's Bistro,Rick's Café Américain,Rick's Lounge; 3
-Who directed the film "E.T. the Extra-Terrestrial"?;Steven Spielberg,George Lucas,Tim Burton,James Cameron; 1
-Which actor starred as Tony Montana in "Scarface"?;Al Pacino,Robert De Niro,Johnny Depp,Leonardo DiCaprio; 1
-In "The Wizard of Oz," what is the color of Dorothy's shoes?;Blue,Silver,Red,Yellow; 3
-Who played the lead role in "The Shining"?;Jack Nicholson,Johnny Depp,Robert De Niro,Leonardo DiCaprio; 1
-Which film features a character named Forrest Gump?;Forrest Gump,Rain Man,Good Will Hunting,A Beautiful Mind; 1
-Who directed "The Grand Budapest Hotel"?;Wes Anderson,Quentin Tarantino,Christopher Nolan,Martin Scorsese; 1
-In "Back to the Future," what is the name of the time-traveling car?;Time Cruiser,Flux Capacitor,TARDIS,DeLorean; 4
-Which actress won an Oscar for her role in "Monster" (2003)?;Nicole Kidman,Charlize Theron,Meryl Streep,Julia Roberts; 2
-What is the title of the Pixar film about a robot in love?;Wall-E,Up,Ratatouille,Finding Nemo; 1
-Who directed the film "Blade Runner"?;Ridley Scott,James Cameron,George Lucas,Christopher Nolan; 1
-Which actor played Edward Scissorhands in the film of the same name?;Johnny Depp,Leonardo DiCaprio,Tom Hanks,Brad Pitt; 1
-In "The Matrix," what is the name of the virtual reality world?;Wonderland,Dreamland,Cyberspace,Matrix; 4
-Who played the role of Captain Jack Sparrow in the "Pirates of the Caribbean" series?;Johnny Depp,Orlando Bloom,Keira Knightley,Geoffrey Rush; 1
-What is the name of the fictional African country in "Black Panther"?;Zamunda,Genovia,Wakanda,Elbonia; 3
-In "The Departed," who played the character Frank Costello?;Robert De Niro,Jack Nicholson,Leonardo DiCaprio,Matt Damon; 2
-Which film features a character named Don Vito Corleone?;The Godfather,Goodfellas,Scarface,Casino; 1
-Who directed the film "Inception"?;,Quentin Tarantino,Martin Scorsese,Steven Spielberg,Christopher Nolan; 4
-Which actor starred as Tyler Durden in "Fight Club"?;Johnny Depp,Edward Norton,Brad Pitt,Leonardo DiCaprio; 3
-What is the title of the first "Indiana Jones" film?;Raiders of the Lost Ark,The Last Crusade,Temple of Doom,Kingdom of the Crystal Skull; 1
-Who played the lead role in "The Sound of Music"?;Julie Andrews,Audrey Hepburn,Marilyn Monroe,Grace Kelly; 1
-Which film features a character named Jules Winnfield?;Pulp Fiction,Reservoir Dogs,Kill Bill,Django Unchained; 1
-Who directed the film "The Social Network"?;David Fincher,Aaron Sorkin,Mark Zuckerberg,Quentin Tarantino; 1
-Which actress won an Oscar for her role in "Silver Linings Playbook"?;Cate Blanchett,Jennifer Lawrence,Anne Hathaway,Emma Stone; 2
-What is the title of the first James Bond novel by Ian Fleming?;Goldfinger,Casino Royale,Thunderball,Moonraker; 2
-Who played the lead role in "The Breakfast Club"?;Emilio Estevez,Judd Nelson,Molly Ringwald,Anthony Michael Hall; 3
-In "Eternal Sunshine of the Spotless Mind," who played Joel Barish?;Jim Carrey,Kate Winslet,Elijah Wood,Mark Ruffalo; 1
-Which film features a character named Ellen Ripley?;Alien,Predator,Blade Runner,Terminator; 1
-Who directed the film "Citizen Kane"?;Alfred Hitchcock,Orson Welles,Stanley Kubrick,Billy Wilder; 2
-In "The Big Lebowski," what is the nickname of Jeffrey Lebowski?;Dude,Walter,Donny,Jesus; 1
-Which actor starred as William Wallace in "Braveheart"?;Mel Gibson,Russell Crowe,Liam Neeson,Sean Connery; 1
-What is the title of the film about the founding of Facebook?;The Social Network,Facebook Diaries,Zuckerberg's Story,Connecting Lives; 1
-Who directed the film "Gone with the Wind"?;Alfred Hitchcock,David Lean,Victor,Sean Shaw; 2
+What is the capital city of Japan?;Seoul,Tokyo,Beijing,Bangkok; 2
+In which city is the Statue of Liberty located?;New York City,Los Angeles,San Francisco,Chicago; 1
+Which city is known as the "City of Love"?;Paris,Rome,Barcelona,Venice; 1
+Where can you find the Acropolis?;Athens,Istanbul,Rome,Madrid; 1
+Which city is famous for its Red Square?;Moscow,St. Petersburg,Prague,Stockholm; 1
+In which city is the Christ the Redeemer statue situated?;Rio de Janeiro,Buenos Aires,Lima,Santiago; 1
+What is the capital city of Australia?;Sydney,Canberra,Melbourne,Auckland; 2
+Which city is often called the "Windy City"?;Chicago,New York City,Los Angeles,Miami; 1
+In which city would you find the Colosseum?;Rome,Athens,Istanbul,Barcelona; 1
+Where is the Burj Khalifa located?;Dubai,Abu Dhabi,Doha,Muscat; 1
+Which city is famous for its Oktoberfest celebration?;Munich,Berlin,Hamburg,Cologne; 1
+In which city is the Great Barrier Reef located?;Sydney,Cairns,Brisbane,Melbourne; 2
+What is the capital city of Brazil?;Rio de Janeiro,Sao Paulo,Brasilia,Belo Horizonte; 3
+Which city is known as the "Pearl of the Adriatic"?;Dubrovnik,Zagreb,Split,Sarajevo; 1
+In which city is the Forbidden City located?;Beijing,Shanghai,Hong Kong,Taipei; 1
+What is the capital city of Canada?;Toronto,Montreal,Ottawa,Vancouver; 3
+Which city is famous for its Carnival celebration?;Rio de Janeiro,New Orleans,Venice,Cologne; 1
+In which city would you find the CN Tower?;Toronto,Vancouver,Montreal,Calgary; 1
+Where is the Angkor Wat temple located?;Bangkok,Hanoi,Phnom Penh,Siem Reap; 4
+What is the capital city of South Korea?;Seoul,Incheon,Busan,Daegu; 1
+Which city is known as the "Eternal City"?;Rome,Athens,Istanbul,Jerusalem; 1
+In which city is the Sydney Opera House located?;Sydney,Melbourne,Brisbane,Adelaide; 1
+What is the capital city of France?;Paris,Berlin,Madrid,London; 1
+Which city is famous for its tulip festivals?;Amsterdam,Brussels,Paris,Vienna; 1
+In which city is the Alhambra palace located?;Granada,Barcelona,Madrid,Seville; 1
+What is the capital city of Egypt?;Cairo,Alexandria,Luxor,Giza; 1
+Which city is known as the "Queen of the Danube"?;Budapest,Prague,Vienna,Bratislava; 1
+In which city is the Brandenburg Gate located?;Berlin,Munich,Frankfurt,Hamburg; 1
+What is the capital city of Argentina?;Buenos Aires,Sao Paulo,Rio de Janeiro,Montevideo; 1
+Which city is famous for its historic port, the Golden Horn?;Istanbul,Ankara,Izmir,Adana; 1
+In which city is the Petronas Towers located?;Kuala Lumpur,Bangkok,Singapore,Jakarta; 1
+What is the capital city of Russia?;Moscow,St. Petersburg,Kiev,Minsk; 1
+Which city is known as the "City of Arts and Sciences"?;Valencia,Barcelona,Madrid,Seville; 1
+In which city is the Uffizi Gallery located?;Florence,Rome,Milan,Venice; 1
+What is the capital city of Germany?;Berlin,Munich,Hamburg,Frankfurt; 1
+Which city is famous for its canals and gondolas?;Amsterdam,Venice,Bruges,Copenhagen; 2
+In which city is the Blue Mosque located?;Istanbul,Ankara,Izmir,Adana; 1
+What is the capital city of China?;Beijing,Shanghai,Hong Kong,Taipei; 1
+Which city is known as the "Cradle of the Renaissance"?;Florence,Rome,Milan,Venice; 1
+In which city is the Hollywood Walk of Fame located?;Los Angeles,New York City,San Francisco,Las Vegas; 1
+What is the capital city of South Africa?;Cape Town,Pretoria,Johannesburg,Durban; 2
+Which city is famous for its leaning tower?;Pisa,Florence,Rome,Milan; 1
+In which city is the Gateway of India located?;Mumbai,New Delhi,Kolkata,Chennai; 1
+What is the capital city of Turkey?;Istanbul,Ankara,Izmir,Adana; 2
+Which city is known as the "City of Seven Hills"?;Rome,Lisbon,Athens,Istanbul; 2
+In which city is the Golden Gate Bridge located?;San Francisco,Los Angeles,Seattle,New York City; 1
+What is the capital city of Spain?;Madrid,Barcelona,Seville,Valencia; 1
+Which city is famous for its flamenco dancing?;Seville,Barcelona,Madrid,Granada; 1
+In which city is the Tower Bridge located?;London,Manchester,Liverpool,Birmingham; 1
+What is the capital city of India?;New Delhi,Mumbai,Kolkata,Bangalore; 1
+Which city is known as the "City of Canals"?;Venice,Amsterdam,Bruges,Copenhagen; 1
+In which city is the Louvre Museum located?;Paris,Berlin,Madrid,London; 1
+What is the capital city of Italy?;Rome,Milan,Florence,Venice; 1
+Which city is famous for its Carnival celebration?;Rio de Janeiro,New Orleans,Venice,Cologne; 1
+In which city is the Great Wall of China located?;Beijing,Shanghai,Hong Kong,Taipei; 1
+What is the capital city of Mexico?;Mexico City,Guadalajara,Monterrey,Cancun; 1
+Which city is known as the "City of a Hundred Spires"?;Prague,Budapest,Vienna,Bratislava; 1
+In which city is the Anne Frank House located?;Amsterdam,Brussels,Paris,Berlin; 1
+What is the capital city of Thailand?;Bangkok,Phuket,Chiang Mai,Pattaya; 1
+Which city is famous for its ancient ruins of Machu Picchu?;Lima,Cusco,Arequipa,Machu Picchu; 4
+In which city is the Sydney Harbour Bridge located?;Sydney,Melbourne,Brisbane,Adelaide; 1
+What is the capital city of Sweden?;Stockholm,Gothenburg,Malmo,Uppsala; 1
+Which city is known as the "City of Brotherly Love"?;Philadelphia,Pittsburgh,New York City,Boston; 1
+In which city is the Tokyo Tower located?;Tokyo,Osaka,Kyoto,Sapporo; 1
+What is the capital city of the United Kingdom?;London,Manchester,Liverpool,Birmingham; 1
+Which city is famous for its opera house, La Scala?;Milan,Rome,Florence,Venice; 1
+In which city is the Kremlin located?;Moscow,St. Petersburg,Kiev,Minsk; 1
+What is the capital city of Peru?;Lima,Cusco,Arequipa,Machu Picchu; 1
+Which city is known as the "City of Sails"?;Auckland,Sydney,Melbourne,Wellington; 1
+In which city is the Tower of London located?;London,Manchester,Liverpool,Birmingham; 1
+What is the capital city of the Netherlands?;Amsterdam,Brussels,Paris,Berlin; 1
+Which city is famous for its cherry blossoms?;Tokyo,Kyoto,Osaka,Sapporo; 2
+In which city is the Statue of David located?;Florence,Rome,Milan,Venice; 1
+What is the capital city of the United States?;Washington D.C.,New York City,Los Angeles,Chicago; 1
+Which city is known as the "City of Light"?;Paris,Amsterdam,London,Milan; 1
+In which city is the St. Peter's Basilica located?;Rome,Florence,Milan,Venice; 1
+What is the capital city of Portugal?;Lisbon,Porto,Faro,Coimbra; 1
+Which city is famous for its spice bazaar, the Grand Bazaar?;Istanbul,Ankara,Izmir,Adana; 1
+In which city is the Mount Rushmore National Memorial located?;Rapid City,Denver,Sioux Falls,Pierre; 1
+What is the capital city of Australia?;Sydney,Canberra,Melbourne,Auckland; 2

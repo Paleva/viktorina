@@ -1,50 +1,74 @@
-Who directed "Jurassic Park"?;Steven Spielberg,Christopher Nolan,James Cameron,Ridley Scott; 1
-Which actor played Jack Dawson in "Titanic";Leonardo DiCaprio,Tom Hanks,Brad Pitt,Johnny Depp; 1
-In the movie "The Dark Knight," who played the Joker?;Heath Ledger,Joaquin Phoenix,Jack Nicholson,Jared Leto; 1
-What is the title of the first James Bond film?;Goldfinger,Dr. No,Skyfall,Casino Royale; 2
-Who won the Best Director Oscar for "La La Land" (2016)?;Christopher Nolan,Damien Chazelle,Quentin Tarantino,Martin Scorsese; 2
-Which film features a character named Maximus?;Braveheart,300,Gladiator,Troy; 3
-In the "Lord of the Rings" trilogy, what is Gollum's original name?;Frodo,Samwise,Sauron,Sméagol; 4
-Who directed "The Godfather" trilogy?;Steven Spielberg,Francis Ford Coppola,Quentin Tarantino,Alfred Hitchcock; 2
-Which actress played Hermione Granger in the Harry Potter film series?;Emma Roberts,Emma Watson,Emma Stone,Emma Thompson; 2
-In "The Matrix," what is Neo's real name?;Thomas Anderson,John Smith,Michael Johnson,David Taylor; 1
-Who starred as Katniss Everdeen in "The Hunger Games" series?;Jennifer Aniston,Jennifer Lawrence,Jennifer Lopez,Jennifer Garner; 2
-What is the title of the first "Star Wars" film released in 1977?;The Empire Strikes Back,A New Hope,Return of the Jedi,The Phantom Menace; 2
-Which film features a character named Ethan Hunt?;Mission: Impossible,Die Another Day,The Bourne Identity,The Italian Job; 1
-Who directed the film "Schindler's List"?;Steven Spielberg,Martin Scorsese,Steven Soderbergh,Quentin Tarantino; 1
-In "The Lion King," what is Simba's father's name?;Scar,Mufasa,Timon,Pumbaa; 2
-Who played the lead role in "The Silence of the Lambs"?;Anthony Hopkins,Jodie Foster,Julianne Moore,Hannibal Lecter; 1
-Which animated film features a character named Nemo?;Finding Nemo,The Little Mermaid,Toy Story,Shrek; 1
-In "Casablanca," what is the name of Rick's cafe?;Rick's Place,Rick's Bistro,Rick's Café Américain,Rick's Lounge; 3
-Who directed the film "E.T. the Extra-Terrestrial"?;Steven Spielberg,George Lucas,Tim Burton,James Cameron; 1
-Which actor starred as Tony Montana in "Scarface"?;Al Pacino,Robert De Niro,Johnny Depp,Leonardo DiCaprio; 1
-In "The Wizard of Oz," what is the color of Dorothy's shoes?;Blue,Silver,Red,Yellow; 3
-Who played the lead role in "The Shining"?;Jack Nicholson,Johnny Depp,Robert De Niro,Leonardo DiCaprio; 1
-Which film features a character named Forrest Gump?;Forrest Gump,Rain Man,Good Will Hunting,A Beautiful Mind; 1
-Who directed "The Grand Budapest Hotel"?;Wes Anderson,Quentin Tarantino,Christopher Nolan,Martin Scorsese; 1
-In "Back to the Future," what is the name of the time-traveling car?;Time Cruiser,Flux Capacitor,TARDIS,DeLorean; 4
-Which actress won an Oscar for her role in "Monster" (2003)?;Nicole Kidman,Charlize Theron,Meryl Streep,Julia Roberts; 2
-What is the title of the Pixar film about a robot in love?;Wall-E,Up,Ratatouille,Finding Nemo; 1
-Who directed the film "Blade Runner"?;Ridley Scott,James Cameron,George Lucas,Christopher Nolan; 1
-Which actor played Edward Scissorhands in the film of the same name?;Johnny Depp,Leonardo DiCaprio,Tom Hanks,Brad Pitt; 1
-In "The Matrix," what is the name of the virtual reality world?;Wonderland,Dreamland,Cyberspace,Matrix; 4
-Who played the role of Captain Jack Sparrow in the "Pirates of the Caribbean" series?;Johnny Depp,Orlando Bloom,Keira Knightley,Geoffrey Rush; 1
-What is the name of the fictional African country in "Black Panther"?;Zamunda,Genovia,Wakanda,Elbonia; 3
-In "The Departed," who played the character Frank Costello?;Robert De Niro,Jack Nicholson,Leonardo DiCaprio,Matt Damon; 2
-Which film features a character named Don Vito Corleone?;The Godfather,Goodfellas,Scarface,Casino; 1
-Who directed the film "Inception"?;,Quentin Tarantino,Martin Scorsese,Steven Spielberg,Christopher Nolan; 4
-Which actor starred as Tyler Durden in "Fight Club"?;Johnny Depp,Edward Norton,Brad Pitt,Leonardo DiCaprio; 3
-What is the title of the first "Indiana Jones" film?;Raiders of the Lost Ark,The Last Crusade,Temple of Doom,Kingdom of the Crystal Skull; 1
-Who played the lead role in "The Sound of Music"?;Julie Andrews,Audrey Hepburn,Marilyn Monroe,Grace Kelly; 1
-Which film features a character named Jules Winnfield?;Pulp Fiction,Reservoir Dogs,Kill Bill,Django Unchained; 1
-Who directed the film "The Social Network"?;David Fincher,Aaron Sorkin,Mark Zuckerberg,Quentin Tarantino; 1
-Which actress won an Oscar for her role in "Silver Linings Playbook"?;Cate Blanchett,Jennifer Lawrence,Anne Hathaway,Emma Stone; 2
-What is the title of the first James Bond novel by Ian Fleming?;Goldfinger,Casino Royale,Thunderball,Moonraker; 2
-Who played the lead role in "The Breakfast Club"?;Emilio Estevez,Judd Nelson,Molly Ringwald,Anthony Michael Hall; 3
-In "Eternal Sunshine of the Spotless Mind," who played Joel Barish?;Jim Carrey,Kate Winslet,Elijah Wood,Mark Ruffalo; 1
-Which film features a character named Ellen Ripley?;Alien,Predator,Blade Runner,Terminator; 1
-Who directed the film "Citizen Kane"?;Alfred Hitchcock,Orson Welles,Stanley Kubrick,Billy Wilder; 2
-In "The Big Lebowski," what is the nickname of Jeffrey Lebowski?;Dude,Walter,Donny,Jesus; 1
-Which actor starred as William Wallace in "Braveheart"?;Mel Gibson,Russell Crowe,Liam Neeson,Sean Connery; 1
-What is the title of the film about the founding of Facebook?;The Social Network,Facebook Diaries,Zuckerberg's Story,Connecting Lives; 1
-Who directed the film "Gone with the Wind"?;Alfred Hitchcock,David Lean,Victor,Sean Shaw; 2
+Who is known as the "Queen of Pop"?;Michael Jackson,Beyoncé,Elton John,Madonna; 4
+In which year did The Beatles release their album "Sgt. Pepper's Lonely Hearts Club Band"?;1969,1965,1971,1967; 1
+What is the real name of the rapper Eminem?;Shawn Carter,Luther Campbell,Calvin Broadus,Marshall Mathers; 4
+Which rock band's lead singer is Mick Jagger?;The Who,U2,The Rolling Stones,The Beatles; 3
+Who is the lead vocalist of the band Queen?;Robert Plant,Bono,David Bowie,Freddie Mercury; 4
+In which year did Michael Jackson release his album "Thriller"?;1985,1979,1987,1982; 1
+Which genre of music is characterized by its improvisational and syncopated rhythms?;Blues,Country,Rock,Jazz; 4
+What is the name of Taylor Swift's first studio album?;Red,Speak Now,Fearless,Taylor Swift; 4
+Who is the lead singer of the band U2?;Sting,Chris Martin,Thom Yorke,Bono; 4
+In which country did the EDM duo Daft Punk originate?;United States,United Kingdom,France,Sweden; 3
+What is the real name of the rapper Snoop Dogg?;Andre Young,Shawn Carter,Marshall Mathers,Calvin Broadus; 4
+Which female artist released the album "Back to Black"?;Rihanna,Katy Perry,Amy Winehouse,Adele; 3
+Who composed the famous musical "The Phantom of the Opera"?;Lin-Manuel Miranda,Alan Menken,Stephen Sondheim,Andrew Lloyd Webber; 4
+Which rock band released the album "The Dark Side of the Moon"?;The Eagles,Led Zeppelin,The Doors,Pink Floyd; 4
+What is the real name of the rapper Jay-Z?;Andre Young,Shawn Carter,Marshall Mathers,Calvin Broadus; 2
+In which country did the band ABBA originate?;Sweden,United Kingdom,Germany,Norway; 1
+Which artist is known for the album "Rumours"?;Fleetwood Mac,The Eagles,The Rolling Stones,Aerosmith; 1
+Who is the lead singer of the band Coldplay?;Chris Martin,Bono,Thom Yorke,Freddie Mercury; 1
+What is the real name of the rapper Kanye West?;Calvin Broadus,Andre Young,Shawn Carter,Kanye West; 4
+In which year did Whitney Houston release her debut album?;1985,1987,1983,1980; 3
+Which artist is known for the hit song "Shape of You"?;Ed Sheeran,Sam Smith,Bruno Mars,Justin Bieber; 1
+Who is the guitarist for the rock band Queen?;Brian May,Jimmy Page,Eric Clapton,Slash; 1
+What is the real name of the rapper Drake?;Aubrey Graham,Shawn Carter,Calvin Broadus,Marshall Mathers; 1
+In which year did Nirvana release their album "Nevermind"?;1991,1993,1989,1995; 1
+Which artist is known for the album "Back in Black"?;AC/DC,Queen,Guns N' Roses,Metallica; 1
+Who is the lead vocalist of the band Led Zeppelin?;Robert Plant,Freddie Mercury,David Bowie,Mick Jagger; 1
+In which country did the band Queen originate?;United Kingdom,United States,Canada,Australia; 1
+What is the real name of the rapper Nicki Minaj?;Onika Maraj,Belcalis Almanzar,Amethyst Kelly,Trinity Marquez; 1
+Which artist is known for the song "Billie Jean"?;Michael Jackson,Prince,Bruce Springsteen,David Bowie; 1
+Who is the lead guitarist of the rock band Guns N' Roses?;Slash,Angus Young,Eddie Van Halen,Jimmy Page; 1
+In which year did Bob Marley release the album "Exodus"?;1977,1979,1981,1975; 1
+Which artist is known for the album "Dark Horse"?;George Harrison,John Lennon,Paul McCartney,Olivia Newton-John; 1
+Who is the lead singer of the band The Rolling Stones?;Mick Jagger,Freddie Mercury,David Bowie,Bono; 1
+In which year did Beyoncé release her album "Lemonade"?;2016,2018,2014,2012; 1
+Which artist is known for the hit song "Havana"?;Camila Cabello,Ariana Grande,Taylor Swift,Katy Perry; 1
+Who is the lead vocalist of the band The Who?;Roger Daltrey,Robert Plant,Freddie Mercury,Mick Jagger; 1
+In which country did the singer Shakira originate?;Colombia,Spain,Mexico,Brazil; 1
+What is the real name of the rapper Cardi B?;Belcalis Almanzar,Onika Maraj,Amethyst Kelly,Trinity Marquez; 1
+Which artist is known for the album "The Wall"?;Pink Floyd,The Beatles,The Rolling Stones,U2; 1
+Who is the lead guitarist of the rock band AC/DC?;Angus Young,Eddie Van Halen,Jimmy Page,Slash; 1
+In which year did Lady Gaga release her debut album "The Fame"?;2008,2010,2006,2012; 1
+Which artist is known for the album "Legend"?;Bob Marley,Elvis Presley,John Lennon,Michael Jackson; 1
+Who is the lead singer of the band Aerosmith?;Steven Tyler,Freddie Mercury,David Bowie,Mick Jagger; 1
+In which country did the band ABBA win the Eurovision Song Contest?;Sweden,Norway,Denmark,Finland; 1
+What is the real name of the rapper Travis Scott?;Jacques Webster,Calvin Broadus,Shawn Carter,Marshall Mathers; 1
+Which artist is known for the album "Abbey Road"?;The Beatles,The Rolling Stones,The Who,U2; 1
+Who is the lead singer of the band Radiohead?;Thom Yorke,Chris Martin,Bono,David Bowie; 1
+In which year did Elton John release his album "Goodbye Yellow Brick Road"?;1973,1975,1971,1977; 1
+Which artist is known for the song "Purple Haze"?;Jimi Hendrix,Eric Clapton,Jimmy Page,Stevie Ray Vaughan; 1
+Who is the lead singer of the band Fleetwood Mac?;Stevie Nicks,Christine McVie,Lindsey Buckingham,Mick Fleetwood; 1
+In which country did the band Queen record "Bohemian Rhapsody"?;United Kingdom,United States,Canada,Australia; 1
+What is the real name of the rapper Kendrick Lamar?;Kendrick Duckworth,Shawn Carter,Calvin Broadus,Marshall Mathers; 1
+Which artist is known for the hit song "Sweet Child o' Mine"?;Guns N' Roses,Aerosmith,AC/DC,Metallica; 1
+Who is the lead vocalist of the band Pink Floyd?;Roger Waters,David Gilmour,Syd Barrett,Richard Wright; 1
+In which year did Adele release her album "21"?;2011,2013,2009,2015; 1
+Which artist is known for the song "Like a Rolling Stone"?;Bob Dylan,The Rolling Stones,The Who,John Lennon; 1
+Who is the lead guitarist of the rock band Queen?;Brian May,Jimmy Page,Eric Clapton,Slash; 1
+In which country did the singer Shakira win the Grammy Award for Best Latin Pop Album?;Colombia,Spain,Mexico,Brazil; 1
+What is the real name of the rapper Lil Wayne?;Dwayne Carter,Shawn Carter,Calvin Broadus,Marshall Mathers; 1
+Which artist is known for the album "Graceland"?;Paul Simon,Bob Dylan,John Lennon,George Harrison; 1
+Who is the lead singer of the band Nirvana?;Kurt Cobain,Chris Cornell,Eddie Vedder,Dave Grohl; 1
+In which year did Bob Marley pass away?;1981,1983,1979,1985; 1
+Which artist is known for the song "Superstition"?;Stevie Wonder,Marvin Gaye,James Brown,Prince; 1
+Who is the lead guitarist of the rock band AC/DC?;Angus Young,Eddie Van Halen,Jimmy Page,Slash; 1
+In which country did the singer Ed Sheeran win the Grammy Award for Song of the Year?;United Kingdom,United States,Canada,Australia; 1
+What is the real name of the rapper Drake?;Aubrey Graham,Shawn Carter,Calvin Broadus,Marshall Mathers; 1
+Which artist is known for the album "The Joshua Tree"?;U2,The Rolling Stones,The Eagles,Led Zeppelin; 1
+Who is the lead vocalist of the band The Doors?;Jim Morrison,John Lennon,David Bowie,Mick Jagger; 1
+In which year did Rihanna release her debut album "Music of the Sun"?;2005,2007,2003,2009; 1
+Which artist is known for the song "Bohemian Rhapsody"?;Queen,The Beatles,The Rolling Stones,U2; 1
+Who is the lead guitarist of the rock band Guns N' Roses?;Slash,Angus Young,Eddie Van Halen,Jimmy Page; 1
+In which country did the singer Adele win the Grammy Award for Album of the Year?;United Kingdom,United States,Canada,Australia; 1
+What is the real name of the rapper Nicki Minaj?;Onika Maraj,Belcalis Almanzar,Amethyst Kelly,Trinity Marquez; 1
+Which artist is known for the album "A Night at the Opera"?;Queen,The Rolling Stones,The Beatles,U2; 1

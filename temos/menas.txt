@@ -1,50 +1,70 @@
-Who directed "Jurassic Park"?;Steven Spielberg,Christopher Nolan,James Cameron,Ridley Scott; 1
-Which actor played Jack Dawson in "Titanic";Leonardo DiCaprio,Tom Hanks,Brad Pitt,Johnny Depp; 1
-In the movie "The Dark Knight," who played the Joker?;Heath Ledger,Joaquin Phoenix,Jack Nicholson,Jared Leto; 1
-What is the title of the first James Bond film?;Goldfinger,Dr. No,Skyfall,Casino Royale; 2
-Who won the Best Director Oscar for "La La Land" (2016)?;Christopher Nolan,Damien Chazelle,Quentin Tarantino,Martin Scorsese; 2
-Which film features a character named Maximus?;Braveheart,300,Gladiator,Troy; 3
-In the "Lord of the Rings" trilogy, what is Gollum's original name?;Frodo,Samwise,Sauron,Sméagol; 4
-Who directed "The Godfather" trilogy?;Steven Spielberg,Francis Ford Coppola,Quentin Tarantino,Alfred Hitchcock; 2
-Which actress played Hermione Granger in the Harry Potter film series?;Emma Roberts,Emma Watson,Emma Stone,Emma Thompson; 2
-In "The Matrix," what is Neo's real name?;Thomas Anderson,John Smith,Michael Johnson,David Taylor; 1
-Who starred as Katniss Everdeen in "The Hunger Games" series?;Jennifer Aniston,Jennifer Lawrence,Jennifer Lopez,Jennifer Garner; 2
-What is the title of the first "Star Wars" film released in 1977?;The Empire Strikes Back,A New Hope,Return of the Jedi,The Phantom Menace; 2
-Which film features a character named Ethan Hunt?;Mission: Impossible,Die Another Day,The Bourne Identity,The Italian Job; 1
-Who directed the film "Schindler's List"?;Steven Spielberg,Martin Scorsese,Steven Soderbergh,Quentin Tarantino; 1
-In "The Lion King," what is Simba's father's name?;Scar,Mufasa,Timon,Pumbaa; 2
-Who played the lead role in "The Silence of the Lambs"?;Anthony Hopkins,Jodie Foster,Julianne Moore,Hannibal Lecter; 1
-Which animated film features a character named Nemo?;Finding Nemo,The Little Mermaid,Toy Story,Shrek; 1
-In "Casablanca," what is the name of Rick's cafe?;Rick's Place,Rick's Bistro,Rick's Café Américain,Rick's Lounge; 3
-Who directed the film "E.T. the Extra-Terrestrial"?;Steven Spielberg,George Lucas,Tim Burton,James Cameron; 1
-Which actor starred as Tony Montana in "Scarface"?;Al Pacino,Robert De Niro,Johnny Depp,Leonardo DiCaprio; 1
-In "The Wizard of Oz," what is the color of Dorothy's shoes?;Blue,Silver,Red,Yellow; 3
-Who played the lead role in "The Shining"?;Jack Nicholson,Johnny Depp,Robert De Niro,Leonardo DiCaprio; 1
-Which film features a character named Forrest Gump?;Forrest Gump,Rain Man,Good Will Hunting,A Beautiful Mind; 1
-Who directed "The Grand Budapest Hotel"?;Wes Anderson,Quentin Tarantino,Christopher Nolan,Martin Scorsese; 1
-In "Back to the Future," what is the name of the time-traveling car?;Time Cruiser,Flux Capacitor,TARDIS,DeLorean; 4
-Which actress won an Oscar for her role in "Monster" (2003)?;Nicole Kidman,Charlize Theron,Meryl Streep,Julia Roberts; 2
-What is the title of the Pixar film about a robot in love?;Wall-E,Up,Ratatouille,Finding Nemo; 1
-Who directed the film "Blade Runner"?;Ridley Scott,James Cameron,George Lucas,Christopher Nolan; 1
-Which actor played Edward Scissorhands in the film of the same name?;Johnny Depp,Leonardo DiCaprio,Tom Hanks,Brad Pitt; 1
-In "The Matrix," what is the name of the virtual reality world?;Wonderland,Dreamland,Cyberspace,Matrix; 4
-Who played the role of Captain Jack Sparrow in the "Pirates of the Caribbean" series?;Johnny Depp,Orlando Bloom,Keira Knightley,Geoffrey Rush; 1
-What is the name of the fictional African country in "Black Panther"?;Zamunda,Genovia,Wakanda,Elbonia; 3
-In "The Departed," who played the character Frank Costello?;Robert De Niro,Jack Nicholson,Leonardo DiCaprio,Matt Damon; 2
-Which film features a character named Don Vito Corleone?;The Godfather,Goodfellas,Scarface,Casino; 1
-Who directed the film "Inception"?;,Quentin Tarantino,Martin Scorsese,Steven Spielberg,Christopher Nolan; 4
-Which actor starred as Tyler Durden in "Fight Club"?;Johnny Depp,Edward Norton,Brad Pitt,Leonardo DiCaprio; 3
-What is the title of the first "Indiana Jones" film?;Raiders of the Lost Ark,The Last Crusade,Temple of Doom,Kingdom of the Crystal Skull; 1
-Who played the lead role in "The Sound of Music"?;Julie Andrews,Audrey Hepburn,Marilyn Monroe,Grace Kelly; 1
-Which film features a character named Jules Winnfield?;Pulp Fiction,Reservoir Dogs,Kill Bill,Django Unchained; 1
-Who directed the film "The Social Network"?;David Fincher,Aaron Sorkin,Mark Zuckerberg,Quentin Tarantino; 1
-Which actress won an Oscar for her role in "Silver Linings Playbook"?;Cate Blanchett,Jennifer Lawrence,Anne Hathaway,Emma Stone; 2
-What is the title of the first James Bond novel by Ian Fleming?;Goldfinger,Casino Royale,Thunderball,Moonraker; 2
-Who played the lead role in "The Breakfast Club"?;Emilio Estevez,Judd Nelson,Molly Ringwald,Anthony Michael Hall; 3
-In "Eternal Sunshine of the Spotless Mind," who played Joel Barish?;Jim Carrey,Kate Winslet,Elijah Wood,Mark Ruffalo; 1
-Which film features a character named Ellen Ripley?;Alien,Predator,Blade Runner,Terminator; 1
-Who directed the film "Citizen Kane"?;Alfred Hitchcock,Orson Welles,Stanley Kubrick,Billy Wilder; 2
-In "The Big Lebowski," what is the nickname of Jeffrey Lebowski?;Dude,Walter,Donny,Jesus; 1
-Which actor starred as William Wallace in "Braveheart"?;Mel Gibson,Russell Crowe,Liam Neeson,Sean Connery; 1
-What is the title of the film about the founding of Facebook?;The Social Network,Facebook Diaries,Zuckerberg's Story,Connecting Lives; 1
-Who directed the film "Gone with the Wind"?;Alfred Hitchcock,David Lean,Victor,Sean Shaw; 2
+Who painted "The Persistence of Memory"?;Pablo Picasso,Salvador Dali,Claude Monet,Vincent van Gogh; 2
+Which artist is known for his Campbell's Soup Cans?;Jackson Pollock,Andy Warhol,Piet Mondrian,Wassily Kandinsky; 2
+In which country was the Impressionist movement primarily centered?;France,Italy,Spain,Germany; 1
+What is the primary medium used in a fresco painting?;Oil,Watercolor,Acrylic,Fresco is a technique, not a medium; 4
+Who sculpted "The Thinker"?;Auguste Rodin,Pablo Picasso,Michelangelo,Donatello; 1
+What art style did Frida Kahlo primarily associate with?;Surrealism,Abstract Expressionism,Pop Art,Minimalism; 1
+Which artist is known for his "Blue Period"?;Pablo Picasso,Claude Monet,Vincent van Gogh,Edvard Munch; 1
+Who created the mobile, a type of kinetic sculpture?;Alexander Calder,Marcel Duchamp,Joan Miró,Yayoi Kusama; 1
+What is the title of Grant Wood's iconic painting featuring a farmer and his daughter?;American Gothic,Nighthawks,Whistler's Mother,Starry Night; 1
+Which art movement rejected traditional artistic forms and embraced randomness and chance?;Dadaism,Surrealism,Minimalism,Abstract Expressionism; 1
+Who painted "The Scream"?;Edvard Munch,Vincent van Gogh,Salvador Dalí,Pablo Picasso; 1
+What is the technique of creating images by assembling various small pieces of colored glass, stone, or other materials?;Mosaic,Stippling,Pointillism,Decoupage; 1
+Who is known for his large-scale environmental works of art, such as "The Gates" in Central Park?;Christo and Jeanne-Claude,Banksy,Yayoi Kusama,Keith Haring; 1
+Which art movement emphasized geometric shapes and primary colors?;Cubism,Abstract Expressionism,Suprematism,Constructivism; 3
+What is the primary subject of Edgar Degas's works?;Landscapes,Portraits,Ballet dancers,Still life; 3
+Who created the "Fountain," a urinal considered a groundbreaking work of conceptual art?;Marcel Duchamp,Salvador Dalí,Man Ray,Yoko Ono; 1
+Which artist is associated with the "dot paintings" style, featuring intricate patterns of dots?;Georges Seurat,Yayoi Kusama,Pointillism,Paul Signac; 2
+What is the term for a painting executed on a wall or ceiling, typically depicting a historical or allegorical scene?;Mural,Fresco,Trompe-l'oeil,Relief; 1
+Who is known for his large-scale, colorful depictions of flowers, such as "Sunflowers"?;Vincent van Gogh,Claude Monet,Georgia O'Keeffe,Andy Warhol; 3
+Which art movement embraced randomness and spontaneity, often using unconventional materials?;Abstract Expressionism,Dadaism,Pop Art,Op Art; 1
+Who created "Guernica," a powerful anti-war painting depicting the bombing of a Spanish town?;Pablo Picasso,Salvador Dalí,Jackson Pollock,Francisco Goya; 1
+What is the name of the Japanese art of paper folding?;Origami,Ikebana,Ukiyo-e,Kintsugi; 1
+Who painted "The Birth of Venus"?;Sandro Botticelli,Leonardo da Vinci,Raphael,Michelangelo; 1
+What is the technique of scratching through one layer of paint to reveal another underneath?;Sgraffito,Scumbling,Grisaille,Tenebrism; 1
+Who is known for his kinetic sculptures that move with the wind, such as "L'Homme qui marche I"?;Alberto Giacometti,Alexander Calder,David Smith,Henry Moore; 2
+What is the name of the ancient Egyptian writing system that often appears in art and inscriptions?;Hieroglyphics,Cuneiform,Alphabet,Runic; 1
+Who is considered a pioneer of video art and created "The Clock," a 24-hour film montage?;Nam June Paik,Bill Viola,Matthew Barney,Douglas Gordon; 4
+Which Dutch artist is known for his use of optical illusions, such as "Relativity"?;M.C. Escher,Rembrandt,Vermeer,Pieter Bruegel the Elder; 1
+What is the name of the technique that involves applying paint to wet plaster?;Fresco,Sgraffito,Trompe-l'oeil,Encaustic; 1
+Who is known for his realistic and detailed depictions of rural American life, such as "American Gothic"?;Grant Wood,Edward Hopper,Thomas Hart Benton,Norman Rockwell; 1
+What is the term for a work of art that incorporates three-dimensional objects and materials?;Assemblage,Collage,Relief,Stipple; 1
+Which artist is associated with the "Golden Ratio" and "Vitruvian Man"?;Leonardo da Vinci,Michelangelo,Raphael,Donatello; 1
+What is the Japanese art of flower arranging called?;Ikebana,Origami,Sumi-e,Ukiyo-e; 1
+Who is known for his use of "happenings," interactive and often unpredictable performances?;Allan Kaprow,Marina Abramović,Joseph Beuys,Yoko Ono; 1
+What is the term for a painting that represents inanimate objects, often arranged on a flat surface?;Still life,Portrait,Landscape,Genre painting; 1
+Who painted "Les Demoiselles d'Avignon," a groundbreaking work in the development of Cubism?;Pablo Picasso,Georges Braque,Juan Gris,Fernand Léger; 1
+What is the name of the abstract art movement characterized by simple geometric shapes and primary colors?;Suprematism,De Stijl,Constructivism,Op Art; 2
+Who is known for his "Black Paintings," a series of dark and intense works created late in his career?;Francisco Goya,El Greco,Diego Velázquez,Jacques-Louis David; 1
+What is the term for the technique of applying small, distinct dots of color to create an image?;Pointillism,Impasto,Sfumato,Tenebrism; 1
+Who is the American artist famous for his "drip paintings" created by pouring and dripping paint onto a canvas?;Jackson Pollock,Willem de Kooning,Mark Rothko,Cy Twombly; 1
+What is the name of the Japanese art of repairing broken pottery with lacquer mixed with powdered gold, silver, or platinum?;Kintsugi,Ikebana,Origami,Sumi-e; 1
+Who is known for his large-scale installations of colorful balloons, such as "Balloon Flower"?;Jeff Koons,Yayoi Kusama,Christo and Jeanne-Claude,Takashi Murakami; 1
+What is the term for a printmaking technique involving incising lines into a metal plate?;Etching,Aquatint,Woodcut,Linocut; 1
+Who is considered a pioneer of land art and created the famous "Spiral Jetty" in Utah?;Robert Smithson,Andy Goldsworthy,Maya Lin,Michael Heizer; 1
+What is the traditional Japanese ink-wash painting technique called?;Sumi-e,Haiga,Ukiyo-e,Kakemono; 1
+Who is known for his "cut-out" technique, creating colorful and playful collages in his later years?;Henri Matisse,Pablo Picasso,Georges Braque,Jackson Pollock; 1
+What is the term for a work of art that uses exaggerated and distorted features for emotional effect?;Expressionism,Surrealism,Cubism,Impressionism; 1
+What is the traditional Japanese art of woodblock printing called?;Sumi-e,Ukiyo-e,Kakemono,Haiga; 2
+Who is the American artist known for his "Great American Nude" series and pop art style?;Tom Wesselmann,Roy Lichtenstein,Robert Rauschenberg,Andy Warhol; 2
+What is the term for a painting that depicts scenes of everyday life?;Genre painting,Landscape,Portrait,Still life; 1
+Who is known for his "Flag" paintings, featuring the American flag as a central motif?;Jasper Johns,Robert Rauschenberg,Mark Rothko,Willem de Kooning; 1
+What is the term for a painting technique that creates a hazy, blurred effect by blending colors?;Sfumato,Tenebrism,Chiaroscuro,Impasto; 1
+Who is known for his "Whaam!" diptych, depicting a fighter jet firing a missile?;Roy Lichtenstein,Andy Warhol,Tom Wesselmann,Robert Rauschenberg; 1
+What is the term for a work of art that presents a humorous view of everyday life, often with exaggerated features?;Caricature,Parody,Satire,Burlesque; 1
+Who created the "Four Freedoms" series, depicting essential human freedoms, such as freedom of speech?;Norman Rockwell,Grant Wood,Edward Hopper,Thomas Hart Benton; 1
+What is the term for a painting that simulates the appearance of three-dimensional space on a flat surface?;Trompe-l'oeil,Perspective,Realism,Chiaroscuro; 1
+Who is known for his "mobiles," kinetic sculptures that move with air currents?;Alexander Calder,David Smith,Henry Moore,Barbara Hepworth; 1
+What is the term for a painting technique that creates texture by applying thick layers of paint?;Impasto,Scumbling,Grisaille,Sgraffito; 1
+Who is known for his sculptures made of readymade objects, such as "Fountain"?;Marcel Duchamp,Man Ray,Salvador Dalí,Pablo Picasso; 1
+What is the name of the movement that emerged in the 1950s and emphasized spontaneity and intuition in the creative process?;Abstract Expressionism,Pop Art,Minimalism,Cubism; 1
+Who is known for his "Readymades," ordinary objects presented as works of art?;Marcel Duchamp,Man Ray,Pablo Picasso,Salvador Dalí; 1
+What is the term for a painting technique that involves applying paint in small dots or strokes to create an overall pattern?;Pointillism,Stippling,Sgraffito,Chiaroscuro; 1
+What is the term for a painting technique that involves thinning paint to create a translucent effect?;Glazing,Scumbling,Impasto,Sfumato; 1
+Who is known for his "One: Number 31" painting, a large-scale abstract expressionist work?;Jackson Pollock,Mark Rothko,Willem de Kooning,Clyfford Still; 1
+What is the name of the ancient Greek vase-painting technique that uses black figures on a red background?;Black-figure,Red-figure,Sgraffito,Aquatint; 1
+Who is known for his sculptures of balloon animals and everyday objects cast in stainless steel?;Jeff Koons,Claes Oldenburg,Robert Gober,Damien Hirst; 1
+What is the term for a painting technique that involves layering translucent glazes to create depth and luminosity?;Glazing,Sfumato,Chiaroscuro,Trompe-l'oeil; 1
+Who is the French artist known for his depictions of dancers and ballerinas, such as "The Dancer"?;Edgar Degas,Edouard Manet,Claude Monet,Pierre-Auguste Renoir; 1
+Who is known for his "Neon" installations, featuring brightly colored neon lights arranged in various shapes?;Bruce Nauman,Dan Flavin,Yayoi Kusama,Tracey Emin; 1
+What is the term for a work of art that features a combination of different materials and objects?;Mixed media,Collage,Assemblage,Decoupage; 1

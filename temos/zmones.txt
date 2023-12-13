@@ -1,50 +1,78 @@
-Who directed "Jurassic Park"?;Steven Spielberg,Christopher Nolan,James Cameron,Ridley Scott; 1
-Which actor played Jack Dawson in "Titanic";Leonardo DiCaprio,Tom Hanks,Brad Pitt,Johnny Depp; 1
-In the movie "The Dark Knight," who played the Joker?;Heath Ledger,Joaquin Phoenix,Jack Nicholson,Jared Leto; 1
-What is the title of the first James Bond film?;Goldfinger,Dr. No,Skyfall,Casino Royale; 2
-Who won the Best Director Oscar for "La La Land" (2016)?;Christopher Nolan,Damien Chazelle,Quentin Tarantino,Martin Scorsese; 2
-Which film features a character named Maximus?;Braveheart,300,Gladiator,Troy; 3
-In the "Lord of the Rings" trilogy, what is Gollum's original name?;Frodo,Samwise,Sauron,Sméagol; 4
-Who directed "The Godfather" trilogy?;Steven Spielberg,Francis Ford Coppola,Quentin Tarantino,Alfred Hitchcock; 2
-Which actress played Hermione Granger in the Harry Potter film series?;Emma Roberts,Emma Watson,Emma Stone,Emma Thompson; 2
-In "The Matrix," what is Neo's real name?;Thomas Anderson,John Smith,Michael Johnson,David Taylor; 1
-Who starred as Katniss Everdeen in "The Hunger Games" series?;Jennifer Aniston,Jennifer Lawrence,Jennifer Lopez,Jennifer Garner; 2
-What is the title of the first "Star Wars" film released in 1977?;The Empire Strikes Back,A New Hope,Return of the Jedi,The Phantom Menace; 2
-Which film features a character named Ethan Hunt?;Mission: Impossible,Die Another Day,The Bourne Identity,The Italian Job; 1
-Who directed the film "Schindler's List"?;Steven Spielberg,Martin Scorsese,Steven Soderbergh,Quentin Tarantino; 1
-In "The Lion King," what is Simba's father's name?;Scar,Mufasa,Timon,Pumbaa; 2
-Who played the lead role in "The Silence of the Lambs"?;Anthony Hopkins,Jodie Foster,Julianne Moore,Hannibal Lecter; 1
-Which animated film features a character named Nemo?;Finding Nemo,The Little Mermaid,Toy Story,Shrek; 1
-In "Casablanca," what is the name of Rick's cafe?;Rick's Place,Rick's Bistro,Rick's Café Américain,Rick's Lounge; 3
-Who directed the film "E.T. the Extra-Terrestrial"?;Steven Spielberg,George Lucas,Tim Burton,James Cameron; 1
-Which actor starred as Tony Montana in "Scarface"?;Al Pacino,Robert De Niro,Johnny Depp,Leonardo DiCaprio; 1
-In "The Wizard of Oz," what is the color of Dorothy's shoes?;Blue,Silver,Red,Yellow; 3
-Who played the lead role in "The Shining"?;Jack Nicholson,Johnny Depp,Robert De Niro,Leonardo DiCaprio; 1
-Which film features a character named Forrest Gump?;Forrest Gump,Rain Man,Good Will Hunting,A Beautiful Mind; 1
-Who directed "The Grand Budapest Hotel"?;Wes Anderson,Quentin Tarantino,Christopher Nolan,Martin Scorsese; 1
-In "Back to the Future," what is the name of the time-traveling car?;Time Cruiser,Flux Capacitor,TARDIS,DeLorean; 4
-Which actress won an Oscar for her role in "Monster" (2003)?;Nicole Kidman,Charlize Theron,Meryl Streep,Julia Roberts; 2
-What is the title of the Pixar film about a robot in love?;Wall-E,Up,Ratatouille,Finding Nemo; 1
-Who directed the film "Blade Runner"?;Ridley Scott,James Cameron,George Lucas,Christopher Nolan; 1
-Which actor played Edward Scissorhands in the film of the same name?;Johnny Depp,Leonardo DiCaprio,Tom Hanks,Brad Pitt; 1
-In "The Matrix," what is the name of the virtual reality world?;Wonderland,Dreamland,Cyberspace,Matrix; 4
-Who played the role of Captain Jack Sparrow in the "Pirates of the Caribbean" series?;Johnny Depp,Orlando Bloom,Keira Knightley,Geoffrey Rush; 1
-What is the name of the fictional African country in "Black Panther"?;Zamunda,Genovia,Wakanda,Elbonia; 3
-In "The Departed," who played the character Frank Costello?;Robert De Niro,Jack Nicholson,Leonardo DiCaprio,Matt Damon; 2
-Which film features a character named Don Vito Corleone?;The Godfather,Goodfellas,Scarface,Casino; 1
-Who directed the film "Inception"?;,Quentin Tarantino,Martin Scorsese,Steven Spielberg,Christopher Nolan; 4
-Which actor starred as Tyler Durden in "Fight Club"?;Johnny Depp,Edward Norton,Brad Pitt,Leonardo DiCaprio; 3
-What is the title of the first "Indiana Jones" film?;Raiders of the Lost Ark,The Last Crusade,Temple of Doom,Kingdom of the Crystal Skull; 1
-Who played the lead role in "The Sound of Music"?;Julie Andrews,Audrey Hepburn,Marilyn Monroe,Grace Kelly; 1
-Which film features a character named Jules Winnfield?;Pulp Fiction,Reservoir Dogs,Kill Bill,Django Unchained; 1
-Who directed the film "The Social Network"?;David Fincher,Aaron Sorkin,Mark Zuckerberg,Quentin Tarantino; 1
-Which actress won an Oscar for her role in "Silver Linings Playbook"?;Cate Blanchett,Jennifer Lawrence,Anne Hathaway,Emma Stone; 2
-What is the title of the first James Bond novel by Ian Fleming?;Goldfinger,Casino Royale,Thunderball,Moonraker; 2
-Who played the lead role in "The Breakfast Club"?;Emilio Estevez,Judd Nelson,Molly Ringwald,Anthony Michael Hall; 3
-In "Eternal Sunshine of the Spotless Mind," who played Joel Barish?;Jim Carrey,Kate Winslet,Elijah Wood,Mark Ruffalo; 1
-Which film features a character named Ellen Ripley?;Alien,Predator,Blade Runner,Terminator; 1
-Who directed the film "Citizen Kane"?;Alfred Hitchcock,Orson Welles,Stanley Kubrick,Billy Wilder; 2
-In "The Big Lebowski," what is the nickname of Jeffrey Lebowski?;Dude,Walter,Donny,Jesus; 1
-Which actor starred as William Wallace in "Braveheart"?;Mel Gibson,Russell Crowe,Liam Neeson,Sean Connery; 1
-What is the title of the film about the founding of Facebook?;The Social Network,Facebook Diaries,Zuckerberg's Story,Connecting Lives; 1
-Who directed the film "Gone with the Wind"?;Alfred Hitchcock,David Lean,Victor,Sean Shaw; 2
+Who was the first woman to win a Nobel Prize in Physics?;Marie Curie,Lise Meitner,Dorothy Crowfoot Hodgkin,Rosalind Franklin; 2
+Which aviator was the first woman to fly solo across the Atlantic Ocean?;Amelia Earhart,Bessie Coleman,Harriet Quimby,Jacqueline Cochran; 1
+Who is known as the "Father of Modern Physics"?;Albert Einstein,Isaac Newton,Niels Bohr,Max Planck; 4
+What is the real name of the rapper Eminem?;Marshall Mathers,Curtis Jackson,Shawn Carter,Calvin Broadus; 1
+Who was the first woman to win a Nobel Prize in Chemistry?;Marie Curie,Dorothy Crowfoot Hodgkin,Barbara McClintock,Linus Pauling; 2
+What is the nationality of tennis player Novak Djokovic?;Serbian,Spanish,Swiss,Croatian; 1
+Who wrote the novel "To Kill a Mockingbird"?;Harper Lee,J.D. Salinger,F. Scott Fitzgerald,Ernest Hemingway; 1
+What is the birthplace of Nelson Mandela?;Johannesburg,Cape Town,Pretoria,Qunu; 4
+Who is known as the "King of Rock and Roll"?;Elvis Presley,Chuck Berry,Little Richard,Buddy Holly; 1
+Who is the lead singer of the band Queen?;Freddie Mercury,Mick Jagger,Bono,David Bowie; 1
+In which year did Rosa Parks refuse to give up her bus seat,sparking the Montgomery Bus Boycott?;1955,1963,1948,1968; 1
+What is the real name of the rapper Jay-Z?;Shawn Carter,Kanye West,Drake,Kendrick Lamar; 1
+Who was the first woman to win a Nobel Prize in Medicine?;Gerty Cori,Barbara McClintock,Marie Curie,Rosalind Franklin; 4
+What is the nationality of physicist Niels Bohr?;Danish,German,Swedish,Netherlands; 1
+Who is the lead singer of the band Aerosmith?;Steven Tyler,Axl Rose,Freddie Mercury,Bon Jovi; 1
+In which year did Charles Darwin publish "On the Origin of Species"?;1859,1875,1834,1901; 1
+Who is known as the "Queen of Jazz"?;Ella Fitzgerald,Billie Holiday,Nina Simone,Sarah Vaughan; 1
+What is the birthplace of Alexander Graham Bell?;Edinburgh,London,Dublin,Brussels; 3
+Who was the first woman to win a Nobel Prize in Literature?;Gabriela Mistral,Pearl S. Buck,Selma Lagerlöf,Toni Morrison; 3
+What is the nationality of physicist Max Planck?;German,Austrian,Swiss,Dutch; 1
+Who is known as the "King of Pop"?;Michael Jackson,Elvis Presley,Prince,James Brown; 1
+In which year did Martin Luther King Jr. deliver his famous "I Have a Dream" speech?;1963,1955,1968,1971; 1
+Who is the lead guitarist of the band Queen?;Brian May,Jimmy Page,David Gilmour,Eddie Van Halen; 1
+What is the birthplace of Winston Churchill?;Woodstock,Blenheim Palace,London,Edinburgh; 2
+Who is the lead singer of the band Pearl Jam?;Eddie Vedder,Chris Cornell,Kurt Cobain,Dave Grohl; 1
+What is the real name of the rapper Drake?;Aubrey Graham,Sean Combs,Jay-Z,Kendrick Lamar; 1
+Who was the first woman to win a Nobel Prize in Physiology or Medicine?;Gerty Cori,Barbara McClintock,Marie Curie,Rosalind Franklin; 4
+What is the birthplace of Sir Winston Churchill?;Blenheim Palace,London,Dublin,Edinburgh; 1
+Who is known as the "Queen of Tejano Music"?;Selena Quintanilla,Shakira,Gloria Estefan,Jennifer Lopez; 1
+In which year did Mother Teresa pass away?;1997,1985,2003,2010; 1
+Who is the lead actor in the film "The Godfather"?;Marlon Brando,Al Pacino,Robert De Niro,James Caan; 1
+In which year did Amelia Earhart set the record for the first solo transatlantic flight by a woman?;1932,1925,1940,1951; 1
+What is the nationality of physicist Niels Bohr?;Danish,Norwegian,Swedish,Dutch; 1
+Who is the lead actor in the film "Forrest Gump"?;Tom Hanks,Leonardo DiCaprio,Brad Pitt,Johnny Depp; 1
+Who is the lead guitarist of the rock band Led Zeppelin?;Jimmy Page,Eric Clapton,Jimi Hendrix,Keith Richards; 1
+What is the birthplace of Albert Einstein?;Ulm,Berlin,Munich,Frankfurt; 1
+Who is known as the "Queen of Country Music"?;Dolly Parton,Shania Twain,Reba McEntire,Taylor Swift; 1
+In which year did Winston Churchill become the Prime Minister of the United Kingdom?;1940,1935,1952,1967; 1
+Who is the lead singer of the band Coldplay?;Chris Martin,Brandon Flowers,Thom Yorke,Eddie Vedder; 1
+What is the birthplace of Queen Elizabeth II?;London,Edinburgh,Cardiff,Windsor; 4
+Who is the lead singer of the band Nirvana?;Kurt Cobain,Eddie Vedder,Chris Cornell,Dave Grohl; 1
+In which year did Sir Isaac Newton publish "Philosophiæ Naturalis Principia Mathematica"?;1687,1750,1610,1805; 1
+Who is the lead singer of the band The Rolling Stones?;Mick Jagger,Paul McCartney,Freddie Mercury,Roger Daltrey; 1
+What is the real name of the rapper Snoop Dogg?;Calvin Broadus,Andre Young,Shawn Carter,Marshall Mathers; 1
+Who is the creator of the television series "The Simpsons"?;Matt Groening,Seth MacFarlane,Trey Parker,Mike Judge; 1
+What is the nationality of physicist Max Planck?;German,Austrian,Swiss,Dutch; 1
+Who is known as the "Father of Computers"?;Alan Turing,Charles Babbage,Steve Jobs,Bill Gates; 2
+What is the birthplace of Leonardo da Vinci?;Vinci,Florence,Rome,Milan; 1
+Who is the lead actor in the film "The Shawshank Redemption"?;Tim Robbins,Morgan Freeman,Tom Hanks,Brad Pitt; 1
+What is the capital of Australia?;Canberra,Sydney,Melbourne,Perth; 1
+Who is the lead actor in the film "Gladiator"?;Russell Crowe,Joaquin Phoenix,Leonardo DiCaprio,Matt Damon; 1
+What is the birthplace of Marie Curie?;Warsaw,Krakow,Paris,Lyon; 1
+Who is known as the "Queen of Soul"?;Aretha Franklin,Whitney Houston,Beyoncé,Adele; 1
+In which year did Albert Einstein become a naturalized citizen of the United States?;1940,1921,1935,1955; 1
+What is the nationality of physicist Marie Curie?;Polish,French,Russian,Czech; 2
+Who is the lead actor in the film "Schindler's List"?;Liam Neeson,Ben Kingsley,Ralph Fiennes,Tom Hanks; 1
+In which year did Mother Teresa receive the Nobel Peace Prize?;1979,1985,1991,2000; 1
+Who is the lead actor in the film "Pulp Fiction"?;John Travolta,Samuel L. Jackson,Bruce Willis,Uma Thurman; 1
+What is the birthplace of Isaac Newton?;Woolsthorpe,London,Cambridge,Oxford; 1
+Who is the lead actor in the film "Fight Club"?;Brad Pitt,Edward Norton,Jared Leto,Morgan Freeman; 1
+In which year did Nelson Mandela become the President of South Africa?;1994,1985,2000,2010; 1
+Who is known as the "Father of Modern Chemistry"?;Antoine Lavoisier,Dmitri Mendeleev,Robert Boyle,John Dalton; 1
+What is the real name of the rapper Kanye West?;Kanye West,Shawn Carter,Aubrey Graham,Marshall Mathers; 1
+Who was the first woman to win a Nobel Prize in Physiology or Medicine?;Gerty Cori,Barbara McClintock,Marie Curie,Rosalind Franklin; 4
+In which year did Mahatma Gandhi lead the Salt March in India?;1930,1925,1942,1951; 1
+Who is the lead actor in the film "The Silence of the Lambs"?;Anthony Hopkins,Jodie Foster,Julianne Moore,Brad Pitt; 1
+What is the birthplace of Sir Isaac Newton?;Woolsthorpe,London,Cambridge,Oxford; 1
+Who is known as the "Queen of Pop"?;Madonna,Beyoncé,Lady Gaga,Taylor Swift; 1
+In which year did Vincent van Gogh pass away?;1890,1905,1918,1932; 1
+Who is the lead actor in the film "The Matrix"?;Keanu Reeves,Laurence Fishburne,Hugo Weaving,Carrie-Anne Moss; 1
+What is the real name of the rapper Jay-Z?;Shawn Carter,Kanye West,Drake,Kendrick Lamar; 1
+Who is known as the "Queen of Country Music"?;Dolly Parton,Shania Twain,Reba McEntire,Taylor Swift; 1
+In which year did Albert Einstein receive the Nobel Prize in Physics?;1921,1915,1935,1943; 1
+Who is the lead actor in the film "Braveheart"?;Mel Gibson,Sophie Marceau,Patrick McGoohan,Angus Macfadyen; 1
+What is the birthplace of Marie Curie?;Warsaw,Krakow,Paris,Lyon; 1
+Who is known as the "Father of Modern Physics"?;Albert Einstein,Isaac Newton,Niels Bohr,Max Planck; 4
+In which year did Martin Luther King Jr. deliver his famous "I Have a Dream" speech?;1963,1955,1968,1971; 1
+Who is the lead actor in the film "The Dark Knight"?;Christian Bale,Heath Ledger,Aaron Eckhart,Maggie Gyllenhaal; 1
