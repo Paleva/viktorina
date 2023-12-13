@@ -12,6 +12,8 @@
 #include "lib/console.c"
 #include "lib/leader.h"
 #include "lib/leader.c"
+#include "lib/inputs.h"
+#include "lib/inputs.c"
 #include <sys/time.h>
 #define MAX_LEN 256
 
@@ -37,7 +39,9 @@ int main(){
     struct A *headQuestion = NULL;
     FILE *file;
 
-    pasirinkimas = startingScreen(pasirinkimas);
+    startingScreen();
+    
+    pasirinkimas = isSingleDigit(); 
     file = fopen(temos[pasirinkimas-1], "r");
 
     if(file == NULL){
@@ -55,20 +59,19 @@ int main(){
         i++;
     }
     fclose(file);
-
-    struct A *current = headQuestion;
     char atsak;
+    struct A *current = headQuestion;
     printf("\033[2J\033[H");
     for(i=0; i < 20; i++){
         
         printQuestion(current, i);
         gettimeofday(&start, NULL);
-        scanf(" %c", &atsak);
-        while(isdigit(atsak) == 0){
-            printf("Wrong input!\n");
-            scanf(" %c", &atsak);
-        }
-        ats = atsak - '0';
+        ats = isSingleDigitAns();
+        // scanf(" %c", &atsak);
+        // while(isdigit(atsak) == 0){
+        //     printf("Wrong input!\n");
+        //     scanf(" %c", &atsak);
+        // }
         seconds += isRight(ats, current);
         seconds += timeCounter(start);
 

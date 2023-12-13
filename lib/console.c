@@ -32,14 +32,12 @@ void printQuestion(struct A *current, int i){
         j++;
     }
     printf("\n");
-
-    printf("Enter the answer: "); 
 }
 
 
 //void Print_Winners();
-int startingScreen(int ats){
-    char input;
+void startingScreen(){
+
     printf("\033[2J\033[H");
     printf("\033[0;36m");
     printf("████████╗██████╗░██╗██╗░░░██╗██╗░█████╗░    ░██████╗░██╗░░░██╗██╗███████╗\n");
@@ -65,15 +63,9 @@ int startingScreen(int ats){
     printf("%d - Art\n",4);
     printf("%d - People\n",5);
     printf("\033[0;34m");
-    printf("Select a subject by entering a number:\033[1;37m ");
-    scanf(" %c", &input);
-    while(isdigit(input) == 0){
-        printf("\033[0;36mPick a topic from the list by entering the number besides it:\033[1;37m ");
-        scanf(" %c", &input);
-    }
-    ats = input - '0';
+    // printf("Select a subject by entering a number:\033[1;37m ");
     printf("\033[0;36m");
-    return ats;
+    
 
 }
 

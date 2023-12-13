@@ -4,6 +4,6 @@
 
 void printLeader(struct Lenta *[], int eilutes, char [], int);
 void printQuestion(struct A *current, int i);
-int startingScreen(int pasirinkimas);
+void startingScreen();
 
 #endif
