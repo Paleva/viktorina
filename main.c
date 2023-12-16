@@ -41,7 +41,7 @@ int main(){
 
     startingScreen();
     
-    pasirinkimas = isSingleDigit(); 
+    pasirinkimas = isSingleDigitChoice(); 
     file = fopen(temos[pasirinkimas-1], "r");
 
     if(file == NULL){
@@ -59,19 +59,15 @@ int main(){
         i++;
     }
     fclose(file);
-    char atsak;
+
     struct A *current = headQuestion;
     printf("\033[2J\033[H");
+
     for(i=0; i < 20; i++){
         
         printQuestion(current, i);
         gettimeofday(&start, NULL);
         ats = isSingleDigitAns();
-        // scanf(" %c", &atsak);
-        // while(isdigit(atsak) == 0){
-        //     printf("Wrong input!\n");
-        //     scanf(" %c", &atsak);
-        // }
         seconds += isRight(ats, current);
         seconds += timeCounter(start);
 
@@ -84,8 +80,12 @@ int main(){
     struct Lenta Board[10];
     struct Lenta *ptrs[10];
 
+    for(i = 0; i < 10; i++){
+        ptrs[i] = &Board[i];
+    }
+
     char vardas[15];
-    
+
     printf("Enter your nickname: ");
     scanf("%s", vardas);
         
@@ -93,15 +93,10 @@ int main(){
         printf("Your choice of nickname is too long (over 15 character)\n Enter your nickname: ");
         scanf("%s", vardas);
     }
-    
-    for(i = 0; i < 10; i++){
-        ptrs[i] = &Board[i];
-    }
 
     ptrs[0]->time = seconds;
     ptrs[0]->vardas = (char*)malloc(strlen(vardas)+1);
     strcpy(ptrs[0]->vardas, vardas);
-
 
     int eilutes = readCurrentLeaderboard(ptrs, pasirinkimas);
 
@@ -109,8 +104,7 @@ int main(){
     exportNewLeaderboard(ptrs, eilutes, pasirinkimas); 
     printLeader(ptrs, eilutes, vardas, pasirinkimas);
 
-    struct Lenta *BoardPtr = &Board[1];
-    BoardPtr = &Board[0];
+    struct Lenta *BoardPtr = &Board[0];
     freeBoard(BoardPtr, eilutes);
 
     printf("Your score: %.2f\n", seconds);
