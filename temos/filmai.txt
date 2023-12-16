@@ -1,22 +1,22 @@
-Who directed the classic film "Citizen Kane" (1941)?;Alfred Hitchcock,Stanley Kubrick,Orson Welles,Steven Spielberg; 3
-What 1994 film won the Academy Award for Best Picture?;Forrest Gump,Pulp Fiction,The Shawshank Redemption,The Lion King; 1
-Who played the lead role in the 1990 film "Pretty Woman"?;Julia Roberts,Sandra Bullock,Demi Moore,Meg Ryan; 1
-In the movie "The Matrix" (1999), what is the real name of Keanu Reeves' character?;Neo,Morpheus,Trinity,Agent Smith; 1
+Who directed the classic film "Citizen Kane" (1941)?;Alfred Hitchcock,Orson Welles,Stanley Kubrick,Steven Spielberg; 2
+What 1994 film won the Academy Award for Best Picture?;Pulp Fiction,Forrest Gump,The Shawshank Redemption,The Lion King; 2
+Who played the lead role in the 1990 film "Pretty Woman"?;Sandra Bullock,Julia Roberts,Demi Moore,Meg Ryan; 2
+In the movie "The Matrix" (1999), what is the real name of Keanu Reeves' character?;Morpheus,Neo,Trinity,Agent Smith; 2
 What animated film features a character named Simba?;Finding Nemo,The Lion King,Madagascar,Shrek; 2
-Who won the Academy Award for Best Actor for his role in "The Revenant" (2015)?;Leonardo DiCaprio,Matthew McConaughey,Brad Pitt,Joaquin Phoenix; 1
-Which 1975 Steven Spielberg film is about a great white shark terrorizing a small resort town?;Jaws,E.T. the Extra-Terrestrial,Close Encounters of the Third Kind,Raiders of the Lost Ark; 1
-Who directed the 1994 film "Pulp Fiction"?;Quentin Tarantino,Martin Scorsese,Christopher Nolan,Coen Brothers; 1
-In the film "The Dark Knight" (2008), who played the role of the Joker?;Heath Ledger,Jack Nicholson,Joaquin Phoenix,Jared Leto; 1
-Which actress starred as Elle Woods in the 2001 comedy film "Legally Blonde"?;Reese Witherspoon,Julia Roberts,Cameron Diaz,Natalie Portman; 1
-In the movie "Casablanca" (1942), who played the lead role of Rick Blaine?;Humphrey Bogart,Clark Gable,Cary Grant,James Stewart; 1
-Who directed the science fiction film "Blade Runner" (1982)?;Ridley Scott,James Cameron,Steven Spielberg,George Lucas; 1
-What is the name of the fictional African country in the film "Black Panther" (2018)?;Wakanda,Zamunda,Genovia,Latveria; 1
-Who played the iconic role of Tony Montana in the 1983 film "Scarface"?;Al Pacino,Robert De Niro,Joe Pesci,Marlon Brando; 1
-In the movie "The Wizard of Oz" (1939), what color is the Wicked Witch of the West's skin?;Green,Blue,Red,Yellow; 1
-Which actor starred as the title character in the 2008 film "Iron Man"?;Robert Downey Jr.,Chris Hemsworth,Chris Evans,Mark Ruffalo; 1
-Who directed the 1991 film "Silence of the Lambs"?;Jonathan Demme,David Fincher,Quentin Tarantino,Tim Burton; 1
-In the film "The Shining" (1980), who played the character Jack Torrance?;Jack Nicholson,Robert De Niro,Anthony Hopkins,Christopher Walken; 1
-What is the name of the fictional wizarding school in the "Harry Potter" film series?;Hogwarts,Beauxbatons,Durmstrang,Ilvermorny; 1
+Who won the Academy Award for Best Actor for his role in "The Revenant" (2015)?;Matthew McConaughey,Leonardo DiCaprio,Brad Pitt,Joaquin Phoenix; 2
+Which 1975 Steven Spielberg film is about a great white shark terrorizing a small resort town?;E.T. the Extra-Terrestrial,Jaws,Close Encounters of the Third Kind,Raiders of the Lost Ark; 2
+Who directed the 1994 film "Pulp Fiction"?;Martin Scorsese,Quentin Tarantino,Christopher Nolan,Coen Brothers; 2
+In the film "The Dark Knight" (2008), who played the role of the Joker?;Jack Nicholson,Heath Ledger,Joaquin Phoenix,Jared Leto; 2
+Which actress starred as Elle Woods in the 2001 comedy film "Legally Blonde"?;Julia Roberts,Reese Witherspoon,Cameron Diaz,Natalie Portman; 2
+In the movie "Casablanca" (1942), who played the lead role of Rick Blaine?;Clark Gable,Humphrey Bogart,Cary Grant,James Stewart; 2
+Who directed the science fiction film "Blade Runner" (1982)?;James Cameron,Ridley Scott,Steven Spielberg,George Lucas; 2
+What is the name of the fictional African country in the film "Black Panther" (2018)?;Zamunda,Wakanda,Genovia,Latveria; 2
+Who played the iconic role of Tony Montana in the 1983 film "Scarface"?;Robert De Niro,Al Pacino,Joe Pesci,Marlon Brando; 2
+In the movie "The Wizard of Oz" (1939), what color is the Wicked Witch of the West's skin?;Blue,Green,Red,Yellow; 2
+Which actor starred as the title character in the 2008 film "Iron Man"?;Chris Hemsworth,Robert Downey Jr.,Chris Evans,Mark Ruffalo; 2
+Who directed the 1991 film "Silence of the Lambs"?;David Fincher,Jonathan Demme,Quentin Tarantino,Tim Burton; 2
+In the film "The Shining" (1980), who played the character Jack Torrance?;Robert De Niro,Jack Nicholson,Anthony Hopkins,Christopher Walken; 2
+What is the name of the fictional wizarding school in the "Harry Potter" film series?;Beauxbatons,Hogwarts,Durmstrang,Ilvermorny; 2
 Who played the lead role in the 1999 film "The Sixth Sense"?;Bruce Willis,Haley Joel Osment,Samuel L. Jackson,Toni Collette; 1
 In the movie "The Godfather" (1972), who played the character Michael Corleone?;Al Pacino,Marlon Brando,James Caan,Robert Duvall; 1
 Who directed the 2017 film "Get Out"?;Jordan Peele,Spike Lee,Barry Jenkins,Ava DuVernay; 1
@@ -36,38 +36,38 @@ In the film "The Social Network" (2010), who played the role of Mark Zuckerberg?
 Who played the role of Aragorn in the "Lord of the Rings" film trilogy?;Viggo Mortensen,Orlando Bloom,Ian McKellen,Sean Bean; 1
 Which 1982 science fiction film is set in a dystopian Los Angeles in the year 2019?;Blade Runner,The Terminator,E.T. the Extra-Terrestrial,Tron; 1
 Who directed the 2014 film "Birdman or (The Unexpected Virtue of Ignorance)"?;Alejandro G. Iñárritu,Damien Chazelle,Christopher Nolan,Wes Anderson; 1
-In the film "The Big Lebowski" (1998), what is the nickname of Jeff Bridges' character?;The Dude,The Boss,The Kingpin,The Stranger; 1
-What is the name of the alien in the film "E.T. the Extra-Terrestrial" (1982)?;E.T.,Alf,Yoda,Xenomorph; 1
-Who directed the 1979 war film "Apocalypse Now"?;Francis Ford Coppola,Oliver Stone,Stanley Kubrick,Martin Scorsese; 1
-In the film "A Clockwork Orange" (1971), who played the lead role of Alex DeLarge?;Malcolm McDowell,Jack Nicholson,Robert De Niro,Heath Ledger; 1
-Which actress starred as Katniss Everdeen in "The Hunger Games" film series?;Jennifer Lawrence,Emma Stone,Scarlett Johansson,Natalie Portman; 1
-What is the name of the fictional African country in the film "Coming to America" (1988)?;Zamunda,Wakanda,Genovia,Elbonia; 1
-Who played the lead role in the 1995 film "Braveheart"?;Mel Gibson,Russell Crowe,Liam Neeson,Sean Connery; 1
-In the film "The Departed" (2006), who played the role of Billy Costigan?;Leonardo DiCaprio,Matt Damon,Mark Wahlberg,Jack Nicholson; 1
-Who directed the 1984 science fiction film "The Terminator"?;James Cameron,Ridley Scott,Steven Spielberg,George Lucas; 1
-In the movie "Fight Club" (1999), who played the character Tyler Durden?;Brad Pitt,Edward Norton,Jared Leto,Christian Bale; 1
-What is the title of the 1985 film directed by John Hughes about a day of detention in a high school?;The Breakfast Club,Ferris Bueller's Day Off,Sixteen Candles,Pretty in Pink; 2
-Who won the Academy Award for Best Supporting Actor for his role in "Good Will Hunting" (1997)?;Robin Williams,Matt Damon,Ben Affleck,Casey Affleck; 1
-In the film "The Matrix Reloaded" (2003), who is the character known as "The Oracle"?;Gloria Foster,Carrie-Anne Moss,Jada Pinkett Smith,Monica Bellucci; 1
-Who directed the 2010 film "The King's Speech"?;Tom Hooper,David Fincher,Christopher Nolan,Darren Aronofsky; 1
-What 2001 film follows the story of a young boy who discovers he is a wizard and attends Hogwarts School of Witchcraft and Wizardry?;Harry Potter and the Sorcerer's Stone,The Chamber of Secrets,The Prisoner of Azkaban,The Goblet of Fire; 1
-Who played the role of Elle Woods in the film "Legally Blonde" (2001)?;Reese Witherspoon,Cameron Diaz,Jennifer Aniston,Kate Hudson; 1
-In the movie "The Usual Suspects" (1995), who won the Academy Award for Best Supporting Actor for his role as Verbal Kint?;Kevin Spacey,Benicio del Toro,Kevin Pollak,Stephen Baldwin; 1
-Who directed the 1971 film "A Clockwork Orange"?;Stanley Kubrick,Francis Ford Coppola,Martin Scorsese,Alfred Hitchcock; 1
-In the film "The Grand Budapest Hotel" (2014), who played the character Gustave H.?;Ralph Fiennes,Bill Murray,Jeff Goldblum,Willem Dafoe; 1
-What is the title of the 1999 animated film about a young Chinese woman who disguises herself as a man to take her father's place in the army?;Mulan,Pocahontas,The Little Mermaid,Beauty and the Beast; 1
-Who played the role of Maximus Decimus Meridius in the 2000 film "Gladiator"?;Russell Crowe,Joaquin Phoenix,Gerard Butler,Brad Pitt; 1
-Which actress starred as Hermione Granger in the "Harry Potter" film series?;Emma Watson,Emma Stone,Emma Roberts,Emma Thompson; 1
-In the film "The Truman Show" (1998), who played the lead role of Truman Burbank?;Jim Carrey,Robin Williams,Tom Hanks,Will Smith; 1
-Who directed the 1989 film "Dead Poets Society"?;Peter Weir,Gus Van Sant,Ron Howard,Steven Spielberg; 1
-In the movie "The Dark Knight Rises" (2012), who played the role of Bane?;Tom Hardy,Heath Ledger,Joaquin Phoenix,Jared Leto; 1
-What is the name of the fictional wizarding school in the "Harry Potter" film series?;Hogwarts,Beauxbatons,Durmstrang,Ilvermorny; 1
-Who played the lead role in the 1985 film "Back to the Future"?;Michael J. Fox,Christopher Lloyd,Crispin Glover,Lea Thompson; 1
-In the film "A Beautiful Mind" (2001), who played the character John Nash?;Russell Crowe,Ed Harris,Paul Bettany,Jennifer Connelly; 1
-Who directed the 2012 film "Django Unchained"?;Quentin Tarantino,Christopher Nolan,Martin Scorsese,David Fincher; 1
-In the movie "Schindler's List" (1993), who played the role of Oskar Schindler?;Liam Neeson,Ralph Fiennes,Ben Kingsley,Steven Spielberg; 1
-What 1990 film stars Johnny Depp as the character Edward Scissorhands?;Edward Scissorhands,Beetlejuice,The Nightmare Before Christmas,Sleepy Hollow; 1
-Who won the Academy Award for Best Actress for her role in "Black Swan" (2010)?;Natalie Portman,Mila Kunis,Keira Knightley,Anne Hathaway; 1
-In the film "The Green Mile" (1999), who played the role of John Coffey?;Michael Clarke Duncan,Tom Hanks,Morgan Freeman,Samuel L. Jackson; 1
-Who directed the 2008 film "Slumdog Millionaire"?;Danny Boyle,David Fincher,Christopher Nolan,Baz Luhrmann; 1
-In the movie "The Big Lebowski" (1998), what is the nickname of Jeff Bridges' character?;The Dude,The Boss,The Kingpin,The Stranger; 1
+In the film "The Big Lebowski" (1998), what is the nickname of Jeff Bridges' character?;The Boss,The Kingpin,The Dude,The Stranger; 3
+What is the name of the alien in the film "E.T. the Extra-Terrestrial" (1982)?;Alf,Yoda,E.T.,Xenomorph; 3
+Who directed the 1979 war film "Apocalypse Now"?;Oliver Stone,Stanley Kubrick,Francis Ford Coppola,Martin Scorsese; 3
+In the film "A Clockwork Orange" (1971), who played the lead role of Alex DeLarge?;Jack Nicholson,Robert De Niro,Malcolm McDowell,Heath Ledger; 3
+Which actress starred as Katniss Everdeen in "The Hunger Games" film series?;Emma Stone,Scarlett Johansson,Jennifer Lawrence,Natalie Portman; 3
+What is the name of the fictional African country in the film "Coming to America" (1988)?;Wakanda,Genovia,Zamunda,Elbonia; 3
+Who played the lead role in the 1995 film "Braveheart"?;Russell Crowe,Liam Neeson,Mel Gibson,Sean Connery; 3
+In the film "The Departed" (2006), who played the role of Billy Costigan?;Matt Damon,Mark Wahlberg,Leonardo DiCaprio,Jack Nicholson; 3
+Who directed the 1984 science fiction film "The Terminator"?;Ridley Scott,Steven Spielberg,James Cameron,George Lucas; 3
+In the movie "Fight Club" (1999), who played the character Tyler Durden?;Edward Norton,Jared Leto,Brad Pitt,Christian Bale; 3
+What is the title of the 1985 film directed by John Hughes about a day of detention in a high school?;The Breakfast Club,Sixteen Candles,Ferris Bueller's Day Off,Pretty in Pink; 3
+Who won the Academy Award for Best Supporting Actor for his role in "Good Will Hunting" (1997)?;Matt Damon,Ben Affleck,Robin Williams,Casey Affleck; 3
+In the film "The Matrix Reloaded" (2003), who is the character known as "The Oracle"?;Carrie-Anne Moss,Jada Pinkett Smith,Gloria Foster,Monica Bellucci; 3
+Who directed the 2010 film "The King's Speech"?;David Fincher,Christopher Nolan,Tom Hooper,Darren Aronofsky; 3
+What 2001 film follows the story of a young boy who discovers he is a wizard and attends Hogwarts School of Witchcraft and Wizardry?;The Chamber of Secrets,The Prisoner of Azkaban,Harry Potter and the Sorcerer's Stone,The Goblet of Fire; 3
+Who played the role of Elle Woods in the film "Legally Blonde" (2001)?;Cameron Diaz,Jennifer Aniston,Reese Witherspoon,Kate Hudson; 3
+In the movie "The Usual Suspects" (1995), who won the Academy Award for Best Supporting Actor for his role as Verbal Kint?;Benicio del Toro,Kevin Pollak,Kevin Spacey,Stephen Baldwin; 3
+Who directed the 1971 film "A Clockwork Orange"?;Francis Ford Coppola,Stanley Kubrick,Alfred Hitchcock,Martin Scorsese; 4
+In the film "The Grand Budapest Hotel" (2014), who played the character Gustave H.?;Bill Murray,Jeff Goldblum,Willem Dafoe,Ralph Fiennes; 4
+What is the title of the 1999 animated film about a young Chinese woman who disguises herself as a man to take her father's place in the army?;Pocahontas,The Little Mermaid,Beauty and the Beast,Mulan; 4
+Who played the role of Maximus Decimus Meridius in the 2000 film "Gladiator"?;Joaquin Phoenix,Gerard Butler,Brad Pitt,Russell Crowe; 4
+Which actress starred as Hermione Granger in the "Harry Potter" film series?;Emma Stone,Emma Roberts,Emma Thompson,Emma Watson; 4
+In the film "The Truman Show" (1998), who played the lead role of Truman Burbank?;Robin Williams,Tom Hanks,Will Smith,Jim Carrey; 4
+Who directed the 1989 film "Dead Poets Society"?;Gus Van Sant,Ron Howard,Steven Spielberg,Peter Weir; 4
+In the movie "The Dark Knight Rises" (2012), who played the role of Bane?;Heath Ledger,Joaquin Phoenix,Jared Leto,Tom Hardy; 4
+What is the name of the fictional wizarding school in the "Harry Potter" film series?;Beauxbatons,Durmstrang,Ilvermorny,Hogwarts; 4
+Who played the lead role in the 1985 film "Back to the Future"?;Christopher Lloyd,Crispin Glover,Lea Thompson,Michael J. Fox; 4
+In the film "A Beautiful Mind" (2001), who played the character John Nash?;Ed Harris,Paul Bettany,Jennifer Connelly,Russell Crowe; 4
+Who directed the 2012 film "Django Unchained"?;Christopher Nolan,Martin Scorsese,David Fincher,Quentin Tarantino; 4
+In the movie "Schindler's List" (1993), who played the role of Oskar Schindler?;Ralph Fiennes,Ben Kingsley,Steven Spielberg,Liam Neeson; 4
+What 1990 film stars Johnny Depp as the character Edward Scissorhands?;Beetlejuice,The Nightmare Before Christmas,Sleepy Hollow,Edward Scissorhands; 4
+Who won the Academy Award for Best Actress for her role in "Black Swan" (2010)?;Mila Kunis,Keira Knightley,Anne Hathaway,Natalie Portman; 4
+In the film "The Green Mile" (1999), who played the role of John Coffey?;Tom Hanks,Michael Clarke Duncan,Samuel L. Jackson,Morgan Freeman; 4
+Who directed the 2008 film "Slumdog Millionaire"?;David Fincher,Christopher Nolan,Baz Luhrmann,Danny Boyle,; 4
+In the movie "The Big Lebowski" (1998), what is the nickname of Jeff Bridges' character?;The Boss,The Kingpin,The Stranger,The Dude; 4
