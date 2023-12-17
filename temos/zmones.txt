@@ -1,20 +1,20 @@
-Who was the first woman to win a Nobel Prize in Physics?;Marie Curie,Lise Meitner,Dorothy Crowfoot Hodgkin,Rosalind Franklin; 2
-Which aviator was the first woman to fly solo across the Atlantic Ocean?;Amelia Earhart,Bessie Coleman,Harriet Quimby,Jacqueline Cochran; 1
-Who is known as the "Father of Modern Physics"?;Albert Einstein,Isaac Newton,Niels Bohr,Max Planck; 4
-What is the real name of the rapper Eminem?;Marshall Mathers,Curtis Jackson,Shawn Carter,Calvin Broadus; 1
-Who was the first woman to win a Nobel Prize in Chemistry?;Marie Curie,Dorothy Crowfoot Hodgkin,Barbara McClintock,Linus Pauling; 2
-What is the nationality of tennis player Novak Djokovic?;Serbian,Spanish,Swiss,Croatian; 1
-Who wrote the novel "To Kill a Mockingbird"?;Harper Lee,J.D. Salinger,F. Scott Fitzgerald,Ernest Hemingway; 1
-What is the birthplace of Nelson Mandela?;Johannesburg,Cape Town,Pretoria,Qunu; 4
-Who is known as the "King of Rock and Roll"?;Elvis Presley,Chuck Berry,Little Richard,Buddy Holly; 1
-Who is the lead singer of the band Queen?;Freddie Mercury,Mick Jagger,Bono,David Bowie; 1
-In which year did Rosa Parks refuse to give up her bus seat,sparking the Montgomery Bus Boycott?;1955,1963,1948,1968; 1
-What is the real name of the rapper Jay-Z?;Shawn Carter,Kanye West,Drake,Kendrick Lamar; 1
-Who was the first woman to win a Nobel Prize in Medicine?;Gerty Cori,Barbara McClintock,Marie Curie,Rosalind Franklin; 4
-What is the nationality of physicist Niels Bohr?;Danish,German,Swedish,Netherlands; 1
-Who is the lead singer of the band Aerosmith?;Steven Tyler,Axl Rose,Freddie Mercury,Bon Jovi; 1
-In which year did Charles Darwin publish "On the Origin of Species"?;1859,1875,1834,1901; 1
-Who is known as the "Queen of Jazz"?;Ella Fitzgerald,Billie Holiday,Nina Simone,Sarah Vaughan; 1
+Who was the first woman to win a Nobel Prize in Physics?;Marie Curie,Dorothy Crowfoot Hodgkin,Lise Meitner,Rosalind Franklin; 3
+Which aviator was the first woman to fly solo across the Atlantic Ocean?;Bessie Coleman,Harriet Quimby,Amelia Earhart,Jacqueline Cochran; 3
+Who is known as the "Father of Modern Physics"?;Albert Einstein,Isaac Newton,Max Planck,Niels Bohr; 3
+What is the real name of the rapper Eminem?;Curtis Jackson,Shawn Carter,Marshall Mathers,Calvin Broadus; 3
+Who was the first woman to win a Nobel Prize in Chemistry?;Marie Curie,Barbara McClintock,Dorothy Crowfoot Hodgkin,Linus Pauling; 3
+What is the nationality of tennis player Novak Djokovic?;Spanish,Swiss,Serbian,Croatian; 3
+Who wrote the novel "To Kill a Mockingbird"?;J.D. Salinger,F. Scott Fitzgerald,Harper Lee,Ernest Hemingway; 3
+What is the birthplace of Nelson Mandela?;Johannesburg,Cape Town,Qunu,Pretoria; 3
+Who is known as the "King of Rock and Roll"?;Chuck Berry,Little Richard,Elvis Presley,Buddy Holly; 3
+Who is the lead singer of the band Queen?;Mick Jagger,Bono,Freddie Mercury,David Bowie; 3
+In which year did Rosa Parks refuse to give up her bus seat, sparking the Montgomery Bus Boycott?;1963,1948,1955,1968; 3
+What is the real name of the rapper Jay-Z?;Kanye West,Drake,Shawn Carter,Kendrick Lamar; 3
+Who was the first woman to win a Nobel Prize in Medicine?;Gerty Cori,Barbara McClintock,Rosalind Franklin,Marie Curie; 3
+What is the nationality of physicist Niels Bohr?;German,Swedish,Danish,Netherlands; 3
+Who is the lead singer of the band Aerosmith?;Axl Rose,Freddie Mercury,Steven Tyler,Bon Jovi; 3
+In which year did Charles Darwin publish "On the Origin of Species"?;1875,1834,1859,1901; 3
+Who is known as the "Queen of Jazz"?;Billie Holiday,Nina Simone,Ella Fitzgerald,Sarah Vaughan; 3
 What is the birthplace of Alexander Graham Bell?;Edinburgh,London,Dublin,Brussels; 3
 Who was the first woman to win a Nobel Prize in Literature?;Gabriela Mistral,Pearl S. Buck,Selma Lagerlöf,Toni Morrison; 3
 What is the nationality of physicist Max Planck?;German,Austrian,Swiss,Dutch; 1
@@ -36,43 +36,43 @@ Who is the lead guitarist of the rock band Led Zeppelin?;Jimmy Page,Eric Clapton
 What is the birthplace of Albert Einstein?;Ulm,Berlin,Munich,Frankfurt; 1
 Who is known as the "Queen of Country Music"?;Dolly Parton,Shania Twain,Reba McEntire,Taylor Swift; 1
 In which year did Winston Churchill become the Prime Minister of the United Kingdom?;1940,1935,1952,1967; 1
-Who is the lead singer of the band Coldplay?;Chris Martin,Brandon Flowers,Thom Yorke,Eddie Vedder; 1
+Who is the lead singer of the band Coldplay?;Brandon Flowers,Chris Martin,Thom Yorke,Eddie Vedder; 2
 What is the birthplace of Queen Elizabeth II?;London,Edinburgh,Cardiff,Windsor; 4
-Who is the lead singer of the band Nirvana?;Kurt Cobain,Eddie Vedder,Chris Cornell,Dave Grohl; 1
-In which year did Sir Isaac Newton publish "Philosophiæ Naturalis Principia Mathematica"?;1687,1750,1610,1805; 1
-Who is the lead singer of the band The Rolling Stones?;Mick Jagger,Paul McCartney,Freddie Mercury,Roger Daltrey; 1
-What is the real name of the rapper Snoop Dogg?;Calvin Broadus,Andre Young,Shawn Carter,Marshall Mathers; 1
-Who is the creator of the television series "The Simpsons"?;Matt Groening,Seth MacFarlane,Trey Parker,Mike Judge; 1
-What is the nationality of physicist Max Planck?;German,Austrian,Swiss,Dutch; 1
+Who is the lead singer of the band Nirvana?;Eddie Vedder,Kurt Cobain,Chris Cornell,Dave Grohl; 2
+In which year did Sir Isaac Newton publish "Philosophiæ Naturalis Principia Mathematica"?;1750,1687,1610,1805; 2
+Who is the lead singer of the band The Rolling Stones?;Paul McCartney,Mick Jagger,Freddie Mercury,Roger Daltrey; 2
+What is the real name of the rapper Snoop Dogg?;Andre Young,Calvin Broadus,Shawn Carter,Marshall Mathers; 2
+Who is the creator of the television series "The Simpsons"?;Seth MacFarlane,Matt Groening,Trey Parker,Mike Judge; 2
+What is the nationality of physicist Max Planck?;Austrian,German,Swiss,Dutch; 2
 Who is known as the "Father of Computers"?;Alan Turing,Charles Babbage,Steve Jobs,Bill Gates; 2
-What is the birthplace of Leonardo da Vinci?;Vinci,Florence,Rome,Milan; 1
-Who is the lead actor in the film "The Shawshank Redemption"?;Tim Robbins,Morgan Freeman,Tom Hanks,Brad Pitt; 1
-What is the capital of Australia?;Canberra,Sydney,Melbourne,Perth; 1
-Who is the lead actor in the film "Gladiator"?;Russell Crowe,Joaquin Phoenix,Leonardo DiCaprio,Matt Damon; 1
-What is the birthplace of Marie Curie?;Warsaw,Krakow,Paris,Lyon; 1
-Who is known as the "Queen of Soul"?;Aretha Franklin,Whitney Houston,Beyoncé,Adele; 1
-In which year did Albert Einstein become a naturalized citizen of the United States?;1940,1921,1935,1955; 1
+What is the birthplace of Leonardo da Vinci?;Florence,Vinci,Rome,Milan; 2
+Who is the lead actor in the film "The Shawshank Redemption"?;Morgan Freeman,Tim Robbins,Tom Hanks,Brad Pitt; 2
+What is the capital of Australia?;Sydney,Canberra,Melbourne,Perth; 2
+Who is the lead actor in the film "Gladiator"?;Joaquin Phoenix,Russell Crowe,Leonardo DiCaprio,Matt Damon; 2
+What is the birthplace of Marie Curie?;Krakow,Warsaw,Paris,Lyon; 2
+Who is known as the "Queen of Soul"?;Whitney Houston,Aretha Franklin,Beyoncé,Adele; 2
+In which year did Albert Einstein become a naturalized citizen of the United States?;1921,1940,1935,1955; 2
 What is the nationality of physicist Marie Curie?;Polish,French,Russian,Czech; 2
-Who is the lead actor in the film "Schindler's List"?;Liam Neeson,Ben Kingsley,Ralph Fiennes,Tom Hanks; 1
-In which year did Mother Teresa receive the Nobel Peace Prize?;1979,1985,1991,2000; 1
-Who is the lead actor in the film "Pulp Fiction"?;John Travolta,Samuel L. Jackson,Bruce Willis,Uma Thurman; 1
-What is the birthplace of Isaac Newton?;Woolsthorpe,London,Cambridge,Oxford; 1
-Who is the lead actor in the film "Fight Club"?;Brad Pitt,Edward Norton,Jared Leto,Morgan Freeman; 1
-In which year did Nelson Mandela become the President of South Africa?;1994,1985,2000,2010; 1
-Who is known as the "Father of Modern Chemistry"?;Antoine Lavoisier,Dmitri Mendeleev,Robert Boyle,John Dalton; 1
-What is the real name of the rapper Kanye West?;Kanye West,Shawn Carter,Aubrey Graham,Marshall Mathers; 1
+Who is the lead actor in the film "Schindler's List"?;Ben Kingsley,Liam Neeson,Ralph Fiennes,Tom Hanks; 2
+In which year did Mother Teresa receive the Nobel Peace Prize?;1985,1979,1991,2000; 2
+Who is the lead actor in the film "Pulp Fiction"?;Samuel L. Jackson,John Travolta,Bruce Willis,Uma Thurman; 2
+What is the birthplace of Isaac Newton?;London,Woolsthorpe,Cambridge,Oxford; 2
+Who is the lead actor in the film "Fight Club"?;Jared Leto,Edward Norton,Morgan Freeman,Brad Pitt; 2
+In which year did Nelson Mandela become the President of South Africa?;1985,2000,2010,1994; 4
+Who is known as the "Father of Modern Chemistry"?;Dmitri Mendeleev,Robert Boyle,John Dalton,Antoine Lavoisier; 4
+What is the real name of the rapper Kanye West?;Shawn Carter,Aubrey Graham,Marshall Mathers,Kanye West; 4
 Who was the first woman to win a Nobel Prize in Physiology or Medicine?;Gerty Cori,Barbara McClintock,Marie Curie,Rosalind Franklin; 4
-In which year did Mahatma Gandhi lead the Salt March in India?;1930,1925,1942,1951; 1
-Who is the lead actor in the film "The Silence of the Lambs"?;Anthony Hopkins,Jodie Foster,Julianne Moore,Brad Pitt; 1
-What is the birthplace of Sir Isaac Newton?;Woolsthorpe,London,Cambridge,Oxford; 1
-Who is known as the "Queen of Pop"?;Madonna,Beyoncé,Lady Gaga,Taylor Swift; 1
-In which year did Vincent van Gogh pass away?;1890,1905,1918,1932; 1
-Who is the lead actor in the film "The Matrix"?;Keanu Reeves,Laurence Fishburne,Hugo Weaving,Carrie-Anne Moss; 1
-What is the real name of the rapper Jay-Z?;Shawn Carter,Kanye West,Drake,Kendrick Lamar; 1
-Who is known as the "Queen of Country Music"?;Dolly Parton,Shania Twain,Reba McEntire,Taylor Swift; 1
-In which year did Albert Einstein receive the Nobel Prize in Physics?;1921,1915,1935,1943; 1
-Who is the lead actor in the film "Braveheart"?;Mel Gibson,Sophie Marceau,Patrick McGoohan,Angus Macfadyen; 1
-What is the birthplace of Marie Curie?;Warsaw,Krakow,Paris,Lyon; 1
+In which year did Mahatma Gandhi lead the Salt March in India?;1925,1942,1951,1930; 4
+Who is the lead actor in the film "The Silence of the Lambs"?;Jodie Foster,Julianne Moore,Brad Pitt,Anthony Hopkins; 4
+What is the birthplace of Sir Isaac Newton?;London,Cambridge,Oxford,Woolsthorpe; 4
+Who is known as the "Queen of Pop"?;Beyoncé,Lady Gaga,Taylor Swift,Madonna; 4
+In which year did Vincent van Gogh pass away?;1905,1918,1932,1890; 4
+Who is the lead actor in the film "The Matrix"?;Laurence Fishburne,Hugo Weaving,Carrie-Anne Moss,Keanu Reeves; 4
+What is the real name of the rapper Jay-Z?;Kanye West,Drake,Kendrick Lamar,Shawn Carter; 4
+Who is known as the "Queen of Country Music"?;Shania Twain,Reba McEntire,Taylor Swift,Dolly Parton; 4
+In which year did Albert Einstein receive the Nobel Prize in Physics?;1915,1935,1943,1921,; 4
+Who is the lead actor in the film "Braveheart"?;Sophie Marceau,Patrick McGoohan,Angus Macfadyen,Mel Gibson; 4
+What is the birthplace of Marie Curie?;Krakow,Paris,Lyon,Warsaw; 4
 Who is known as the "Father of Modern Physics"?;Albert Einstein,Isaac Newton,Niels Bohr,Max Planck; 4
-In which year did Martin Luther King Jr. deliver his famous "I Have a Dream" speech?;1963,1955,1968,1971; 1
-Who is the lead actor in the film "The Dark Knight"?;Christian Bale,Heath Ledger,Aaron Eckhart,Maggie Gyllenhaal; 1
+In which year did Martin Luther King Jr. deliver his famous "I Have a Dream" speech?;1955,1968,1971,1963; 4
+Who is the lead actor in the film "The Dark Knight"?;Heath Ledger,Aaron Eckhart,Maggie Gyllenhaal,Christian Bale; 4

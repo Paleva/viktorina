@@ -1,23 +1,23 @@
 Who is known as the "Queen of Pop"?;Michael Jackson,Beyoncé,Elton John,Madonna; 4
-In which year did The Beatles release their album "Sgt. Pepper's Lonely Hearts Club Band"?;1969,1965,1971,1967; 1
+In which year did The Beatles release their album "Sgt. Pepper's Lonely Hearts Club Band"?;1965,1971,1967,1969; 4
 What is the real name of the rapper Eminem?;Shawn Carter,Luther Campbell,Calvin Broadus,Marshall Mathers; 4
-Which rock band's lead singer is Mick Jagger?;The Who,U2,The Rolling Stones,The Beatles; 3
+Which rock band's lead singer is Mick Jagger?;The Who,U2,The Beatles,The Rolling Stones; 4
 Who is the lead vocalist of the band Queen?;Robert Plant,Bono,David Bowie,Freddie Mercury; 4
-In which year did Michael Jackson release his album "Thriller"?;1985,1979,1987,1982; 1
+In which year did Michael Jackson release his album "Thriller"?;1979,1987,1982,1985; 4
 Which genre of music is characterized by its improvisational and syncopated rhythms?;Blues,Country,Rock,Jazz; 4
 What is the name of Taylor Swift's first studio album?;Red,Speak Now,Fearless,Taylor Swift; 4
 Who is the lead singer of the band U2?;Sting,Chris Martin,Thom Yorke,Bono; 4
-In which country did the EDM duo Daft Punk originate?;United States,United Kingdom,France,Sweden; 3
+In which country did the EDM duo Daft Punk originate?;United States,United Kingdom,Sweden,France; 4
 What is the real name of the rapper Snoop Dogg?;Andre Young,Shawn Carter,Marshall Mathers,Calvin Broadus; 4
-Which female artist released the album "Back to Black"?;Rihanna,Katy Perry,Amy Winehouse,Adele; 3
+Which female artist released the album "Back to Black"?;Rihanna,Katy Perry,Adele,Amy Winehouse; 4
 Who composed the famous musical "The Phantom of the Opera"?;Lin-Manuel Miranda,Alan Menken,Stephen Sondheim,Andrew Lloyd Webber; 4
 Which rock band released the album "The Dark Side of the Moon"?;The Eagles,Led Zeppelin,The Doors,Pink Floyd; 4
-What is the real name of the rapper Jay-Z?;Andre Young,Shawn Carter,Marshall Mathers,Calvin Broadus; 2
-In which country did the band ABBA originate?;Sweden,United Kingdom,Germany,Norway; 1
-Which artist is known for the album "Rumours"?;Fleetwood Mac,The Eagles,The Rolling Stones,Aerosmith; 1
-Who is the lead singer of the band Coldplay?;Chris Martin,Bono,Thom Yorke,Freddie Mercury; 1
+What is the real name of the rapper Jay-Z?;Andre Young,Marshall Mathers,Calvin Broadus,Shawn Carter; 4
+In which country did the band ABBA originate?;United Kingdom,Germany,Norway,Sweden; 4
+Which artist is known for the album "Rumours"?;The Eagles,The Rolling Stones,Aerosmith,Fleetwood Mac; 4
+Who is the lead singer of the band Coldplay?;Bono,Thom Yorke,Freddie Mercury,Chris Martin; 4
 What is the real name of the rapper Kanye West?;Calvin Broadus,Andre Young,Shawn Carter,Kanye West; 4
-In which year did Whitney Houston release her debut album?;1985,1987,1983,1980; 3
+In which year did Whitney Houston release her debut album?;1985,1987,1980,1983; 4
 Which artist is known for the hit song "Shape of You"?;Ed Sheeran,Sam Smith,Bruno Mars,Justin Bieber; 1
 Who is the guitarist for the rock band Queen?;Brian May,Jimmy Page,Eric Clapton,Slash; 1
 What is the real name of the rapper Drake?;Aubrey Graham,Shawn Carter,Calvin Broadus,Marshall Mathers; 1
@@ -35,40 +35,40 @@ In which year did Beyoncé release her album "Lemonade"?;2016,2018,2014,2012; 1
 Which artist is known for the hit song "Havana"?;Camila Cabello,Ariana Grande,Taylor Swift,Katy Perry; 1
 Who is the lead vocalist of the band The Who?;Roger Daltrey,Robert Plant,Freddie Mercury,Mick Jagger; 1
 In which country did the singer Shakira originate?;Colombia,Spain,Mexico,Brazil; 1
-What is the real name of the rapper Cardi B?;Belcalis Almanzar,Onika Maraj,Amethyst Kelly,Trinity Marquez; 1
-Which artist is known for the album "The Wall"?;Pink Floyd,The Beatles,The Rolling Stones,U2; 1
-Who is the lead guitarist of the rock band AC/DC?;Angus Young,Eddie Van Halen,Jimmy Page,Slash; 1
-In which year did Lady Gaga release her debut album "The Fame"?;2008,2010,2006,2012; 1
-Which artist is known for the album "Legend"?;Bob Marley,Elvis Presley,John Lennon,Michael Jackson; 1
-Who is the lead singer of the band Aerosmith?;Steven Tyler,Freddie Mercury,David Bowie,Mick Jagger; 1
-In which country did the band ABBA win the Eurovision Song Contest?;Sweden,Norway,Denmark,Finland; 1
-What is the real name of the rapper Travis Scott?;Jacques Webster,Calvin Broadus,Shawn Carter,Marshall Mathers; 1
-Which artist is known for the album "Abbey Road"?;The Beatles,The Rolling Stones,The Who,U2; 1
-Who is the lead singer of the band Radiohead?;Thom Yorke,Chris Martin,Bono,David Bowie; 1
-In which year did Elton John release his album "Goodbye Yellow Brick Road"?;1973,1975,1971,1977; 1
-Which artist is known for the song "Purple Haze"?;Jimi Hendrix,Eric Clapton,Jimmy Page,Stevie Ray Vaughan; 1
-Who is the lead singer of the band Fleetwood Mac?;Stevie Nicks,Christine McVie,Lindsey Buckingham,Mick Fleetwood; 1
-In which country did the band Queen record "Bohemian Rhapsody"?;United Kingdom,United States,Canada,Australia; 1
-What is the real name of the rapper Kendrick Lamar?;Kendrick Duckworth,Shawn Carter,Calvin Broadus,Marshall Mathers; 1
-Which artist is known for the hit song "Sweet Child o' Mine"?;Guns N' Roses,Aerosmith,AC/DC,Metallica; 1
-Who is the lead vocalist of the band Pink Floyd?;Roger Waters,David Gilmour,Syd Barrett,Richard Wright; 1
-In which year did Adele release her album "21"?;2011,2013,2009,2015; 1
-Which artist is known for the song "Like a Rolling Stone"?;Bob Dylan,The Rolling Stones,The Who,John Lennon; 1
-Who is the lead guitarist of the rock band Queen?;Brian May,Jimmy Page,Eric Clapton,Slash; 1
-In which country did the singer Shakira win the Grammy Award for Best Latin Pop Album?;Colombia,Spain,Mexico,Brazil; 1
-What is the real name of the rapper Lil Wayne?;Dwayne Carter,Shawn Carter,Calvin Broadus,Marshall Mathers; 1
-Which artist is known for the album "Graceland"?;Paul Simon,Bob Dylan,John Lennon,George Harrison; 1
-Who is the lead singer of the band Nirvana?;Kurt Cobain,Chris Cornell,Eddie Vedder,Dave Grohl; 1
-In which year did Bob Marley pass away?;1981,1983,1979,1985; 1
-Which artist is known for the song "Superstition"?;Stevie Wonder,Marvin Gaye,James Brown,Prince; 1
-Who is the lead guitarist of the rock band AC/DC?;Angus Young,Eddie Van Halen,Jimmy Page,Slash; 1
-In which country did the singer Ed Sheeran win the Grammy Award for Song of the Year?;United Kingdom,United States,Canada,Australia; 1
-What is the real name of the rapper Drake?;Aubrey Graham,Shawn Carter,Calvin Broadus,Marshall Mathers; 1
-Which artist is known for the album "The Joshua Tree"?;U2,The Rolling Stones,The Eagles,Led Zeppelin; 1
-Who is the lead vocalist of the band The Doors?;Jim Morrison,John Lennon,David Bowie,Mick Jagger; 1
-In which year did Rihanna release her debut album "Music of the Sun"?;2005,2007,2003,2009; 1
-Which artist is known for the song "Bohemian Rhapsody"?;Queen,The Beatles,The Rolling Stones,U2; 1
-Who is the lead guitarist of the rock band Guns N' Roses?;Slash,Angus Young,Eddie Van Halen,Jimmy Page; 1
-In which country did the singer Adele win the Grammy Award for Album of the Year?;United Kingdom,United States,Canada,Australia; 1
-What is the real name of the rapper Nicki Minaj?;Onika Maraj,Belcalis Almanzar,Amethyst Kelly,Trinity Marquez; 1
-Which artist is known for the album "A Night at the Opera"?;Queen,The Rolling Stones,The Beatles,U2; 1
+What is the real name of the rapper Cardi B?;Onika Maraj,Belcalis Almanzar,Amethyst Kelly,Trinity Marquez; 2
+Which artist is known for the album "The Wall"?;The Beatles,Pink Floyd,The Rolling Stones,U2; 2
+Who is the lead guitarist of the rock band AC/DC?;Eddie Van Halen,Angus Young,Jimmy Page,Slash; 2
+In which year did Lady Gaga release her debut album "The Fame"?;2010,2008,2006,2012; 2
+Which artist is known for the album "Legend"?;Elvis Presley,Bob Marley,John Lennon,Michael Jackson; 2
+Who is the lead singer of the band Aerosmith?;Freddie Mercury,Steven Tyler,David Bowie,Mick Jagger; 2
+In which country did the band ABBA win the Eurovision Song Contest?;Norway,Sweden,Denmark,Finland; 2
+What is the real name of the rapper Travis Scott?;Calvin Broadus,Jacques Webster,Shawn Carter,Marshall Mathers; 2
+Which artist is known for the album "Abbey Road"?;The Rolling Stones,The Beatles,The Who,U2; 2
+Who is the lead singer of the band Radiohead?;Chris Martin,Thom Yorke,Bono,David Bowie; 2
+In which year did Elton John release his album "Goodbye Yellow Brick Road"?;1975,1973,1971,1977; 2
+Which artist is known for the song "Purple Haze"?;Eric Clapton,Jimi Hendrix,Jimmy Page,Stevie Ray Vaughan; 2
+Who is the lead singer of the band Fleetwood Mac?;Christine McVie,Stevie Nicks,Lindsey Buckingham,Mick Fleetwood; 2
+In which country did the band Queen record "Bohemian Rhapsody"?;United States,United Kingdom,Canada,Australia; 2
+What is the real name of the rapper Kendrick Lamar?;Shawn Carter,Kendrick Duckworth,Calvin Broadus,Marshall Mathers; 2
+Which artist is known for the hit song "Sweet Child o' Mine"?;Aerosmith,Guns N' Roses,AC/DC,Metallica; 2
+Who is the lead vocalist of the band Pink Floyd?;David Gilmour,Roger Waters,Syd Barrett,Richard Wright; 2
+In which year did Adele release her album "21"?;2013,2011,2009,2015; 2
+Which artist is known for the song "Like a Rolling Stone"?;The Rolling Stones,Bob Dylan,The Who,John Lennon; 2
+Who is the lead guitarist of the rock band Queen?;Jimmy Page,Brian May,Eric Clapton,Slash; 2
+In which country did the singer Shakira win the Grammy Award for Best Latin Pop Album?;Spain,Colombia,Mexico,Brazil; 2
+What is the real name of the rapper Lil Wayne?;Shawn Carter,Calvin Broadus,Dwayne Carter,Marshall Mathers; 3
+Which artist is known for the album "Graceland"?;Bob Dylan,John Lennon,Paul Simon,George Harrison; 3
+Who is the lead singer of the band Nirvana?;Chris Cornell,Eddie Vedder,Kurt Cobain,Dave Grohl; 3
+In which year did Bob Marley pass away?;1983,1979,1981,1985; 3
+Which artist is known for the song "Superstition"?;Marvin Gaye,James Brown,Stevie Wonder,Prince; 3
+Who is the lead guitarist of the rock band AC/DC?;Eddie Van Halen,Jimmy Page,Angus Young,Slash; 3
+In which country did the singer Ed Sheeran win the Grammy Award for Song of the Year?;United States,Canada,United Kingdom,Australia; 3
+What is the real name of the rapper Drake?;Shawn Carter,Calvin Broadus,Aubrey Graham,Marshall Mathers; 3
+Which artist is known for the album "The Joshua Tree"?;The Rolling Stones,The Eagles,U2,Led Zeppelin; 3
+Who is the lead vocalist of the band The Doors?;John Lennon,David Bowie,Jim Morrison,Mick Jagger; 3
+In which year did Rihanna release her debut album "Music of the Sun"?;2007,2003,2005,2009; 3
+Which artist is known for the song "Bohemian Rhapsody"?;The Beatles,The Rolling Stones,Queen,U2; 3
+Who is the lead guitarist of the rock band Guns N' Roses?;Angus Young,Eddie Van Halen,Slash,Jimmy Page; 3
+In which country did the singer Adele win the Grammy Award for Album of the Year?;United States,Canada,United Kingdom,Australia; 3
+What is the real name of the rapper Nicki Minaj?;Belcalis Almanzar,Amethyst Kelly,Onika Maraj,Trinity Marquez; 3
+Which artist is known for the album "A Night at the Opera"?;The Rolling Stones,The Beatles,Queen,U2; 3

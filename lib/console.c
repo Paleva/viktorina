@@ -53,7 +53,7 @@ void startingScreen(){
     printf("\033[0;36m");
     printf("There are 20 questions. There are 4 different options for each question and only one is correct.\n");
     printf("Your goal is to get as many correct answers as possible as quickly as possible.\n");
-    printf("If you make a mistake, the system adds seven seconds to the final time(score).\n");
+    printf("If you make a mistake, the system adds ten seconds to the final time(score).\n");
     printf("\033[0;34m");
     printf("Subject list:\n");
     printf("\033[1;37m"); // balta

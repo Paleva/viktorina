@@ -41,11 +41,6 @@ struct A *allocNode(char buffer[]){
     token = strtok(answers, delim_2);
     for(i=0; i < 4; i++){
 
-            if(token == NULL){
-                // newnode->atsakymai[i] = NULL;
-                break;
-            }
-
             newnode->atsakymai[i] = (char *)malloc(strlen(token)+1);
 
             if(newnode->atsakymai[i] == NULL){

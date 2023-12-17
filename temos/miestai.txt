@@ -1,22 +1,22 @@
 What is the capital city of Japan?;Seoul,Tokyo,Beijing,Bangkok; 2
-In which city is the Statue of Liberty located?;New York City,Los Angeles,San Francisco,Chicago; 1
-Which city is known as the "City of Love"?;Paris,Rome,Barcelona,Venice; 1
-Where can you find the Acropolis?;Athens,Istanbul,Rome,Madrid; 1
-Which city is famous for its Red Square?;Moscow,St. Petersburg,Prague,Stockholm; 1
-In which city is the Christ the Redeemer statue situated?;Rio de Janeiro,Buenos Aires,Lima,Santiago; 1
+In which city is the Statue of Liberty located?;Los Angeles,New York City,San Francisco,Chicago; 2
+Which city is known as the "City of Love"?;Rome,Paris,Barcelona,Venice; 2
+Where can you find the Acropolis?;Istanbul,Athens,Rome,Madrid; 2
+Which city is famous for its Red Square?;St. Petersburg,Moscow,Prague,Stockholm; 2
+In which city is the Christ the Redeemer statue situated?;Buenos Aires,Rio de Janeiro,Lima,Santiago; 2
 What is the capital city of Australia?;Sydney,Canberra,Melbourne,Auckland; 2
-Which city is often called the "Windy City"?;Chicago,New York City,Los Angeles,Miami; 1
-In which city would you find the Colosseum?;Rome,Athens,Istanbul,Barcelona; 1
-Where is the Burj Khalifa located?;Dubai,Abu Dhabi,Doha,Muscat; 1
-Which city is famous for its Oktoberfest celebration?;Munich,Berlin,Hamburg,Cologne; 1
+Which city is often called the "Windy City"?;New York City,Chicago,Los Angeles,Miami; 2
+In which city would you find the Colosseum?;Athens,Rome,Istanbul,Barcelona; 2
+Where is the Burj Khalifa located?;Abu Dhabi,Dubai,Doha,Muscat; 2
+Which city is famous for its Oktoberfest celebration?;Berlin,Munich,Hamburg,Cologne; 2
 In which city is the Great Barrier Reef located?;Sydney,Cairns,Brisbane,Melbourne; 2
-What is the capital city of Brazil?;Rio de Janeiro,Sao Paulo,Brasilia,Belo Horizonte; 3
-Which city is known as the "Pearl of the Adriatic"?;Dubrovnik,Zagreb,Split,Sarajevo; 1
-In which city is the Forbidden City located?;Beijing,Shanghai,Hong Kong,Taipei; 1
-What is the capital city of Canada?;Toronto,Montreal,Ottawa,Vancouver; 3
-Which city is famous for its Carnival celebration?;Rio de Janeiro,New Orleans,Venice,Cologne; 1
-In which city would you find the CN Tower?;Toronto,Vancouver,Montreal,Calgary; 1
-Where is the Angkor Wat temple located?;Bangkok,Hanoi,Phnom Penh,Siem Reap; 4
+What is the capital city of Brazil?;Rio de Janeiro,Brasilia,Sao Paulo,Belo Horizonte; 2
+Which city is known as the "Pearl of the Adriatic"?;Zagreb,Dubrovnik,Split,Sarajevo; 2
+In which city is the Forbidden City located?;Shanghai,Beijing,Hong Kong,Taipei; 2
+What is the capital city of Canada?;Toronto,Ottawa,Montreal,Vancouver; 2
+Which city is famous for its Carnival celebration?;New Orleans,Rio de Janeiro,Venice,Cologne; 2
+In which city would you find the CN Tower?;Vancouver,Toronto,Montreal,Calgary; 2
+Where is the Angkor Wat temple located?;Bangkok,Siem Reap,Hanoi,Phnom Penh; 2
 What is the capital city of South Korea?;Seoul,Incheon,Busan,Daegu; 1
 Which city is known as the "Eternal City"?;Rome,Athens,Istanbul,Jerusalem; 1
 In which city is the Sydney Opera House located?;Sydney,Melbourne,Brisbane,Adelaide; 1
@@ -33,48 +33,48 @@ What is the capital city of Russia?;Moscow,St. Petersburg,Kiev,Minsk; 1
 Which city is known as the "City of Arts and Sciences"?;Valencia,Barcelona,Madrid,Seville; 1
 In which city is the Uffizi Gallery located?;Florence,Rome,Milan,Venice; 1
 What is the capital city of Germany?;Berlin,Munich,Hamburg,Frankfurt; 1
-Which city is famous for its canals and gondolas?;Amsterdam,Venice,Bruges,Copenhagen; 2
+Which city is famous for its canals and gondolas?;Venice,Amsterdam,Bruges,Copenhagen; 1
 In which city is the Blue Mosque located?;Istanbul,Ankara,Izmir,Adana; 1
 What is the capital city of China?;Beijing,Shanghai,Hong Kong,Taipei; 1
 Which city is known as the "Cradle of the Renaissance"?;Florence,Rome,Milan,Venice; 1
-In which city is the Hollywood Walk of Fame located?;Los Angeles,New York City,San Francisco,Las Vegas; 1
-What is the capital city of South Africa?;Cape Town,Pretoria,Johannesburg,Durban; 2
-Which city is famous for its leaning tower?;Pisa,Florence,Rome,Milan; 1
-In which city is the Gateway of India located?;Mumbai,New Delhi,Kolkata,Chennai; 1
-What is the capital city of Turkey?;Istanbul,Ankara,Izmir,Adana; 2
-Which city is known as the "City of Seven Hills"?;Rome,Lisbon,Athens,Istanbul; 2
-In which city is the Golden Gate Bridge located?;San Francisco,Los Angeles,Seattle,New York City; 1
-What is the capital city of Spain?;Madrid,Barcelona,Seville,Valencia; 1
-Which city is famous for its flamenco dancing?;Seville,Barcelona,Madrid,Granada; 1
-In which city is the Tower Bridge located?;London,Manchester,Liverpool,Birmingham; 1
-What is the capital city of India?;New Delhi,Mumbai,Kolkata,Bangalore; 1
-Which city is known as the "City of Canals"?;Venice,Amsterdam,Bruges,Copenhagen; 1
-In which city is the Louvre Museum located?;Paris,Berlin,Madrid,London; 1
-What is the capital city of Italy?;Rome,Milan,Florence,Venice; 1
-Which city is famous for its Carnival celebration?;Rio de Janeiro,New Orleans,Venice,Cologne; 1
-In which city is the Great Wall of China located?;Beijing,Shanghai,Hong Kong,Taipei; 1
-What is the capital city of Mexico?;Mexico City,Guadalajara,Monterrey,Cancun; 1
-Which city is known as the "City of a Hundred Spires"?;Prague,Budapest,Vienna,Bratislava; 1
-In which city is the Anne Frank House located?;Amsterdam,Brussels,Paris,Berlin; 1
-What is the capital city of Thailand?;Bangkok,Phuket,Chiang Mai,Pattaya; 1
+In which city is the Hollywood Walk of Fame located?;New York City,San Francisco,Los Angeles,Las Vegas; 3
+What is the capital city of South Africa?;Cape Town,Johannesburg,Pretoria,Durban; 3
+Which city is famous for its leaning tower?;Florence,Rome,Pisa,Milan; 3
+In which city is the Gateway of India located?;New Delhi,Kolkata,Mumbai,Chennai; 3
+What is the capital city of Turkey?;Istanbul,Izmir,Ankara,Adana; 3
+Which city is known as the "City of Seven Hills"?;Rome,Athens,Lisbon,Istanbul; 3
+In which city is the Golden Gate Bridge located?;Los Angeles,Seattle,San Francisco,New York City; 3
+What is the capital city of Spain?;Barcelona,Seville,Madrid,Valencia; 3
+Which city is famous for its flamenco dancing?;Barcelona,Madrid,Seville,Granada; 3
+In which city is the Tower Bridge located?;Manchester,Liverpool,London,Birmingham; 3
+What is the capital city of India?;Mumbai,Kolkata,New Delhi,Bangalore; 3
+Which city is known as the "City of Canals"?;Amsterdam,Bruges,Venice,Copenhagen; 3
+In which city is the Louvre Museum located?;Berlin,Madrid,Paris,London; 3
+What is the capital city of Italy?;Milan,Florence,Rome,Venice; 3
+Which city is famous for its Carnival celebration?;New Orleans,Venice,Rio de Janeiro,Cologne; 3
+In which city is the Great Wall of China located?;Shanghai,Hong Kong,Beijing,Taipei; 3
+What is the capital city of Mexico?;Guadalajara,Monterrey,Mexico City,Cancun; 3
+Which city is known as the "City of a Hundred Spires"?;Budapest,Vienna,Prague,Bratislava; 3
+In which city is the Anne Frank House located?;Brussels,Paris,Amsterdam,Berlin; 3
+What is the capital city of Thailand?;Phuket,Chiang Mai,Pattaya,Bangkok; 4
 Which city is famous for its ancient ruins of Machu Picchu?;Lima,Cusco,Arequipa,Machu Picchu; 4
-In which city is the Sydney Harbour Bridge located?;Sydney,Melbourne,Brisbane,Adelaide; 1
-What is the capital city of Sweden?;Stockholm,Gothenburg,Malmo,Uppsala; 1
-Which city is known as the "City of Brotherly Love"?;Philadelphia,Pittsburgh,New York City,Boston; 1
-In which city is the Tokyo Tower located?;Tokyo,Osaka,Kyoto,Sapporo; 1
-What is the capital city of the United Kingdom?;London,Manchester,Liverpool,Birmingham; 1
-Which city is famous for its opera house, La Scala?;Milan,Rome,Florence,Venice; 1
-In which city is the Kremlin located?;Moscow,St. Petersburg,Kiev,Minsk; 1
-What is the capital city of Peru?;Lima,Cusco,Arequipa,Machu Picchu; 1
-Which city is known as the "City of Sails"?;Auckland,Sydney,Melbourne,Wellington; 1
-In which city is the Tower of London located?;London,Manchester,Liverpool,Birmingham; 1
-What is the capital city of the Netherlands?;Amsterdam,Brussels,Paris,Berlin; 1
-Which city is famous for its cherry blossoms?;Tokyo,Kyoto,Osaka,Sapporo; 2
-In which city is the Statue of David located?;Florence,Rome,Milan,Venice; 1
-What is the capital city of the United States?;Washington D.C.,New York City,Los Angeles,Chicago; 1
-Which city is known as the "City of Light"?;Paris,Amsterdam,London,Milan; 1
-In which city is the St. Peter's Basilica located?;Rome,Florence,Milan,Venice; 1
-What is the capital city of Portugal?;Lisbon,Porto,Faro,Coimbra; 1
-Which city is famous for its spice bazaar, the Grand Bazaar?;Istanbul,Ankara,Izmir,Adana; 1
-In which city is the Mount Rushmore National Memorial located?;Rapid City,Denver,Sioux Falls,Pierre; 1
-What is the capital city of Australia?;Sydney,Canberra,Melbourne,Auckland; 2
+In which city is the Sydney Harbour Bridge located?;Melbourne,Brisbane,Adelaide,Sydney; 4
+What is the capital city of Sweden?;Gothenburg,Malmo,Uppsala,Stockholm,; 4
+Which city is known as the "City of Brotherly Love"?;Pittsburgh,New York City,Boston,Philadelphia; 4
+In which city is the Tokyo Tower located?;Osaka,Kyoto,Sapporo,Tokyo; 4
+What is the capital city of the United Kingdom?;Manchester,Liverpool,Birmingham,London; 4
+Which city is famous for its opera house, La Scala?;Rome,Florence,Venice,Milan; 4
+In which city is the Kremlin located?;St. Petersburg,Kiev,Minsk,Moscow; 4
+What is the capital city of Peru?;Cusco,Arequipa,Machu Picchu,Lima; 4
+Which city is known as the "City of Sails"?;Sydney,Melbourne,Wellington,Auckland; 4
+In which city is the Tower of London located?;Manchester,Liverpool,Birmingham,London; 4
+What is the capital city of the Netherlands?;Brussels,Paris,Berlin,Amsterdam; 4
+Which city is famous for its cherry blossoms?;Tokyo,Osaka,Sapporo,Kyoto; 4
+In which city is the Statue of David located?;Rome,Milan,Venice,Florence; 4
+What is the capital city of the United States?;New York City,Los Angeles,Chicago,Washington D.C.; 4
+Which city is known as the "City of Light"?;Amsterdam,London,Milan,Paris; 4
+In which city is the St. Peter's Basilica located?;Florence,Milan,Venice,Rome; 4
+What is the capital city of Portugal?;Porto,Faro,Coimbra,Lisbon; 4
+Which city is famous for its spice bazaar, the Grand Bazaar?;Ankara,Izmir,Adana,Istanbul; 4
+In which city is the Mount Rushmore National Memorial located?;Denver,Sioux Falls,Pierre,Rapid City; 4
+What is the capital city of Australia?;Sydney,Melbourne,Auckland,Canberra; 4

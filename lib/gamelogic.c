@@ -14,7 +14,7 @@ double isRight(int ats, struct A *current){
     }
     else{
         // printf("%d\n", current->teisingas);
-        return 7.0;
+        return 10.0;
     }
 }
 double timeCounter(struct timeval start){

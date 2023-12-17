@@ -84,7 +84,9 @@ int main(){
         ptrs[i] = &Board[i];
     }
 
-    char vardas[15];
+    ptrs[0]->time = seconds;
+
+    char vardas[255];
 
     printf("Enter your nickname: ");
     scanf("%s", vardas);
@@ -94,8 +96,10 @@ int main(){
         scanf("%s", vardas);
     }
 
-    ptrs[0]->time = seconds;
     ptrs[0]->vardas = (char*)malloc(strlen(vardas)+1);
+    if(ptrs[0]->vardas == NULL){
+        exit(2);
+    }
     strcpy(ptrs[0]->vardas, vardas);
 
     int eilutes = readCurrentLeaderboard(ptrs, pasirinkimas);
