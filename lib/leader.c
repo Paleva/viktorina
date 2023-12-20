@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-
+#define MAX_LEN 256
 int readCurrentLeaderboard(struct Lenta *ptr[], int pasirinkimas){
     int eilutes = 1;
     FILE *leaderboard;
@@ -15,15 +15,18 @@ int readCurrentLeaderboard(struct Lenta *ptr[], int pasirinkimas){
     };
     leaderboard = fopen(filename[pasirinkimas-1], "r");
     
-    char buffer[255];
-    int i = 0;
     if(leaderboard == NULL){
+        printf("Failed to open file\n");
         exit(3);
     }
 
+    char buffer[MAX_LEN];
+    int i = 0;
+
     char *token;
     for(i = 1; i < 10; i++){
-        if(fgets(buffer, 255, leaderboard) == NULL){
+
+        if(fgets(buffer, MAX_LEN, leaderboard) == NULL){
             break;
         }
         
@@ -69,6 +72,7 @@ void exportNewLeaderboard(struct Lenta *ptrs[], int eilutes, int pasirinkimas){
     FILE *leaderboard = fopen(filename[pasirinkimas-1], "w");
     
     if(leaderboard == NULL){
+        printf("Failed to open file\n");
         exit(3);
     }
 

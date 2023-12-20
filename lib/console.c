@@ -51,17 +51,17 @@ void startingScreen(){
     printf("\nRULES:\n");
     printf("\033[1;37m");
     printf("\033[0;36m");
-    printf("There are 20 questions. There are 4 different options for each question and only one is correct.\n");
-    printf("Your goal is to get as many correct answers as possible as quickly as possible.\n");
-    printf("If you make a mistake, the system adds ten seconds to the final time(score).\n");
+    printf("There are 20 questions. There are 4 different answers for each question and only one is correct.\n");
+    printf("Your goal is to answer as many questions correct as quickly as possible.\n");
+    printf("If you answer a question incorrectly, the system adds ten seconds to the final time (score).\nThe lower the score the better!\n");
     printf("\033[0;34m");
     printf("Subject list:\n");
     printf("\033[1;37m"); // balta
-    printf("%d - Cities\n",1);
-    printf("%d - Cinema\n",2);
-    printf("%d - Music\n",3);
-    printf("%d - Art\n",4);
-    printf("%d - People\n",5);
+    printf("1 - Cities\n");
+    printf("2 - Cinema\n");
+    printf("3 - Music\n");
+    printf("4 - Art\n");
+    printf("5 - People\n");
     printf("\033[0;34m");
     // printf("Select a subject by entering a number:\033[1;37m ");
     printf("\033[0;36m");

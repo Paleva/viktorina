@@ -4,6 +4,7 @@
 #include <time.h>
 #include <ctype.h>
 #include <unistd.h>
+#include <sys/time.h>
 #include "lib/questions.h"
 #include "lib/questions.c"
 #include "lib/gamelogic.h" 
@@ -14,7 +15,6 @@
 #include "lib/leader.c"
 #include "lib/inputs.h"
 #include "lib/inputs.c"
-#include <sys/time.h>
 #define MAX_LEN 256
 
 void freeList(struct A *head);
@@ -29,6 +29,7 @@ int main(){
     "temos/menas.txt",
     "temos/zmones.txt"
     };
+
     int i = 0;
     int pasirinkimas = 0;
     srand(time(NULL));
@@ -45,13 +46,13 @@ int main(){
     file = fopen(temos[pasirinkimas-1], "r");
 
     if(file == NULL){
+        printf("Failed to open file\n");
         exit(1);
     }
-    while(i < 20){
 
+    while(i < 20){
         fgets(buffer, MAX_LEN, file);
         int randon = rand()%10;
-
         if(randon%2==0){
             continue;
         }
@@ -61,8 +62,8 @@ int main(){
     fclose(file);
 
     struct A *current = headQuestion;
-    printf("\033[2J\033[H");
 
+    printf("\033[2J\033[H");
     for(i=0; i < 20; i++){
         
         printQuestion(current, i);
@@ -70,10 +71,9 @@ int main(){
         ats = isSingleDigitAns();
         seconds += isRight(ats, current);
         seconds += timeCounter(start);
-
         current = current->next;
-    
         printf("\033[2J\033[H");
+    
     }
     freeList(headQuestion);
     
@@ -86,27 +86,22 @@ int main(){
 
     ptrs[0]->time = seconds;
 
-    char vardas[255];
+    char *nick = Nickname();
 
-    printf("Enter your nickname: ");
-    scanf("%s", vardas);
-        
-    while(strlen(vardas) > 15){
-        printf("Your choice of nickname is too long (over 15 character)\n Enter your nickname: ");
-        scanf("%s", vardas);
-    }
-
-    ptrs[0]->vardas = (char*)malloc(strlen(vardas)+1);
+    ptrs[0]->vardas = (char*)malloc(strlen(nick)+1);
     if(ptrs[0]->vardas == NULL){
+        printf("Failed to allocate memory\n");
         exit(2);
     }
-    strcpy(ptrs[0]->vardas, vardas);
+    strcpy(ptrs[0]->vardas, nick);
 
     int eilutes = readCurrentLeaderboard(ptrs, pasirinkimas);
+    printf("%d", eilutes);
 
     sortLeader(ptrs, eilutes);   
     exportNewLeaderboard(ptrs, eilutes, pasirinkimas); 
-    printLeader(ptrs, eilutes, vardas, pasirinkimas);
+    printLeader(ptrs, eilutes, nick, pasirinkimas);
+    free(nick);
 
     struct Lenta *BoardPtr = &Board[0];
     freeBoard(BoardPtr, eilutes);

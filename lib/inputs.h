@@ -3,5 +3,6 @@
 
 int isSingleDigitChoice();
 int isSingleDigitAns();
+char *Nickname();
 
 #endif
