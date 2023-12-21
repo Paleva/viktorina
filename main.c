@@ -15,13 +15,13 @@
 #include "lib/leader.c"
 #include "lib/inputs.h"
 #include "lib/inputs.c"
-#define MAX_LEN 256
-
-void freeList(struct A *head);
-void freeBoard(struct Lenta *Board, int eilutes);
+#include "lib/free.h"
+#include "lib/free.c"
+#define MAX_LEN 255
 
 int main(){
 
+    srand(time(NULL));
     char *temos[5] = {
     "temos/miestai.txt",
     "temos/filmai.txt",
@@ -29,10 +29,7 @@ int main(){
     "temos/menas.txt",
     "temos/zmones.txt"
     };
-
     int i = 0;
-    int pasirinkimas = 0;
-    srand(time(NULL));
     char buffer[MAX_LEN];
     int ats = 0;
     struct timeval start, end;
@@ -42,7 +39,7 @@ int main(){
 
     startingScreen();
     
-    pasirinkimas = isSingleDigitChoice(); 
+    int pasirinkimas = isSingleDigitChoice(); 
     file = fopen(temos[pasirinkimas-1], "r");
 
     if(file == NULL){
@@ -111,30 +108,3 @@ int main(){
     return 0;
 }
 
-
-void freeList(struct A *head){
-
-    struct A *temp = NULL;
-    
-    while(head != NULL){
-        temp = head;
-        head = head->next;
-        free(temp->klausimas);
-        free(temp->atsakymai[0]);
-        free(temp->atsakymai[1]);
-        free(temp->atsakymai[2]);
-        free(temp->atsakymai[3]);
-        
-        free(temp);
-    }
-
-}
-
-void freeBoard(struct Lenta *Board, int eilutes){
-
-    for(int i=0; i < eilutes; i++){
-        
-        free(Board->vardas);
-        Board++;
-    }
-}

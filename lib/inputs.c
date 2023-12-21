@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#define MAX_LEN 256
+#define MAX_LEN 255
 
 int isSingleDigitChoice(){
     char input[MAX_LEN];
