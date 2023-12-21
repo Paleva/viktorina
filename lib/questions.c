@@ -15,14 +15,14 @@ struct A *allocNode(char buffer[]){
 
     
     if(newnode == NULL){
-        printf("Failed to allocate memory\n");
+        printf("Failed to allocate memory for node\n");
         exit(2);
     }
     
     token = strtok(buffer, delim);
     newnode->klausimas = (char*)malloc(strlen(token)+1);
     if(newnode->klausimas == NULL){
-        printf("Failed to allocate memory\n");
+        printf("Failed to allocate memory for the question\n");
         exit(2);
     }
     strcpy(newnode->klausimas, token);
@@ -32,7 +32,7 @@ struct A *allocNode(char buffer[]){
     token = strtok(NULL, delim);
     answers = (char*)malloc(strlen(token)+1); //fix ***** segmentation
     if(answers == NULL){
-        printf("Failed to allocate memory\n");
+        printf("Failed to allocate memory answers\n");
         exit(2);
     }   
     strcpy(answers, token);
@@ -50,7 +50,7 @@ struct A *allocNode(char buffer[]){
             newnode->atsakymai[i] = (char *)malloc(strlen(token)+1);
 
             if(newnode->atsakymai[i] == NULL){
-                printf("Failed to allocate memory\n");
+                printf("Failed to allocate memory for the answer\n");
                 exit(2);
             }
 

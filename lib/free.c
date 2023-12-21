@@ -1,6 +1,7 @@
-#include <stdio.h>
 #include "questions.h"
 #include "leader.h"
+#include <stdlib.h>
+
 void freeList(struct A *head){
 
     struct A *temp = NULL;

@@ -58,7 +58,7 @@ char *Nickname(){
     buffer[strlen(buffer)-1] = '\0'; // panaikina \n
     vardas = (char*)malloc(strlen(buffer)+1);
     if(vardas == NULL){
-        printf("Failed to allocate memory\n");
+        printf("Failed to allocate memory for nickname\n");
         exit(2);
     }
     strcpy(vardas, buffer);

@@ -16,7 +16,7 @@ int readCurrentLeaderboard(struct Lenta *ptr[], int pasirinkimas){
     leaderboard = fopen(filename[pasirinkimas-1], "r");
     
     if(leaderboard == NULL){
-        printf("Failed to open file\n");
+        printf("Failed to open leaderboard file\n");
         exit(3);
     }
 
@@ -72,7 +72,7 @@ void exportNewLeaderboard(struct Lenta *ptrs[], int eilutes, int pasirinkimas){
     FILE *leaderboard = fopen(filename[pasirinkimas-1], "w");
     
     if(leaderboard == NULL){
-        printf("Failed to open file\n");
+        printf("Failed to open leaderboard file\n");
         exit(3);
     }
 

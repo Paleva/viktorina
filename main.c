@@ -18,6 +18,7 @@
 #include "lib/free.h"
 #include "lib/free.c"
 #define MAX_LEN 255
+#define KLAUSIMU_SKAICIUS 20
 
 int main(){
 
@@ -43,11 +44,11 @@ int main(){
     file = fopen(temos[pasirinkimas-1], "r");
 
     if(file == NULL){
-        printf("Failed to open file\n");
+        printf("Failed to open topic file\n");
         exit(1);
     }
 
-    while(i < 20){
+    while(i < KLAUSIMU_SKAICIUS){
         fgets(buffer, MAX_LEN, file);
         int randon = rand()%10;
         if(randon%2==0){
@@ -61,7 +62,7 @@ int main(){
     struct A *current = headQuestion;
 
     printf("\033[2J\033[H");
-    for(i=0; i < 20; i++){
+    for(i=0; i < KLAUSIMU_SKAICIUS; i++){
         
         printQuestion(current, i);
         gettimeofday(&start, NULL);
@@ -75,29 +76,29 @@ int main(){
     freeList(headQuestion);
     
     struct Lenta Board[10];
-    struct Lenta *ptrs[10];
+    struct Lenta *boardPtrs[10];
 
     for(i = 0; i < 10; i++){
-        ptrs[i] = &Board[i];
+        boardPtrs[i] = &Board[i];
     }
 
-    ptrs[0]->time = seconds;
+    boardPtrs[0]->time = seconds;
 
     char *nick = Nickname();
 
-    ptrs[0]->vardas = (char*)malloc(strlen(nick)+1);
-    if(ptrs[0]->vardas == NULL){
-        printf("Failed to allocate memory\n");
+    boardPtrs[0]->vardas = (char*)malloc(strlen(nick)+1);
+    if(boardPtrs[0]->vardas == NULL){
+        printf("Failed to allocate memory for nickname\n");
         exit(2);
     }
-    strcpy(ptrs[0]->vardas, nick);
+    strcpy(boardPtrs[0]->vardas, nick);
 
-    int eilutes = readCurrentLeaderboard(ptrs, pasirinkimas);
+    int eilutes = readCurrentLeaderboard(boardPtrs, pasirinkimas);
     printf("%d", eilutes);
 
-    sortLeader(ptrs, eilutes);   
-    exportNewLeaderboard(ptrs, eilutes, pasirinkimas); 
-    printLeader(ptrs, eilutes, nick, pasirinkimas);
+    sortLeader(boardPtrs, eilutes);   
+    exportNewLeaderboard(boardPtrs, eilutes, pasirinkimas); 
+    printLeader(boardPtrs, eilutes, nick, pasirinkimas);
     free(nick);
 
     struct Lenta *BoardPtr = &Board[0];

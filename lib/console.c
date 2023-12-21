@@ -71,7 +71,7 @@ void startingScreen(){
 
 
 void printLeader(struct Lenta *ptrs[], int eilutes, char vardas[], int pasirinkimas){
-    char *filename[5] = {
+    char *topic[5] = {
     "Cities",
     "Cinema",
     "Music",
@@ -80,7 +80,7 @@ void printLeader(struct Lenta *ptrs[], int eilutes, char vardas[], int pasirinki
     };
     printf("\033[2J\033[H");
     printf("┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n");
-    printf("┃               %7s                 ┃\n", filename[pasirinkimas-1]);
+    printf("┃               %7s                 ┃\n", topic[pasirinkimas-1]);
     printf("┃               LEADERBOARD             ┃\n");
     printf("┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n");
     for(int i = 0; i < eilutes; i++)
