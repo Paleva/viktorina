@@ -1,4 +1,3 @@
-
 #include "questions.h"
 #include "gamelogic.h"
 #include <stdio.h>

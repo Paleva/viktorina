@@ -64,3 +64,8 @@ char *Nickname(){
     strcpy(vardas, buffer);
     return vardas;
 }
+
+void waitForInput(){
+    printf("\033[0;34mPress any key to exit...\033[1;37m");
+    getchar();
+}

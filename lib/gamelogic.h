@@ -1,10 +1,10 @@
 #ifndef GAMELOGIC_H
 #define GAMELOGIC_H
 
-struct timeval end;
+extern struct timeval start;
 
 double isRight(int, struct A*);
-double timeCounter(struct timeval end);
+double timeCounter(struct timeval);
 
 
 #endif // GAMELOGIC_H_INCLUDED

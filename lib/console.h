@@ -5,5 +5,7 @@
 void printLeader(struct Lenta *[], int eilutes, char [], int);
 void printQuestion(struct A *current, int i);
 void startingScreen();
+void clearConsole();
+void printScore(double);
 
 #endif

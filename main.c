@@ -6,17 +6,11 @@
 #include <unistd.h>
 #include <sys/time.h>
 #include "lib/questions.h"
-#include "lib/questions.c"
 #include "lib/gamelogic.h" 
-#include "lib/gamelogic.c"
 #include "lib/console.h"
-#include "lib/console.c"
 #include "lib/leader.h"
-#include "lib/leader.c"
 #include "lib/inputs.h"
-#include "lib/inputs.c"
 #include "lib/free.h"
-#include "lib/free.c"
 #define MAX_LEN 255
 #define KLAUSIMU_SKAICIUS 20
 
@@ -37,30 +31,29 @@ int main(){
     double seconds = 0.0;
     struct A *headQuestion = NULL;
     FILE *file;
-
+    //print starting screen
     startingScreen();
     
     int pasirinkimas = isSingleDigitChoice(); 
     file = fopen(temos[pasirinkimas-1], "r");
-
+    //open topic file
     if(file == NULL){
         printf("Failed to open topic file\n");
         exit(1);
     }
-
+    //read questions from file
     while(i < KLAUSIMU_SKAICIUS){
         fgets(buffer, MAX_LEN, file);
-        int randon = rand()%10;
-        if(randon%2==0){
+        int randon = rand()%10; // 0-9
+        if(randon%2==0){ // 50% chance to skip question (astronomical chances to skip all questions)
             continue;
         }
         insertEnd(&headQuestion, buffer);
         i++;
     }
     fclose(file);
-
+    //main game loop prints questions and checks answers and counts the time (score)
     struct A *current = headQuestion;
-
     printf("\033[2J\033[H");
     for(i=0; i < KLAUSIMU_SKAICIUS; i++){
         
@@ -73,19 +66,18 @@ int main(){
         printf("\033[2J\033[H");
     
     }
+    //free memory for the questions
     freeList(headQuestion);
     
+    //leaderboard
     struct Lenta Board[10];
     struct Lenta *boardPtrs[10];
-
     for(i = 0; i < 10; i++){
         boardPtrs[i] = &Board[i];
     }
-
     boardPtrs[0]->time = seconds;
-
+    //get nickname  
     char *nick = Nickname();
-
     boardPtrs[0]->vardas = (char*)malloc(strlen(nick)+1);
     if(boardPtrs[0]->vardas == NULL){
         printf("Failed to allocate memory for nickname\n");
@@ -94,18 +86,18 @@ int main(){
     strcpy(boardPtrs[0]->vardas, nick);
 
     int eilutes = readCurrentLeaderboard(boardPtrs, pasirinkimas);
-    printf("%d", eilutes);
-
+    // printf("%d", eilutes);
     sortLeader(boardPtrs, eilutes);   
     exportNewLeaderboard(boardPtrs, eilutes, pasirinkimas); 
     printLeader(boardPtrs, eilutes, nick, pasirinkimas);
     free(nick);
 
+    //free memory for the leaderboard
     struct Lenta *BoardPtr = &Board[0];
     freeBoard(BoardPtr, eilutes);
 
-    printf("Your score: %.2f\n", seconds);
-
+    printScore(seconds);
+    waitForInput();
+    clearConsole();
     return 0;
 }
-

@@ -4,5 +4,6 @@
 int isSingleDigitChoice();
 int isSingleDigitAns();
 char *Nickname();
+void waitForInput();
 
 #endif

@@ -96,3 +96,14 @@ void printLeader(struct Lenta *ptrs[], int eilutes, char vardas[], int pasirinki
     printf("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n");
 
 }
+
+void printScore(double seconds){
+    // printf("\033[2J\033[H");
+    printf("\033[0;36m");
+    printf("Your score: %.2f\n", seconds);
+    printf("\033[0m");
+}
+
+void clearConsole(){
+    printf("\033[2J\033[H");
+}
