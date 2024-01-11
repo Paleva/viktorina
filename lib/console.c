@@ -70,7 +70,7 @@ void startingScreen(){
 }
 
 
-void printLeader(struct Lenta *ptrs[], int eilutes, char vardas[], int pasirinkimas){
+void printLeader(struct Lenta *ptrs[], char vardas[], int pasirinkimas){
     char *topic[5] = {
     "Cities",
     "Cinema",
@@ -83,15 +83,17 @@ void printLeader(struct Lenta *ptrs[], int eilutes, char vardas[], int pasirinki
     printf("┃               %7s                 ┃\n", topic[pasirinkimas-1]);
     printf("┃               LEADERBOARD             ┃\n");
     printf("┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\n");
-    for(int i = 0; i < eilutes; i++)
+    for(int i = 0; i < 10; i++)
     {
+        if(ptrs[i]->time == 0xFFFFFFFF){
+            break;
+        }
         if(strcmp(vardas, ptrs[i]->vardas) == 0 ){
             printf("┃->%2d.  %15s    \033[34mScore:\033[36m %6.2f┃\n",i+1, ptrs[i]->vardas, ptrs[i]->time);
         }   
         else {
             printf("┃%4d.  %15s    \033[34mScore:\033[36m %6.2f┃\n",i+1, ptrs[i]->vardas, ptrs[i]->time);
         }
-        
     }
     printf("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n");
 

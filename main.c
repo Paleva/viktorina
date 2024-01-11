@@ -31,6 +31,7 @@ int main(){
     double seconds = 0.0;
     struct A *headQuestion = NULL;
     FILE *file;
+
     //print starting screen
     startingScreen();
     
@@ -44,8 +45,8 @@ int main(){
     //read questions from file
     while(i < KLAUSIMU_SKAICIUS){
         fgets(buffer, MAX_LEN, file);
-        int randon = rand()%10; // 0-9
-        if(randon%2==0){ // 50% chance to skip question (astronomical chances to skip all questions)
+        int random = rand()%10;  
+        if(random%2==0){ // 50% chance to skip question (astronomical chances to skip all questions)
             continue;
         }
         insertEnd(&headQuestion, buffer);
@@ -70,31 +71,31 @@ int main(){
     freeList(headQuestion);
     
     //leaderboard
-    struct Lenta Board[10];
-    struct Lenta *boardPtrs[10];
-    for(i = 0; i < 10; i++){
+    struct Lenta Board[11];
+    struct Lenta *boardPtrs[11]; // array of pointers to the leaderboard for sorting purposes
+    for(i = 0; i < 11; i++){
         boardPtrs[i] = &Board[i];
+        boardPtrs[i]->vardas = NULL;
+        boardPtrs[i]->time = 0xFFFFFFFF;
     }
-    boardPtrs[0]->time = seconds;
+    readCurrentLeaderboard(boardPtrs, pasirinkimas);
+    boardPtrs[10]->time = seconds;
+    
     //get nickname  
     char *nick = Nickname();
-    boardPtrs[0]->vardas = (char*)malloc(strlen(nick)+1);
-    if(boardPtrs[0]->vardas == NULL){
+    boardPtrs[10]->vardas = (char*)malloc(strlen(nick)+1);
+    if(boardPtrs[10]->vardas == NULL){
         printf("Failed to allocate memory for nickname\n");
         exit(2);
     }
-    strcpy(boardPtrs[0]->vardas, nick);
-
-    int eilutes = readCurrentLeaderboard(boardPtrs, pasirinkimas);
-    // printf("%d", eilutes);
-    sortLeader(boardPtrs, eilutes);   
-    exportNewLeaderboard(boardPtrs, eilutes, pasirinkimas); 
-    printLeader(boardPtrs, eilutes, nick, pasirinkimas);
+    strcpy(boardPtrs[10]->vardas, nick);
+    
+    sortLeader(boardPtrs);   
+    exportNewLeaderboard(boardPtrs, pasirinkimas); 
+    printLeader(boardPtrs, nick, pasirinkimas);
+    
     free(nick);
-
-    //free memory for the leaderboard
-    struct Lenta *BoardPtr = &Board[0];
-    freeBoard(BoardPtr, eilutes);
+    freeBoard(boardPtrs);
 
     printScore(seconds);
     waitForInput();

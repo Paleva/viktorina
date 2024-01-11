@@ -10,21 +10,19 @@ void freeList(struct A *head){
         temp = head;
         head = head->next;
         free(temp->klausimas);
-        free(temp->atsakymai[0]);
-        free(temp->atsakymai[1]);
-        free(temp->atsakymai[2]);
-        free(temp->atsakymai[3]);
+        
+        for(int i=0; i < 4; i++){
+            free(temp->atsakymai[i]);
+        }
         
         free(temp);
     }
 
 }
 
-void freeBoard(struct Lenta *Board, int eilutes){
+void freeBoard(struct Lenta *Board[]){
 
-    for(int i=0; i < eilutes; i++){
-        
-        free(Board->vardas);
-        Board++;
+    for(int i=0; i < 11; i++){
+        free(Board[i]->vardas);
     }
 }

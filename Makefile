@@ -6,10 +6,10 @@ OBJ = main.o lib/questions.o lib/gamelogic.o lib/console.o lib/leader.o lib/inpu
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-main: $(OBJ)
+viktorina: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
 
 .PHONY: clean
 
 clean:
-	rm -f $(OBJ) main
+	rm -f $(OBJ) viktorina
